@@ -1,7 +1,27 @@
 {
  "store": "walmart",
- "updated": "2026-10-10T20:35:39-05:00",
+ "updated": "2026-10-12T16:10:47-05:00",
  "items": {
+  "10294707": {
+   "id": "10294707",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Goldfish-Cheddar-Cheese-Crackers-Baked-Snack-Crackers-6-6-oz-Bag_7a71181d-2ae6-4fe1-b6e5-614bce8af617.a14af24fcdfcac6f6cef5b4d11041a3e.jpeg",
+   "saved": "2026-10-12",
+   "file": "images/walmart/10294707.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23055
+  },
+  "10315162": {
+   "id": "10315162",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Pure-Granulated-Sugar-4-lb_0697b95e-eb68-4da1-afce-499793e190ac.267330310c7c523c5f187e59f93d3cd4.jpeg",
+   "saved": "2026-10-12",
+   "file": "images/walmart/10315162.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 26770
+  },
   "10315355": {
    "id": "10315355",
    "name": "Great Value White Round Top Bread 20 oz",
@@ -51,6 +71,16 @@
    "width": 400,
    "height": 400,
    "bytes": 23034
+  },
+  "10451273": {
+   "id": "10451273",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Nutella-Hazelnut-Spread-with-Cocoa-for-Breakfast-13-oz-Jar_24893153-ef99-4eb5-81b7-41b39ed4c150.2b2480aed42cc48f825e05ad038973a3.jpeg",
+   "saved": "2026-10-12",
+   "file": "images/walmart/10451273.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23157
   },
   "10452423": {
    "id": "10452423",
@@ -162,6 +192,26 @@
    "height": 400,
    "bytes": 8858
   },
+  "44391605": {
+   "id": "44391605",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Strawberries-1-lb-Container_b54a64ad-e961-46cf-b60c-bc763716fb0b.a481cdfd237c5ab5438d5c9e90bead07.jpeg",
+   "saved": "2026-10-12",
+   "file": "images/walmart/44391605.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 24436
+  },
+  "49079757": {
+   "id": "49079757",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Vanicream-Moisturizing-Lotion_4bbb7891-2301-423b-b25c-ebf65ab83654.4de77e07ac9d88096007885bf3bc472f.jpeg",
+   "saved": "2026-10-12",
+   "file": "images/walmart/49079757.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 12105
+  },
   "51259378": {
    "id": "51259378",
    "name": "Fresh Broccoli Crowns",
@@ -191,6 +241,16 @@
    "width": 400,
    "height": 400,
    "bytes": 22237
+  },
+  "680127251": {
+   "id": "680127251",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-1-Low-Fat-Cultured-Buttermilk-32-fl-oz_95916093-1297-4599-9a3d-993dfde4dc23.a85ea17f322c4147bff958f4b584a710.jpeg",
+   "saved": "2026-10-12",
+   "file": "images/walmart/680127251.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 12881
   },
   "871036105": {
    "id": "871036105",
