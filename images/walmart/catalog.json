@@ -1,6 +1,6 @@
 {
  "store": "walmart",
- "updated": "2026-10-12T16:10:47-05:00",
+ "updated": "2026-10-12T19:46:19-05:00",
  "items": {
   "10294707": {
    "id": "10294707",
@@ -101,6 +101,16 @@
    "width": 400,
    "height": 400,
    "bytes": 20699
+  },
+  "10535757": {
+   "id": "10535757",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Carrots-2-lb-Bag_dc63fcc2-db9e-40ca-ae4a-c3b322f897af.380c6889d0f01d88aa209384026eb1e7.png",
+   "saved": "2026-10-12",
+   "file": "images/walmart/10535757.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 13544
   },
   "13893730": {
    "id": "13893730",
@@ -251,6 +261,16 @@
    "width": 400,
    "height": 400,
    "bytes": 12881
+  },
+  "729537467": {
+   "id": "729537467",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Apple-Juice-8-fl-oz-6-Count-Shelf-Stable_80362fcb-8a5b-429e-9d0b-7d2136150edd.0e96b3c667d794cf132505fca9194472.jpeg",
+   "saved": "2026-10-12",
+   "file": "images/walmart/729537467.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 28317
   },
   "871036105": {
    "id": "871036105",
