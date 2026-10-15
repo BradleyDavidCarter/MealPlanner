@@ -50,6 +50,24 @@
    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Yellow_onion_%F0%9F%A7%85.jpg",
    "license": "CC0 1.0 (public domain dedication)",
    "watermark": "EXAMPLE PHOTO"
+  },
+  "limes": {
+   "example_of": "ALDI Limes, Bag 1 lb",
+   "source_page": "https://www.aldi.us/store/aldi/products/25945595-limes-bag-16-oz",
+   "license": "Store product photo (ALDI), reference image",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "lemon": {
+   "example_of": "ALDI Lemons 2 lb bag",
+   "source_page": "https://www.aldi.us/store/aldi/products/455048-lemon-2-lbs",
+   "license": "Store product photo (ALDI), reference image",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "zucchini": {
+   "example_of": "ALDI Simply Nature Organic Zucchini",
+   "source_page": "https://www.aldi.us/store/aldi/products/16645477-organic-zucchini-squash-each",
+   "license": "Store product photo (ALDI), reference image",
+   "watermark": "EXAMPLE PHOTO"
   }
  }
 }
