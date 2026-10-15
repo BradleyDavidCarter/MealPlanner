@@ -1,0 +1,73 @@
+{
+ "store": "aldi",
+ "items": {
+  "sl5-2": {
+   "page": "https://www.aldi.us/store/aldi/products/20186193-friendly-farms-whipped-topping-8-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_375ba44b-c965-49a4-b482-3de6bd2ba1b9.jpg"
+  },
+  "sl5-4": {
+   "page": "https://www.aldi.us/store/aldi/products/20212878-little-salad-bar-spring-mix-of-baby-lettuces-baby-leafy-greens-and-radicchio-12-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7e7749f7-4193-4845-92c0-dfe8527a5b7a.jpg"
+  },
+  "sl5-5": {
+   "page": "https://www.aldi.us/store/aldi/products/3293710-iceberg-lettuce-each",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3ea38082-38f8-41f8-a6fc-0c4ed481c040.jpg"
+  },
+  "sl5-6": {
+   "page": "https://www.aldi.us/store/aldi/products/17763870-tomatoes-roma-per-lb",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d4cd293-1fbf-45c3-8494-a30967b7dc16.jpg"
+  },
+  "sl5-7": {
+   "page": "https://www.aldi.us/store/aldi/products/3253345-cucumber-each",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c3c55096-5e83-4b5b-8517-f96ac96c7d33.jpg"
+  },
+  "sl5-8": {
+   "page": "https://www.aldi.us/store/aldi/products/16560629-green-bell-pepper-3-ct",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_68b693e8-82be-45b6-abea-ffa798aa4f8b.jpg"
+  },
+  "sl5-10": {
+   "page": "https://www.aldi.us/store/aldi/products/16383709-yellow-sweet-corn-package-each",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_24116dd1-a988-4f89-9155-efee29d9dfde.jpg"
+  },
+  "sl5-11": {
+   "page": "https://www.aldi.us/store/aldi/products/18608279-sugar-snap-peas-package-8-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c2a07301-1480-47a4-85bf-3b354829e0e2.jpg"
+  },
+  "sl5-12": {
+   "page": "https://www.aldi.us/store/aldi/products/21444342-little-salad-bar-classic-coleslaw-14-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e514217c-e1d4-4726-bde0-d01b130f3fd6.jpg"
+  },
+  "sl5-14": {
+   "page": "https://www.aldi.us/store/aldi/products/19648124-pueblo-lindo-burrito-flour-tortillas-8-ct",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_11854fcf-a3b0-4ec5-8687-85a3d14378da.jpg"
+  },
+  "sl5-16": {
+   "page": "https://www.aldi.us/store/aldi/products/21044060-casa-mamita-salsa-con-queso-15-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8273608b-4d09-4850-8f35-4debfff1db84.jpg"
+  },
+  "sl5-17": {
+   "page": "https://www.aldi.us/store/aldi/products/19433622-casa-mamita-taco-seasoning-mix-1-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0ff513d0-ff59-4e2c-9282-58b7367a4a0a.jpg"
+  },
+  "sl5-19": {
+   "page": "https://www.aldi.us/store/aldi/products/21217195-l-oven-fresh-artisanal-bakery-buns-18-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bfdb8232-198d-4e58-b02b-4e3fc3a7b62e.jpg"
+  },
+  "sl5-20": {
+   "page": "https://www.aldi.us/store/aldi/products/18647633-friendly-farms-sour-cream-16-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_826bb769-0a61-480b-970e-da231e4bdcea.jpg"
+  },
+  "sl5-21": {
+   "page": "https://www.aldi.us/store/aldi/products/20986524-mama-cozzi-s-pizza-kitchen-sliced-pepperoni-pizza-6-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0edd75f8-41d8-460b-8bba-afe4383cf529.jpg"
+  },
+  "sl5-w1x1": {
+   "page": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f391b17e-67cc-4753-b589-39e68bde6382.jpg"
+  },
+  "sl5-w1x3": {
+   "page": "https://www.aldi.us/store/aldi/products/20249671-friendly-farms-nonfat-plain-greek-yogurt-32-oz",
+   "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_410eab8e-10f8-408c-a399-7d0a72c77167.jpg"
+  }
+ }
+}
