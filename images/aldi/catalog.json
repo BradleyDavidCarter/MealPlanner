@@ -68,6 +68,36 @@
   "sl5-w1x3": {
    "page": "https://www.aldi.us/store/aldi/products/20249671-friendly-farms-nonfat-plain-greek-yogurt-32-oz",
    "source": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_410eab8e-10f8-408c-a399-7d0a72c77167.jpg"
+  },
+  "potatoes5": {
+   "page": "https://www.aldi.us/store/aldi/products/16354928-cal-ore-produce-best-available-russet-potatoes-5lb-bag-5-lb"
+  },
+  "caesar": {
+   "page": "https://www.aldi.us/store/aldi/products/20047391-little-salad-bar-romaine-lettuce-caesar-dressing-shredded-cheese-and-croutons-caesar-salad-dressing-toppings-kit-10-5-oz"
+  },
+  "blackbeans": {
+   "page": "https://www.aldi.us/store/aldi/products/18648531-dakota-s-black-beans-15-oz"
+  },
+  "gnbeans": {
+   "page": "https://www.aldi.us/store/aldi/products/18649664-dakota-s-pride-great-northern-beans-15-5-oz"
+  },
+  "salsa": {
+   "page": "https://www.aldi.us/store/aldi/products/19763196-casa-mamita-medium-salsa-24-oz"
+  },
+  "broth": {
+   "page": "https://www.aldi.us/store/aldi/products/18647945-chef-s-cupboard-chicken-broth-32-fl-oz"
+  },
+  "cheesesticks": {
+   "page": "https://www.aldi.us/store/aldi/products/113903-happy-farms-string-cheese-10-oz"
+  },
+  "yogurttubes": {
+   "page": "https://www.aldi.us/store/aldi/products/19967133-friendly-farms-moo-tubes-strawberry-blueberry-yogurt-2-oz"
+  },
+  "turkey": {
+   "page": "https://www.aldi.us/store/aldi/products/18649125-lunch-mate-deli-style-oven-roasted-turkey-breast-9-oz"
+  },
+  "onionbag": {
+   "page": "https://www.aldi.us/store/aldi/products/16507392-yellow-onion-bag-3-lbs"
   }
  }
 }
