@@ -1,0 +1,55 @@
+{
+ "store": "generic",
+ "note": "Example photos of a similar product, watermarked EXAMPLE PHOTO. Not the exact item.",
+ "items": {
+  "pizza-crust-12in": {
+   "example_of": "Boboli Original Crust (H-E-B listing)",
+   "source_page": "https://www.heb.com/product-detail/boboli-original-crust/402017",
+   "image_url": "https://images.heb.com/is/image/HEBGrocery/000402017",
+   "license": "Store product photo (H-E-B / manufacturer), used as a reference image; not freely licensed",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "corn-muffin-mix": {
+   "example_of": "Jiffy Corn Muffin Mix 8.5 oz (H-E-B listing)",
+   "source_page": "https://www.heb.com/product-detail/jiffy-corn-muffin-mix/174330",
+   "image_url": "https://images.heb.com/is/image/HEBGrocery/000174330",
+   "license": "Store product photo (H-E-B / manufacturer), used as a reference image; not freely licensed",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "tostada-shells": {
+   "example_of": "Charras Casera Tostadas (H-E-B listing)",
+   "source_page": "https://www.heb.com/product-detail/charras-casera-tostadas/634575",
+   "image_url": "https://images.heb.com/is/image/HEBGrocery/000634575",
+   "license": "Store product photo (H-E-B / manufacturer), used as a reference image; not freely licensed",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "coleslaw-dressing": {
+   "example_of": "Marzetti Original Slaw Dressing (H-E-B listing)",
+   "source_page": "https://www.heb.com/product-detail/marzetti-original-slaw-dressing/321379",
+   "image_url": "https://images.heb.com/is/image/HEBGrocery/000321379",
+   "license": "Store product photo (H-E-B / manufacturer), used as a reference image; not freely licensed",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "baby-carrots-2lb": {
+   "example_of": "H-E-B Fresh Baby Carrots Texas-Size Pack 2 lb",
+   "source_page": "https://www.heb.com/product-detail/h-e-b-fresh-baby-carrots-texas-size-pack/4833589",
+   "image_url": "https://images.heb.com/is/image/HEBGrocery/004833589",
+   "license": "Store product photo (H-E-B / manufacturer), used as a reference image; not freely licensed",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "eggs-18ct": {
+   "example_of": "H-E-B Grade AA Cage Free Large White Eggs 18 ct",
+   "source_page": "https://www.heb.com/product-detail/h-e-b-grade-aa-cage-free-large-white-eggs/2177042",
+   "image_url": "https://images.heb.com/is/image/HEBGrocery/002177042",
+   "license": "Store product photo (H-E-B / manufacturer), used as a reference image; not freely licensed",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "yellow-onion": {
+   "example_of": "Wikimedia Commons: File:Yellow onion 🧅.jpg",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Yellow_onion_%F0%9F%A7%85.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Yellow_onion_%F0%9F%A7%85.jpg",
+   "license": "CC0 1.0 (public domain dedication)",
+   "watermark": "EXAMPLE PHOTO"
+  }
+ }
+}
