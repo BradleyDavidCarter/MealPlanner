@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1f3a5f">
+<title>Shopping guide SL6 Thu 10/22</title>
+<style>
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;margin:0;background:#f4f5f7;color:#222;padding-bottom:84px}
+header{background:#1f3a5f;color:#fff;padding:14px 16px}h1{font-size:1.25em;margin:0 0 6px}
+header .w{font-size:.92em;opacity:.95}header a{color:#cfe3ff}
+.tot{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.tot div{background:#ffffff22;border-radius:8px;padding:6px 10px;font-size:.95em}
+main{padding:10px;max-width:760px;margin:auto}
+.sub{margin:4px 4px 10px;color:#555;font-size:.9em;line-height:1.4}
+h2{font-size:1.05em;margin:18px 0 4px;position:sticky;top:0;background:#f4f5f7;padding:8px 4px;z-index:2;display:flex;align-items:center;gap:8px}
+h2 .ac{background:#1f3a5f;color:#fff;border-radius:6px;padding:2px 9px}h2 .hint{font-weight:400;color:#666;font-size:.85em}
+h2 .n{margin-left:auto;font-weight:400;color:#666;font-size:.8em}
+ul.aisle{list-style:none;margin:0;padding:0}
+.item{display:flex;gap:10px;background:#fff;border-radius:12px;padding:10px;margin:8px 0;box-shadow:0 1px 3px #0002;border-left:5px solid transparent;transition:opacity .15s}
+.item.done{opacity:.55;border-left-color:#2e7d32}.item.done .t{text-decoration:line-through}
+.chk{flex:0 0 30px;display:flex;align-items:flex-start;padding-top:2px}.chk input{width:26px;height:26px;margin:0;accent-color:#2e7d32}
+.pic{flex:0 0 80px;height:80px;display:flex;align-items:center;justify-content:center;background:#fafafa;border:1px dashed #d5d9e0;border-radius:8px;overflow:hidden}
+.pic img{display:none;max-width:80px;max-height:80px;width:auto;height:auto;object-fit:contain}.pic.has{border:0;background:#fff}.pic.has img{display:block}.pic.has .nopic{display:none}
+.nopic{font-size:.72em;color:#888;text-align:center;padding:4px;text-decoration:none;line-height:1.3}.nopic u{color:#1a5fb4}
+.cam{display:block;width:22px;height:16px;margin:0 auto 3px;border:2px solid #b8bec8;border-radius:4px;position:relative}
+.cam:after{content:"";position:absolute;width:6px;height:6px;border:2px solid #b8bec8;border-radius:50%;left:6px;top:3px}
+.body{flex:1;min-width:0}.t{font-weight:600;line-height:1.25}.m{font-size:.88em;color:#444;margin-top:4px}
+.qty{display:inline-block;background:#e8f1e4;color:#25591f;border-radius:6px;padding:1px 7px;font-size:.92em;font-weight:600}
+.bud{display:inline-block;border-radius:10px;padding:0 7px;font-size:.78em;border:1px solid #ccd;color:#445;background:#f3f4f8}
+.b-meal{background:#eef6ee;border-color:#b9d8b9;color:#2f5f2f}.b-staples{background:#f1effa;border-color:#cdc6ec;color:#4b3f8f}.b-flex{background:#fff1e6;border-color:#f3c9a5;color:#8a4a12}
+.ax{font-size:.8em;color:#666}
+.onl{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.est{display:inline-block;background:#fdecea;color:#a33;border:1px solid #f5b7b1;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.rb{display:inline-block;background:#fff3cd;color:#7a5b00;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.look{font-size:.86em;background:#fff8e1;border-left:3px solid #f0b400;padding:4px 7px;margin-top:6px;border-radius:4px}
+a{color:#1a5fb4}.lnk a{word-break:break-all;font-size:.95em}
+details.inote{margin-top:6px}details.inote summary{font-size:.84em;color:#1a5fb4;cursor:pointer;list-style:none;padding:4px 0}
+details.inote summary::-webkit-details-marker{display:none}details.inote summary:before{content:"+ "}
+details.inote[open] summary:before{content:"- "}
+details.inote.has summary{color:#8a4a12;font-weight:600}
+textarea{width:100%;font:inherit;font-size:16px;border:1px solid #ccd;border-radius:8px;padding:6px 8px;resize:vertical}
+.card{background:#fff;border-radius:12px;padding:12px;margin:10px 0;box-shadow:0 1px 3px #0002}
+.card h3{margin:0 0 6px;font-size:1em}.card .m{font-size:.92em}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.btn{display:inline-block;border:0;border-radius:9px;padding:10px 14px;font:inherit;font-size:.92em;font-weight:600;text-decoration:none;cursor:pointer;background:#e6e9ef;color:#223}
+.btn.pri{background:#1f3a5f;color:#fff}.btn.warn{background:#fdecea;color:#a33}
+#bar{position:fixed;left:0;right:0;bottom:0;background:#1f3a5f;color:#fff;z-index:5;box-shadow:0 -2px 8px #0003;padding:8px 12px calc(8px + env(safe-area-inset-bottom))}
+#bar .in{max-width:760px;margin:auto;display:flex;align-items:center;gap:8px}
+#bar .st{flex:1;min-width:0;line-height:1.2}#bar .cnt{display:block;font-weight:700}#bar .sum{display:block;opacity:.9;font-size:.85em}
+#bar .btn{padding:8px 10px;font-size:.82em;background:#ffffff26;color:#fff;white-space:nowrap}
+body.hidedone .item.done{display:none}body.hidedone section.alldone{display:none}
+#warn{display:none;background:#fdecea;color:#a33;padding:8px 12px;border-radius:8px;margin:8px 4px;font-size:.88em}
+#saved{font-size:.8em;color:#2e7d32;min-height:1em;margin-top:6px}
+footer{font-size:.8em;color:#666;padding:16px;max-width:760px;margin:auto}
+</style></head><body>
+<header><h1>Thu 10/22 pickup (H-E-B only): Sat kebabs + Fri crockpot chicken</h1><div class="w">H-E-B #736, 4950 FM 1463, Katy (one store). Thu 10/22/2026.</div>
+<div class="w" style="margin-top:4px;opacity:.85;font-size:.85em">Prices est. from H-E-B listings (other stores) and the SL5 plan; your store may differ.</div>
+<div class="tot"><div>SL6 total: <b>$34.12</b> (6 items)</div></div><div class="w" style="margin-top:8px;font-size:.85em"><a href="#tools">Notes and send</a></div></header>
+<main>
+<div id="warn">This browser is not letting the page save (private browsing?). Checks and notes will be lost when you close it.</div>
+<p class="sub"><span class="onl">Online price</span> from walmart.com for this store. The shelf may differ, so check at checkout and ask for the online price if it rings up higher.<br><span class="rb">rollback</span> on rollback online when checked.<br><span class="est">est.</span> estimated (plan price, not checked online for this store; trays ring up by weight).<br><span class="bud b-meal">meal</span> <span class="bud b-staples">staples</span> <span class="bud b-flex">flex</span> budget bucket for each line.</p><p class="sub">Tap the box when an item is in the cart. Checks and notes save on this phone and browser only. Use "Send notes to Meal Planner" at the bottom when you are done.</p><p class="sub">One store, walk it top to bottom: produce, spices, meat last.</p><p class="sub">Ham hock is off: Fri 10/23 is now Ashleigh&#x27;s crockpot chicken and vegetables with gravy (over rice, no cornbread).</p><p class="sub">Once home: both tender packs go in the FRIDGE (cooked Fri and Sat). No freezing.</p><p class="sub">CHECK AT HOME (buy here only if out): cornstarch, paprika, black pepper, a GF chicken seasoning, roasted garlic seasoning or garlic powder, butter (4 Tbsp), baby carrots (8 oz, from SL5 2 lb bag), chicken broth (1/2 cup, SL5 Aldi cartons, check GF label), yellow onion (1/2, SL5 bag), white rice.</p>
+<section class="grp"><h2><span class="ac">1 Produce</span><span class="n">3 items</span></h2><ul class="aisle"><li class="item" data-id="babygold">
+<label class="chk"><input type="checkbox" aria-label="In cart: Fresh Baby Gold Potatoes, 1.5 lb bag (Fri crockpot)"></label>
+<div class="pic"><img alt="Fresh Baby Gold Potatoes, 1.5 lb bag (Fri crockpot)" data-srcs="../images/heb/1530771.jpg"><a class="nopic" href="https://www.heb.com/product-detail/season-s-select-fresh-baby-gold-potatoes/1530771" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Fresh Baby Gold Potatoes, 1.5 lb bag (Fri crockpot)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $3.48 each &middot; line <b>$3.48</b></div>
+<div class="look">Baby yellow potatoes, left whole.</div><div class="m lnk"><a href="https://www.heb.com/product-detail/season-s-select-fresh-baby-gold-potatoes/1530771" target="_blank" rel="noopener">heb.com/product-detail/season-s-select-fresh-baby-gold-potatoes/1530771</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="gbeans">
+<label class="chk"><input type="checkbox" aria-label="In cart: H-E-B Fresh Steamable French Green Beans, 16 oz (Fri crockpot)"></label>
+<div class="pic"><img alt="H-E-B Fresh Steamable French Green Beans, 16 oz (Fri crockpot)" data-srcs="../images/heb/1079872.jpg"><a class="nopic" href="https://www.heb.com/product-detail/h-e-b-fresh-steamable-french-green-beans/1079872" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">H-E-B Fresh Steamable French Green Beans, 16 oz (Fri crockpot)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $3.11 each &middot; line <b>$3.11</b></div>
+<div class="look">Fresh for Friday. Any 1 lb bag of fresh green beans is fine.</div><div class="m lnk"><a href="https://www.heb.com/product-detail/h-e-b-fresh-steamable-french-green-beans/1079872" target="_blank" rel="noopener">heb.com/product-detail/h-e-b-fresh-steamable-french-green-beans/1079872</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="lemon">
+<label class="chk"><input type="checkbox" aria-label="In cart: Lemon (Sat kebab marinade) - OPTIONAL"></label>
+<div class="pic"><img alt="Lemon (Sat kebab marinade) - OPTIONAL" data-srcs="../images/generic/lemon.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Lemon (Sat kebab marinade) - OPTIONAL</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $0.59 each &middot; line <b>$0.59</b></div>
+<div class="look">Optional: a lime from SL5 works fine instead.</div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">2 Spices</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="dash">
+<label class="chk"><input type="checkbox" aria-label="In cart: Mrs. Dash Salt-Free Garlic &amp; Herb Seasoning Blend, 2.5 oz (Fri green beans)"></label>
+<div class="pic"><img alt="Mrs. Dash Salt-Free Garlic &amp; Herb Seasoning Blend, 2.5 oz (Fri green beans)" data-srcs="../images/heb/83950.jpg"><a class="nopic" href="https://www.heb.com/product-detail/mrs-dash-salt-free-garlic-herb-seasoning-blend/83950" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Mrs. Dash Salt-Free Garlic &amp; Herb Seasoning Blend, 2.5 oz (Fri green beans)</div>
+<div class="m"><span class="qty">Buy 1 (skip if at home)</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $4.48 each &middot; line <b>$4.48</b></div>
+<div class="look">Gluten-free ingredients (garlic, onion, spices). Contains mustard.</div><div class="m lnk"><a href="https://www.heb.com/product-detail/mrs-dash-salt-free-garlic-herb-seasoning-blend/83950" target="_blank" rel="noopener">heb.com/product-detail/mrs-dash-salt-free-garlic-herb-seasoning-blend/83950</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">3 Meat counter (last)</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="tenders3">
+<label class="chk"><input type="checkbox" aria-label="In cart: Raw chicken tenders, about 2.5 lb (Sat 10/24 kebabs) - FRIDGE"></label>
+<div class="pic"><img alt="Raw chicken tenders, about 2.5 lb (Sat 10/24 kebabs) - FRIDGE" data-srcs="../images/heb/684580.jpg"><a class="nopic" href="https://www.heb.com/product-detail/h-e-b-natural-boneless-chicken-breast-tenders-avg-1-02-lbs/684580" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Raw chicken tenders, about 2.5 lb (Sat 10/24 kebabs) - FRIDGE</div>
+<div class="m"><span class="qty">About 2.5 lb</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $12.48 each &middot; line <b>$12.48</b></div>
+<div class="look">H-E-B Natural tenders are about 1 lb packs: grab 2-3 packs or a family pack. Plain tenders, no marinade.</div><div class="m lnk"><a href="https://www.heb.com/product-detail/h-e-b-natural-boneless-chicken-breast-tenders-avg-1-02-lbs/684580" target="_blank" rel="noopener">heb.com/product-detail/h-e-b-natural-boneless-chicken-breast-tenders-avg-1-02-lbs/684580</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="tendersfri">
+<label class="chk"><input type="checkbox" aria-label="In cart: Raw chicken tenders, about 2 lb (Fri 10/23 crockpot) - FRIDGE"></label>
+<div class="pic"><img alt="Raw chicken tenders, about 2 lb (Fri 10/23 crockpot) - FRIDGE" data-srcs="../images/heb/684580.jpg"><a class="nopic" href="https://www.heb.com/product-detail/h-e-b-natural-boneless-chicken-breast-tenders-avg-1-02-lbs/684580" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Raw chicken tenders, about 2 lb (Fri 10/23 crockpot) - FRIDGE</div>
+<div class="m"><span class="qty">About 2 lb</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $9.98 each &middot; line <b>$9.98</b></div>
+<div class="look">About 2 one-lb packs.</div><div class="m lnk"><a href="https://www.heb.com/product-detail/h-e-b-natural-boneless-chicken-breast-tenders-avg-1-02-lbs/684580" target="_blank" rel="noopener">heb.com/product-detail/h-e-b-natural-boneless-chicken-breast-tenders-avg-1-02-lbs/684580</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section>
+<section id="tools" class="card"><h3>Shopping notes</h3>
+<div class="m">Anything for Meal Planner: swaps, out of stock, what is still at home. Item notes are under each item.</div>
+<textarea id="general" rows="4" placeholder="e.g. eggs: got 18 ct, 60 ct was out. Skipped cucumbers, 3 still at home." style="margin-top:8px"></textarea>
+<div id="saved"></div>
+<div class="btns"><a id="mail" class="btn pri" href="mailto:carterfambot@gmail.com">Send notes to Meal Planner</a>
+<button id="copy" class="btn" type="button">Copy notes</button>
+<button id="reset" class="btn warn" type="button">Reset checks</button>
+<button id="clearnotes" class="btn warn" type="button">Clear notes</button></div>
+<div class="m" style="margin-top:8px;color:#666">Send opens your email app with the notes filled in, to carterfambot@gmail.com. Nothing is sent until you press Send there. Very long lists are shortened to fit the email link; Copy notes always copies everything.</div>
+</section>
+
+</main>
+<footer>Moved from Mon 10/19 (Carter 4:33 PM CT). Tenders go in the fridge: cooked Fri and Sat. Pictures: 6 of 6 lines have a saved photo from the picture library (images/heb-close/ in the repo). A photo saved there as &lt;item number&gt;.jpg shows up automatically; until then the line shows a placeholder with the item link.</footer>
+<div id="bar"><div class="in"><div class="st"><span class="cnt" id="cnt">0 of 6 in cart</span><span class="sum" id="sum">$0.00 of $34.12</span></div>
+<button id="hide" class="btn" type="button">Hide in cart</button><a class="btn" href="#tools">Notes</a></div></div>
+<script id="listdata" type="application/json">{"list_id": "SL6-2026-10-22", "title": "Thu 10/22 pickup (H-E-B only): Sat kebabs + Fri crockpot chicken", "where": "H-E-B #736, 4950 FM 1463, Katy (one store)", "when": "Thu 10/22/2026", "notes_email": "carterfambot@gmail.com", "email_subject": "Shopping notes SL6", "items": [{"id": "babygold", "name": "Fresh Baby Gold Potatoes, 1.5 lb bag (Fri crockpot)", "qty": "Buy 1", "line": 3.48, "aisle_text": "Aisle label:1 Produce"}, {"id": "gbeans", "name": "H-E-B Fresh Steamable French Green Beans, 16 oz (Fri crockpot)", "qty": "Buy 1", "line": 3.11, "aisle_text": "Aisle label:1 Produce"}, {"id": "lemon", "name": "Lemon (Sat kebab marinade) - OPTIONAL", "qty": "Buy 1", "line": 0.59, "aisle_text": "Aisle label:1 Produce"}, {"id": "dash", "name": "Mrs. Dash Salt-Free Garlic & Herb Seasoning Blend, 2.5 oz (Fri green beans)", "qty": "Buy 1 (skip if at home)", "line": 4.48, "aisle_text": "Aisle label:2 Spices"}, {"id": "tenders3", "name": "Raw chicken tenders, about 2.5 lb (Sat 10/24 kebabs) - FRIDGE", "qty": "About 2.5 lb", "line": 12.48, "aisle_text": "Aisle label:3 Meat counter (last)"}, {"id": "tendersfri", "name": "Raw chicken tenders, about 2 lb (Fri 10/23 crockpot) - FRIDGE", "qty": "About 2 lb", "line": 9.98, "aisle_text": "Aisle label:3 Meat counter (last)"}]}</script>
+<script>
+(function(){
+'use strict';
+var DATA = JSON.parse(document.getElementById('listdata').textContent);
+var KEY = 'mealplanner:shop:' + DATA.list_id;
+var MAILTO_LIMIT = 2000;
+var mem = {checks:{}, notes:{}, general:'', hide:false};
+var canSave = true;
+function load(){
+  try { var raw = localStorage.getItem(KEY); if (raw) { var s = JSON.parse(raw);
+    mem.checks = s.checks || {}; mem.notes = s.notes || {}; mem.general = s.general || ''; mem.hide = !!s.hide; } }
+  catch(e) { canSave = false; }
+}
+var savedTimer;
+function save(){
+  mem.v = 1; mem.updated = new Date().toISOString();
+  try { localStorage.setItem(KEY, JSON.stringify(mem)); flash('Saved on this phone'); }
+  catch(e) { canSave = false; showWarn(); }
+}
+function flash(t){ var el = document.getElementById('saved'); if(!el) return; el.textContent = t;
+  clearTimeout(savedTimer); savedTimer = setTimeout(function(){ el.textContent=''; }, 1500); }
+function showWarn(){ var w = document.getElementById('warn'); if (w) w.style.display = 'block'; }
+function cents(x){ return Math.round(x*100); }
+function fmt(c){ return '$' + (c/100).toFixed(2); }
+var byId = {}; DATA.items.forEach(function(it){ byId[it.id] = it; });
+var totalC = DATA.items.reduce(function(a,it){ return a + cents(it.line); }, 0);
+
+function refresh(){
+  var n = 0, c = 0;
+  DATA.items.forEach(function(it){ if (mem.checks[it.id]) { n++; c += cents(it.line); } });
+  document.getElementById('cnt').textContent = n + ' of ' + DATA.items.length + ' in cart';
+  document.getElementById('sum').textContent = fmt(c) + ' of ' + fmt(totalC) + ' checked';
+  document.querySelectorAll('section.grp').forEach(function(sec){
+    var all = sec.querySelectorAll('.item'), d = sec.querySelectorAll('.item.done');
+    sec.classList.toggle('alldone', all.length > 0 && all.length === d.length);
+  });
+  document.body.classList.toggle('hidedone', mem.hide);
+  var hb = document.getElementById('hide'); hb.textContent = mem.hide ? 'Show all' : 'Hide in cart';
+}
+function setNoteUi(li, txt){
+  var det = li.querySelector('details.inote'), sum = det.querySelector('summary');
+  var t = (txt || '').trim();
+  det.classList.toggle('has', !!t);
+  sum.textContent = t ? 'Note: ' + (t.length > 40 ? t.slice(0,40) + '...' : t) : 'Add note';
+}
+
+function buildBody(full){
+  var nl = '\r\n', lines = [], items = DATA.items;
+  var checked = items.filter(function(it){ return mem.checks[it.id]; });
+  var open = items.filter(function(it){ return !mem.checks[it.id]; });
+  var cc = checked.reduce(function(a,it){ return a + cents(it.line); }, 0);
+  lines.push(DATA.email_subject + ' (' + DATA.when + ')');
+  lines.push('In cart: ' + checked.length + ' of ' + items.length + ', ' + fmt(cc) + ' of ' + fmt(totalC) + ' (list prices)');
+  lines.push('');
+  var g = (mem.general || '').trim();
+  lines.push('GENERAL NOTES'); lines.push(g ? g.replace(/\r?\n/g, nl) : '(none)'); lines.push('');
+  var withNotes = items.filter(function(it){ return (mem.notes[it.id] || '').trim(); });
+  lines.push('ITEM NOTES (' + withNotes.length + ')');
+  if (!withNotes.length) lines.push('(none)');
+  withNotes.forEach(function(it){ lines.push('- ' + (mem.checks[it.id] ? '[x] ' : '[ ] ') + it.name + ': ' + mem.notes[it.id].trim().replace(/\s*\r?\n\s*/g, '; ')); });
+  lines.push('');
+  lines.push('NOT IN CART (' + open.length + ')');
+  open.forEach(function(it){ lines.push('- ' + it.name + ', ' + it.qty); });
+  lines.push('');
+  lines.push('IN CART (' + checked.length + ')');
+  checked.forEach(function(it){ lines.push('- ' + it.name); });
+  lines.push('');
+  lines.push('Sent from the ' + DATA.list_id + ' shopping page.');
+  if (full) return lines.join(nl);
+  // Fit within mailto length: keep whole lines in priority order, cut gracefully.
+  var head = 'mailto:' + DATA.notes_email + '?subject=' + encodeURIComponent(DATA.email_subject) + '&body=';
+  var tail = nl + '...(cut to fit the email link; the rest is still saved on the page)';
+  var budget = MAILTO_LIMIT - head.length - encodeURIComponent(tail).length;
+  var out = '', used = 0;
+  for (var i = 0; i < lines.length; i++) {
+    var piece = (i ? nl : '') + lines[i];
+    var len = encodeURIComponent(piece).length;
+    if (used + len <= budget) { out += piece; used += len; continue; }
+    // partial line: shrink until it fits
+    var lo = 0, hi = piece.length;
+    while (lo < hi) { var mid = Math.ceil((lo+hi)/2);
+      if (used + encodeURIComponent(piece.slice(0, mid)).length <= budget) lo = mid; else hi = mid - 1; }
+    var part = piece.slice(0, lo);
+    if (/[\uD800-\uDBFF]$/.test(part)) part = part.slice(0, -1);
+    return out + part + tail;
+  }
+  return out;
+}
+function mailtoUrl(){
+  return 'mailto:' + DATA.notes_email + '?subject=' + encodeURIComponent(DATA.email_subject) + '&body=' + encodeURIComponent(buildBody(false));
+}
+
+function initPics(){
+  document.querySelectorAll('.pic img[data-srcs]').forEach(function(img){
+    var srcs = img.getAttribute('data-srcs').split('|').filter(Boolean), i = 0, pic = img.parentNode;
+    img.onload = function(){ pic.classList.add('has'); };
+    img.onerror = function(){ pic.classList.remove('has'); i++; if (i < srcs.length) img.src = srcs[i]; else img.remove(); };
+    if (img.getAttribute('src')) {  // pre-rendered from the picture catalog
+      if (img.complete) { if (img.naturalWidth > 0) pic.classList.add('has'); else img.onerror(); }
+    } else if (srcs.length) img.src = srcs[0];
+  });
+}
+
+function init(){
+  load();
+  if (!canSave) showWarn();
+  document.querySelectorAll('li.item').forEach(function(li){
+    var id = li.getAttribute('data-id'), cb = li.querySelector('input[type=checkbox]');
+    var ta = li.querySelector('details.inote textarea');
+    cb.checked = !!mem.checks[id]; li.classList.toggle('done', cb.checked);
+    cb.addEventListener('change', function(){
+      if (cb.checked) mem.checks[id] = true; else delete mem.checks[id];
+      li.classList.toggle('done', cb.checked); save(); refresh();
+    });
+    ta.value = mem.notes[id] || ''; setNoteUi(li, ta.value);
+    ta.addEventListener('input', function(){
+      if (ta.value.trim()) mem.notes[id] = ta.value; else delete mem.notes[id];
+      setNoteUi(li, ta.value); save();
+    });
+  });
+  var gen = document.getElementById('general');
+  gen.value = mem.general;
+  gen.addEventListener('input', function(){ mem.general = gen.value; save(); });
+  document.getElementById('hide').addEventListener('click', function(){ mem.hide = !mem.hide; save(); refresh(); });
+  document.getElementById('reset').addEventListener('click', function(){
+    if (!confirm('Uncheck every item? Notes are kept.')) return;
+    mem.checks = {}; document.querySelectorAll('li.item').forEach(function(li){
+      li.querySelector('input[type=checkbox]').checked = false; li.classList.remove('done'); });
+    save(); refresh();
+  });
+  document.getElementById('clearnotes').addEventListener('click', function(){
+    if (!confirm('Erase all item notes and the general notes? Checks are kept.')) return;
+    mem.notes = {}; mem.general = ''; gen.value = '';
+    document.querySelectorAll('li.item').forEach(function(li){ li.querySelector('details.inote textarea').value=''; setNoteUi(li, ''); });
+    save();
+  });
+  var mail = document.getElementById('mail');
+  mail.addEventListener('click', function(){ mail.href = mailtoUrl(); });
+  mail.href = mailtoUrl();
+  document.getElementById('copy').addEventListener('click', function(){
+    var txt = buildBody(true);
+    function fallback(){ var t = document.createElement('textarea'); t.value = txt; document.body.appendChild(t); t.select();
+      try { document.execCommand('copy'); flash('Copied'); } catch(e) { alert(txt); } t.remove(); }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(function(){ flash('Copied'); }, fallback);
+    else fallback();
+  });
+  window.addEventListener('storage', function(e){ if (e.key === KEY) location.reload(); });
+  refresh(); initPics();
+}
+window.__shop = {buildBody: buildBody, mailtoUrl: mailtoUrl, KEY: KEY};
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>
+</body></html>
