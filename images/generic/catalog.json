@@ -45,7 +45,7 @@
    "watermark": "EXAMPLE PHOTO"
   },
   "yellow-onion": {
-   "example_of": "Wikimedia Commons: File:Yellow onion 🧅.jpg",
+   "example_of": "Wikimedia Commons: File:Yellow onion \ud83e\uddc5.jpg",
    "source_page": "https://commons.wikimedia.org/wiki/File:Yellow_onion_%F0%9F%A7%85.jpg",
    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Yellow_onion_%F0%9F%A7%85.jpg",
    "license": "CC0 1.0 (public domain dedication)",
@@ -67,6 +67,153 @@
    "example_of": "ALDI Simply Nature Organic Zucchini",
    "source_page": "https://www.aldi.us/store/aldi/products/16645477-organic-zucchini-squash-each",
    "license": "Store product photo (ALDI), reference image",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "babygold": {
+   "example_of": "Yukon gold potatoes",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Yukon-gold-potatoes.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Yukon-gold-potatoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "license": "Wikimedia Commons: CC0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "gbeans": {
+   "example_of": "green beans fresh",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Macro_of_Fresh_Green_Beans_Buncis.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Macro_of_Fresh_Green_Beans_Buncis.jpg/500px-Macro_of_Fresh_Green_Beans_Buncis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "chiles": {
+   "example_of": "green chile peppers",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Roasted_Hatch_chile_peppers.png",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Roasted_Hatch_chile_peppers.png/500px-Roasted_Hatch_chile_peppers.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "wbeans": {
+   "example_of": "great northern beans",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Phaseolus_vulgaris_MHNT.BOT.2016.24.73.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Phaseolus_vulgaris_MHNT.BOT.2016.24.73.jpg/500px-Phaseolus_vulgaris_MHNT.BOT.2016.24.73.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 3.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "corn": {
+   "example_of": "sweet corn kernels",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pot_of_Steamed_Sweet_Corn_Kernels_at_Davao_City.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pot_of_Steamed_Sweet_Corn_Kernels_at_Davao_City.jpg/500px-Pot_of_Steamed_Sweet_Corn_Kernels_at_Davao_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "tstrips": {
+   "example_of": "tortilla chips",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Tortilla_chips_and_queso.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Tortilla_chips_and_queso.jpg/500px-Tortilla_chips_and_queso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "pasta": {
+   "example_of": "penne pasta dry",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Barilla_penne_1.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Barilla_penne_1.jpg/500px-Barilla_penne_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "dash": {
+   "example_of": "spice jar herbs",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Eleven_Herbs_and_Spices.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Eleven_Herbs_and_Spices.jpg/500px-Eleven_Herbs_and_Spices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY 2.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "crackers": {
+   "example_of": "Ritz crackers",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ritz_Cracker.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ritz_Cracker.jpg/500px-Ritz_Cracker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 3.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "granola": {
+   "example_of": "granola cereal bowl",
+   "source_page": "https://commons.wikimedia.org/wiki/File:2019-07-20_07_49_51_A_bowl_of_granola_in_milk_at_the_Marriott_Residence_Inn_on_Katy_Mills_Parkway_in_Katy,_Fort_Bend_County,_Texas.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2019-07-20_07_49_51_A_bowl_of_granola_in_milk_at_the_Marriott_Residence_Inn_on_Katy_Mills_Parkway_in_Katy%2C_Fort_Bend_County%2C_Texas.jpg/500px-2019-07-20_07_49_51_A_bowl_of_granola_in_milk_at_the_Marriott_Residence_Inn_on_Katy_Mills_Parkway_in_Katy%2C_Fort_Bend_County%2C_Texas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "bread": {
+   "example_of": "whole wheat bread loaf",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Vegan_no-knead_whole_wheat_bread_loaf,_sliced,_September_2010.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Vegan_no-knead_whole_wheat_bread_loaf%2C_sliced%2C_September_2010.jpg/500px-Vegan_no-knead_whole_wheat_bread_loaf%2C_sliced%2C_September_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 2.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "cheddar": {
+   "example_of": "Cheddar cheese wedge",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Somerset-Cheddar.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Somerset-Cheddar.jpg/500px-Somerset-Cheddar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 3.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "parm": {
+   "example_of": "grated parmesan cheese",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Kraft_Seasoned_Grated_Parmesan_Cheese_(Sun-Dried_Tomato_%26_Basil,_Classic_Italian,_and_Hot_Pepper_Trio)_(16291961279).jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kraft_Seasoned_Grated_Parmesan_Cheese_%28Sun-Dried_Tomato_%26_Basil%2C_Classic_Italian%2C_and_Hot_Pepper_Trio%29_%2816291961279%29.jpg/500px-Kraft_Seasoned_Grated_Parmesan_Cheese_%28Sun-Dried_Tomato_%26_Basil%2C_Classic_Italian%2C_and_Hot_Pepper_Trio%29_%2816291961279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 2.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "ham": {
+   "example_of": "sliced ham",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Sliced_cooked_ham.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sliced_cooked_ham.jpg/500px-Sliced_cooked_ham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY 4.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "gturkey": {
+   "example_of": "minced meat",
+   "source_page": "https://commons.wikimedia.org/wiki/File:USDA_2026_Meat_ground.png",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/USDA_2026_Meat_ground.png/500px-USDA_2026_Meat_ground.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: Public domain",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "salmon": {
+   "example_of": "salmon fillet raw",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Raw_salmon_fillets.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Raw_salmon_fillets.jpg/500px-Raw_salmon_fillets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "bandaids": {
+   "example_of": "Band-Aid",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Band-Aid_close-up.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Band-Aid_close-up.jpg/500px-Band-Aid_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: Public domain",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "glass": {
+   "example_of": "Windex",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Windex_(48089717956).jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Windex_%2848089717956%29.jpg/500px-Windex_%2848089717956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY 2.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "salad": {
+   "example_of": "lettuce leaves",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Lettuce_Leaves,_Mar_2026.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Lettuce_Leaves%2C_Mar_2026.jpg/500px-Lettuce_Leaves%2C_Mar_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "broth": {
+   "example_of": "chicken stock",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pot_of_chicken_broth.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pot_of_chicken_broth.jpg/500px-Pot_of_chicken_broth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY 4.0",
+   "watermark": "EXAMPLE PHOTO"
+  },
+  "turkey-deli": {
+   "example_of": "turkey breast slices",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg/500px-Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY 4.0",
    "watermark": "EXAMPLE PHOTO"
   }
  }
