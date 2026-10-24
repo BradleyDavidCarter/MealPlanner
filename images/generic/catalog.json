@@ -45,7 +45,7 @@
    "watermark": "EXAMPLE PHOTO"
   },
   "yellow-onion": {
-   "example_of": "Wikimedia Commons: File:Yellow onion \ud83e\uddc5.jpg",
+   "example_of": "Wikimedia Commons: File:Yellow onion 🧅.jpg",
    "source_page": "https://commons.wikimedia.org/wiki/File:Yellow_onion_%F0%9F%A7%85.jpg",
    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Yellow_onion_%F0%9F%A7%85.jpg",
    "license": "CC0 1.0 (public domain dedication)",
@@ -216,5 +216,12 @@
    "license": "Wikimedia Commons: CC BY 4.0",
    "watermark": "EXAMPLE PHOTO"
   }
+ },
+ "beggin": {
+  "example_of": "Beggin' Strip",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Beggin%E2%80%99_Strip_2.jpg",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Beggin%E2%80%99_Strip_2.jpg/500px-Beggin%E2%80%99_Strip_2.jpg",
+  "license": "Wikimedia Commons",
+  "watermark": "EXAMPLE PHOTO"
  }
 }
