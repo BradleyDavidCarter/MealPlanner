@@ -311,6 +311,105 @@
    "width": 400,
    "height": 400,
    "bytes": 29817
+  },
+  "gv-honey-12oz": {
+   "id": "gv-honey-12oz",
+   "name": null,
+   "source_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSqBIXyRLqGAtVMWfqHMfuE3qBqpKsOSHe9p3MBB5UxJ4R5-wgXg2bXi6qSTTwLMwJ3-SlYdje8utEoLv3zBAwSrjcXYL1ixCkBibzajrfIGqigsAQwUx5kCA",
+   "saved": "2026-10-29",
+   "file": "images/walmart/gv-honey-12oz.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20255,
+   "note": "added for SL8b 10/29; example photo, not exact item"
+  },
+  "hv-ranch-gf-packet": {
+   "id": "hv-ranch-gf-packet",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Hidden-Valley-Original-Ranch-Seasoning-Salad-Dressing-Mix-1-oz-Packet_daafed5e-3fc2-4b72-a6fa-65b862f19080.e265f3705f1c1a1c9b62bdc5e1c892b1.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/hv-ranch-gf-packet.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 35428,
+   "note": "added for SL8b 10/29; example photo, not exact item"
+  },
+  "39085868": {
+   "id": "39085868",
+   "name": null,
+   "source_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRubl85-a3qQAKgbqfmbK82EysOHoSaAI8MslF7qiXRKQqMjzd0xQ5F12PWYyWiaQ1qHtrSgYxeAHFUOlN2BLOJGZraBhLL1KbZPm5e9690pOqQpvdh3YUdZoU",
+   "saved": "2026-10-29",
+   "file": "images/walmart/39085868.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 34771,
+   "note": "added for SL8b 10/29"
+  },
+  "10534212": {
+   "id": "10534212",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Crinkle-Cut-French-Fried-Potatoes-32-oz-Bag-Frozen_0c86403f-0228-408c-8b53-d8fc33657a4c_1.cf80a4df96e7650e3d76e06fbde19539.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/10534212.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 27708,
+   "note": "added for SL8b 10/29"
+  },
+  "10452429": {
+   "id": "10452429",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Cream-Cheese-Brick-8-oz-Refrigerated_8e927225-b691-427b-82ad-7782a066a8e1.8c98ad54e98e16a3f890af30cc082ef1.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/10452429.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 16949,
+   "note": "added for SL8b 10/29"
+  },
+  "15544059": {
+   "id": "15544059",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Finely-Shredded-Fiesta-Blend-Cheese-16-oz_0cc11725-aea5-4ce6-a0e5-f82d5688d9e9.dc88776f94f883476f847c689b5673eb.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/15544059.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 28221,
+   "note": "added for SL8b 10/29"
+  },
+  "12335111": {
+   "id": "12335111",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Original-Sour-Cream-16-oz-Tub_1dce8dd9-506d-4ce8-b4d7-f4019f23e635.8b223761c45dfbffa4c361ed7d5abf13.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/12335111.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 15445,
+   "note": "added for SL8b 10/29"
+  },
+  "bacon-12oz": {
+   "id": "bacon-12oz",
+   "name": null,
+   "source_url": "https://cdn.shopify.com/s/files/1/0588/7764/0763/products/BCbacon__52963.jpg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/bacon-12oz.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 49371,
+   "note": "added for SL8b 10/29; example photo, not exact item"
+  },
+  "ground-beef-8020": {
+   "id": "ground-beef-8020",
+   "name": null,
+   "source_url": "https://i5.walmartimages.com/seo/80-Lean-20-Fat-Ground-Beef-Chuck-1-lb-Roll-Fresh-All-Natural_2e2aed47-2819-45b6-8925-27bf950477a0.d430c0668d8c9252fcd38d487d3ac48d.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/ground-beef-8020.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 28151,
+   "note": "added for SL8b 10/29; example photo, not exact item"
   }
  }
 }

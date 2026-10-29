@@ -1,0 +1,255 @@
+{
+ "note": "Picture library index. by_name: exact list-line name -> image. keywords: first keyword (case-insensitive substring of the line name) wins. Paths are repo-relative; pages use ../<path>.",
+ "by_name": {
+  "Grapes, about 2 lb (Fri and Mon lunches, Wed breakfast)": "images/walmart/44390943.jpg",
+  "Russet potatoes 5 lb (Mon mashed potatoes) - skip if 3 lb at home": "images/aldi/potatoes5.jpg",
+  "Sugar snap peas 8 oz (Sun fried rice)": "images/aldi/sl5-11.jpg",
+  "Fresh green beans 12-16 oz bag (Mon meatloaf)": "images/heb/1079872.jpg",
+  "Baby carrots 2 lb (Thu and Tue lunches, Fri dinner) - skip if a full bag at home": "images/walmart/10535757.jpg",
+  "Gluten-free ranch seasoning packet (Hidden Valley, check GF label) (Fri ranch chicken)": "images/walmart/hv-ranch-gf-packet.jpg",
+  "Taco seasoning packet, check GF label (Sat taco bar)": "images/aldi/sl5-17.jpg",
+  "Honey, Great Value 12 oz squeeze bottle (Thu PB + honey sandwiches)": "images/walmart/gv-honey-12oz.jpg",
+  "Salsa con queso / nacho cheese dip jar (Sat taco bar, Sun nachos)": "images/aldi/sl5-16.jpg",
+  "Krusteaz gluten-free honey cornbread mix (Sat taco bar)": "images/walmart/39085868.jpg",
+  "Great Value honey wheat bread (toast, French toast Sat, Thu/Fri/Tue sandwiches)": "images/generic/bread.jpg",
+  "Great Value hamburger buns 8 ct (Tue burgers; Fri ranch chicken optional)": "images/walmart/10450104.jpg",
+  "Flour tortillas, 10 ct (Sat lunch quesadillas)": "images/aldi/sl5-14.jpg",
+  "Ritz or Club crackers (cheese-cube boxes, meatloaf binder)": "images/generic/crackers.jpg",
+  "Frozen crinkle cut fries 32 oz (Tue burgers)": "images/walmart/10534212.jpg",
+  "Cream cheese 8 oz block (Fri ranch chicken)": "images/walmart/10452429.jpg",
+  "Shredded cheddar or Mexican blend 16 oz (Sat taco bar, quesadillas, Sun nachos, burgers)": "images/walmart/15544059.jpg",
+  "Great Value American singles 24 ct (Tue burgers)": "images/walmart/10452423.jpg",
+  "Sour cream 16 oz (Sat taco bar, Wed carnitas)": "images/walmart/12335111.jpg",
+  "Great Value 2% milk 1 gal (French toast, cornbread, mash, breakfasts)": "images/walmart/10450115.jpg",
+  "Eggs, 18 ct (breakfasts, French toast Sat, meatloaf, fried rice)": "images/generic/eggs-18ct.jpg",
+  "Bacon 12 oz (Fri ranch chicken)": "images/walmart/bacon-12oz.jpg",
+  "Ground beef 80/20, 5 lb chub (Sat taco bar 2 lb, Tue burgers 2 lb; rest toward meatloaf)": "images/walmart/ground-beef-8020.jpg",
+  "Ground beef 90/10, 1 lb (Mon meatloaf, with 1 lb from the chub)": "images/heb/371334.jpg"
+ },
+ "keywords": [
+  {
+   "match": "grapes",
+   "file": "images/walmart/44390943.jpg"
+  },
+  {
+   "match": "russet potatoes",
+   "file": "images/aldi/potatoes5.jpg"
+  },
+  {
+   "match": "snap peas",
+   "file": "images/aldi/sl5-11.jpg"
+  },
+  {
+   "match": "green beans",
+   "file": "images/heb/1079872.jpg"
+  },
+  {
+   "match": "baby carrots",
+   "file": "images/walmart/10535757.jpg"
+  },
+  {
+   "match": "ranch seasoning",
+   "file": "images/walmart/hv-ranch-gf-packet.jpg"
+  },
+  {
+   "match": "taco seasoning",
+   "file": "images/aldi/sl5-17.jpg"
+  },
+  {
+   "match": "honey, great value",
+   "file": "images/walmart/gv-honey-12oz.jpg"
+  },
+  {
+   "match": "salsa con queso",
+   "file": "images/aldi/sl5-16.jpg"
+  },
+  {
+   "match": "krusteaz",
+   "file": "images/walmart/39085868.jpg"
+  },
+  {
+   "match": "cornbread mix",
+   "file": "images/walmart/39085868.jpg"
+  },
+  {
+   "match": "wheat bread",
+   "file": "images/generic/bread.jpg"
+  },
+  {
+   "match": "hamburger buns",
+   "file": "images/walmart/10450104.jpg"
+  },
+  {
+   "match": "flour tortillas",
+   "file": "images/aldi/sl5-14.jpg"
+  },
+  {
+   "match": "crackers",
+   "file": "images/generic/crackers.jpg"
+  },
+  {
+   "match": "crinkle cut fries",
+   "file": "images/walmart/10534212.jpg"
+  },
+  {
+   "match": "cream cheese",
+   "file": "images/walmart/10452429.jpg"
+  },
+  {
+   "match": "shredded cheddar",
+   "file": "images/walmart/15544059.jpg"
+  },
+  {
+   "match": "mexican blend",
+   "file": "images/walmart/15544059.jpg"
+  },
+  {
+   "match": "american singles",
+   "file": "images/walmart/10452423.jpg"
+  },
+  {
+   "match": "sour cream",
+   "file": "images/walmart/12335111.jpg"
+  },
+  {
+   "match": "2% milk",
+   "file": "images/walmart/10450115.jpg"
+  },
+  {
+   "match": "eggs",
+   "file": "images/generic/eggs-18ct.jpg"
+  },
+  {
+   "match": "bacon",
+   "file": "images/walmart/bacon-12oz.jpg"
+  },
+  {
+   "match": "80/20",
+   "file": "images/walmart/ground-beef-8020.jpg"
+  },
+  {
+   "match": "90/10",
+   "file": "images/heb/371334.jpg"
+  },
+  {
+   "match": "bananas",
+   "file": "images/walmart/44390948.jpg"
+  },
+  {
+   "match": "pears",
+   "file": "images/walmart/929297252.jpg"
+  },
+  {
+   "match": "salad bag",
+   "file": "images/walmart/34017490.jpg"
+  },
+  {
+   "match": "greek yogurt",
+   "file": "images/walmart/26559565.jpg"
+  },
+  {
+   "match": "chicken tenders",
+   "file": "images/walmart/27935840.jpg"
+  },
+  {
+   "match": "chicken breast",
+   "file": "images/walmart/27935840.jpg"
+  },
+  {
+   "match": "cheddar or colby",
+   "file": "images/walmart/10452423.jpg"
+  },
+  {
+   "match": "strawberries",
+   "file": "images/walmart/44391605.jpg"
+  },
+  {
+   "match": "gala apples",
+   "file": "images/walmart/44390953.jpg"
+  },
+  {
+   "match": "cucumber",
+   "file": "images/walmart/44390954.jpg"
+  },
+  {
+   "match": "roma tomatoes",
+   "file": "images/walmart/44390944.jpg"
+  },
+  {
+   "match": "broccoli",
+   "file": "images/walmart/51259378.jpg"
+  },
+  {
+   "match": "sweet potatoes",
+   "file": "images/walmart/132720824.jpg"
+  },
+  {
+   "match": "goldfish",
+   "file": "images/walmart/10294707.jpg"
+  },
+  {
+   "match": "diced tomatoes",
+   "file": "images/walmart/10450990.jpg"
+  },
+  {
+   "match": "chili beans",
+   "file": "images/walmart/10534044.jpg"
+  },
+  {
+   "match": "white bread",
+   "file": "images/walmart/10315355.jpg"
+  },
+  {
+   "match": "sugar",
+   "file": "images/walmart/10315162.jpg"
+  },
+  {
+   "match": "salmon",
+   "file": "images/generic/salmon.jpg"
+  },
+  {
+   "match": "limes",
+   "file": "images/generic/limes.jpg"
+  },
+  {
+   "match": "yellow onion",
+   "file": "images/generic/yellow-onion.jpg"
+  },
+  {
+   "match": "onion",
+   "file": "images/generic/yellow-onion.jpg"
+  },
+  {
+   "match": "pasta",
+   "file": "images/generic/pasta.jpg"
+  },
+  {
+   "match": "broth",
+   "file": "images/generic/broth.jpg"
+  },
+  {
+   "match": "deli turkey",
+   "file": "images/generic/turkey-deli.jpg"
+  },
+  {
+   "match": "ham",
+   "file": "images/generic/ham.jpg"
+  },
+  {
+   "match": "parmesan",
+   "file": "images/generic/parm.jpg"
+  },
+  {
+   "match": "tortilla chips",
+   "file": "images/generic/tstrips.jpg"
+  },
+  {
+   "match": "lemons",
+   "file": "images/generic/lemon.jpg"
+  },
+  {
+   "match": "zucchini",
+   "file": "images/generic/zucchini.jpg"
+  }
+ ]
+}
