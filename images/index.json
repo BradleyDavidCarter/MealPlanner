@@ -24,7 +24,8 @@
   "Eggs, 18 ct (breakfasts, French toast Sat, meatloaf, fried rice)": "images/generic/eggs-18ct.jpg",
   "Bacon 12 oz (Fri ranch chicken)": "images/walmart/bacon-12oz.jpg",
   "Ground beef 80/20, 5 lb chub (Sat taco bar 2 lb, Tue burgers 2 lb; rest toward meatloaf)": "images/walmart/ground-beef-8020.jpg",
-  "Ground beef 90/10, 1 lb (Mon meatloaf, with 1 lb from the chub)": "images/heb/371334.jpg"
+  "Ground beef 90/10, 1 lb (Mon meatloaf, with 1 lb from the chub)": "images/heb/371334.jpg",
+  "Salad bags, about 12 oz (Fri, Tue sides + Ashleigh's salads)": "images/walmart/13893729.jpg"
  },
  "keywords": [
   {
@@ -141,7 +142,7 @@
   },
   {
    "match": "salad bag",
-   "file": "images/walmart/34017490.jpg"
+   "file": "images/walmart/13893729.jpg"
   },
   {
    "match": "greek yogurt",
@@ -157,7 +158,7 @@
   },
   {
    "match": "cheddar or colby",
-   "file": "images/walmart/10452423.jpg"
+   "file": "images/walmart/10452511.jpg"
   },
   {
    "match": "strawberries",

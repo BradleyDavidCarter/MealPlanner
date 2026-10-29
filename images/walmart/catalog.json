@@ -410,6 +410,26 @@
    "height": 400,
    "bytes": 28151,
    "note": "added for SL8b 10/29; example photo, not exact item"
+  },
+  "13893729": {
+   "id": "13893729",
+   "name": "Marketside Classic Iceberg Salad 12 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Marketside-Classic-Iceberg-Salad-12-oz-Bag-Fresh_3600b117-2bef-446b-866c-2c39ef007d6b.7bd64af232868ac0453d191a3c1ea202.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/13893729.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 27671
+  },
+  "10452511": {
+   "id": "10452511",
+   "name": "Great Value Colby & Monterey Jack Cheese 16 oz Block",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Colby-Monterey-Jack-Cheese-16-oz-Block-Plastic-Packaging_bd7134d5-3ada-42bb-8d26-801d3b10ae2e.e2556a21cd2d378ea6d8565e58675c23.jpeg",
+   "saved": "2026-10-29",
+   "file": "images/walmart/10452511.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20069
   }
  }
 }
