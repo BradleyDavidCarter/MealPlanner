@@ -45,7 +45,7 @@
    "watermark": "EXAMPLE PHOTO"
   },
   "yellow-onion": {
-   "example_of": "Wikimedia Commons: File:Yellow onion 🧅.jpg",
+   "example_of": "Wikimedia Commons: File:Yellow onion \ud83e\uddc5.jpg",
    "source_page": "https://commons.wikimedia.org/wiki/File:Yellow_onion_%F0%9F%A7%85.jpg",
    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Yellow_onion_%F0%9F%A7%85.jpg",
    "license": "CC0 1.0 (public domain dedication)",
@@ -215,6 +215,96 @@
    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg/500px-Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "license": "Wikimedia Commons: CC BY 4.0",
    "watermark": "EXAMPLE PHOTO"
+  },
+  "bell-peppers": {
+   "example_of": "bell peppers red yellow green",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Bell_peppers_2020_G2.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Bell_peppers_2020_G2.jpg/500px-Bell_peppers_2020_G2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/bell-peppers.jpg",
+   "saved": "2026-11-02"
+  },
+  "green-onions": {
+   "example_of": "scallions bunch",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Food_Market_in_Bizerte_03.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Food_Market_in_Bizerte_03.jpg/500px-Food_Market_in_Bizerte_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/green-onions.jpg",
+   "saved": "2026-11-02"
+  },
+  "brown-sugar": {
+   "example_of": "brown sugar",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Brown_sugar_examples.JPG",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Brown_sugar_examples.JPG/500px-Brown_sugar_examples.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/brown-sugar.jpg",
+   "saved": "2026-11-02"
+  },
+  "ground-ginger": {
+   "example_of": "ground ginger spice",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Spices,_seasonings,_herbs_and_vegetables.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Spices%2C_seasonings%2C_herbs_and_vegetables.jpg/500px-Spices%2C_seasonings%2C_herbs_and_vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY 2.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/ground-ginger.jpg",
+   "saved": "2026-11-02"
+  },
+  "white-rice": {
+   "example_of": "uncooked rice",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Uncooked_ST25_rice_on_bamboo_surface.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Uncooked_ST25_rice_on_bamboo_surface.jpg/500px-Uncooked_ST25_rice_on_bamboo_surface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/white-rice.jpg",
+   "saved": "2026-11-02"
+  },
+  "gf-soy-sauce": {
+   "example_of": "soy sauce bottle",
+   "source_page": "https://commons.wikimedia.org/wiki/File:LEE_KUM_KEE_LIGHT_SOY_SAUCE_BIG_BOTTLE_CHINA_VERSION.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/LEE_KUM_KEE_LIGHT_SOY_SAUCE_BIG_BOTTLE_CHINA_VERSION.jpg/500px-LEE_KUM_KEE_LIGHT_SOY_SAUCE_BIG_BOTTLE_CHINA_VERSION.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/gf-soy-sauce.jpg",
+   "saved": "2026-11-02"
+  },
+  "cream-cheese": {
+   "example_of": "cream cheese block",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Overpackaging_in_Japan-_Philadelphia_Cream_Cheese.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Overpackaging_in_Japan-_Philadelphia_Cream_Cheese.jpg/500px-Overpackaging_in_Japan-_Philadelphia_Cream_Cheese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/cream-cheese.jpg",
+   "saved": "2026-11-02"
+  },
+  "monterey-jack": {
+   "example_of": "monterey jack cheese",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Vella_Cheese_Young_Jack_(cropped).jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Vella_Cheese_Young_Jack_%28cropped%29.jpg/500px-Vella_Cheese_Young_Jack_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 3.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/monterey-jack.jpg",
+   "saved": "2026-11-02"
+  },
+  "frozen-fries": {
+   "example_of": "french fries frozen",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Frozen_French_Fries_1.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Frozen_French_Fries_1.jpg/500px-Frozen_French_Fries_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 3.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/frozen-fries.jpg",
+   "saved": "2026-11-02"
+  },
+  "gf-buns": {
+   "example_of": "hamburger bun bread",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Bun_Bread.jpg",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Bun_Bread.jpg/500px-Bun_Bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "license": "Wikimedia Commons: CC BY-SA 4.0",
+   "watermark": "EXAMPLE PHOTO",
+   "file": "images/generic/gf-buns.jpg",
+   "saved": "2026-11-02"
   }
  },
  "beggin": {
