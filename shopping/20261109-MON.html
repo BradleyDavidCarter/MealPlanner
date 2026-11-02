@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1f3a5f">
+<title>Shopping, Mon 11/9: Walmart #4111 (cycle 4, Mon 11/9 to Wed 11/11)</title>
+<style>
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;margin:0;background:#f4f5f7;color:#222;padding-bottom:84px}
+header{background:#1f3a5f;color:#fff;padding:14px 16px}h1{font-size:1.25em;margin:0 0 6px}
+header .w{font-size:.92em;opacity:.95}header a{color:#cfe3ff}
+.tot{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.tot div{background:#ffffff22;border-radius:8px;padding:6px 10px;font-size:.95em}
+main{padding:10px;max-width:760px;margin:auto}
+.sub{margin:4px 4px 10px;color:#555;font-size:.9em;line-height:1.4}
+h2{font-size:1.05em;margin:18px 0 4px;position:sticky;top:0;background:#f4f5f7;padding:8px 4px;z-index:2;display:flex;align-items:center;gap:8px}
+h2 .ac{background:#1f3a5f;color:#fff;border-radius:6px;padding:2px 9px}h2 .hint{font-weight:400;color:#666;font-size:.85em}
+h2 .n{margin-left:auto;font-weight:400;color:#666;font-size:.8em}
+ul.aisle{list-style:none;margin:0;padding:0}
+.item{display:flex;gap:10px;background:#fff;border-radius:12px;padding:10px;margin:8px 0;box-shadow:0 1px 3px #0002;border-left:5px solid transparent;transition:opacity .15s}
+.item.done{opacity:.55;border-left-color:#2e7d32}.item.done .t{text-decoration:line-through}
+.chk{flex:0 0 30px;display:flex;align-items:flex-start;padding-top:2px}.chk input{width:26px;height:26px;margin:0;accent-color:#2e7d32}
+.pic{flex:0 0 80px;height:80px;display:flex;align-items:center;justify-content:center;background:#fafafa;border:1px dashed #d5d9e0;border-radius:8px;overflow:hidden}
+.pic img{display:none;max-width:80px;max-height:80px;width:auto;height:auto;object-fit:contain}.pic.has{border:0;background:#fff}.pic.has img{display:block}.pic.has .nopic{display:none}
+.nopic{font-size:.72em;color:#888;text-align:center;padding:4px;text-decoration:none;line-height:1.3}.nopic u{color:#1a5fb4}
+.cam{display:block;width:22px;height:16px;margin:0 auto 3px;border:2px solid #b8bec8;border-radius:4px;position:relative}
+.cam:after{content:"";position:absolute;width:6px;height:6px;border:2px solid #b8bec8;border-radius:50%;left:6px;top:3px}
+.body{flex:1;min-width:0}.t{font-weight:600;line-height:1.25}.m{font-size:.88em;color:#444;margin-top:4px}
+.qty{display:inline-block;background:#e8f1e4;color:#25591f;border-radius:6px;padding:1px 7px;font-size:.92em;font-weight:600}
+.bud{display:inline-block;border-radius:10px;padding:0 7px;font-size:.78em;border:1px solid #ccd;color:#445;background:#f3f4f8}
+.b-meal{background:#eef6ee;border-color:#b9d8b9;color:#2f5f2f}.b-staples{background:#f1effa;border-color:#cdc6ec;color:#4b3f8f}.b-flex{background:#fff1e6;border-color:#f3c9a5;color:#8a4a12}
+.ax{font-size:.8em;color:#666}
+.onl{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.est{display:inline-block;background:#fdecea;color:#a33;border:1px solid #f5b7b1;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.rb{display:inline-block;background:#fff3cd;color:#7a5b00;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.look{font-size:.86em;background:#fff8e1;border-left:3px solid #f0b400;padding:4px 7px;margin-top:6px;border-radius:4px}
+a{color:#1a5fb4}.lnk a{word-break:break-all;font-size:.95em}
+details.inote{margin-top:6px}details.inote summary{font-size:.84em;color:#1a5fb4;cursor:pointer;list-style:none;padding:4px 0}
+details.inote summary::-webkit-details-marker{display:none}details.inote summary:before{content:"+ "}
+details.inote[open] summary:before{content:"- "}
+details.inote.has summary{color:#8a4a12;font-weight:600}
+textarea{width:100%;font:inherit;font-size:16px;border:1px solid #ccd;border-radius:8px;padding:6px 8px;resize:vertical}
+.card{background:#fff;border-radius:12px;padding:12px;margin:10px 0;box-shadow:0 1px 3px #0002}
+.card h3{margin:0 0 6px;font-size:1em}.card .m{font-size:.92em}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.btn{display:inline-block;border:0;border-radius:9px;padding:10px 14px;font:inherit;font-size:.92em;font-weight:600;text-decoration:none;cursor:pointer;background:#e6e9ef;color:#223}
+.btn.pri{background:#1f3a5f;color:#fff}.btn.warn{background:#fdecea;color:#a33}
+#bar{position:fixed;left:0;right:0;bottom:0;background:#1f3a5f;color:#fff;z-index:5;box-shadow:0 -2px 8px #0003;padding:8px 12px calc(8px + env(safe-area-inset-bottom))}
+#bar .in{max-width:760px;margin:auto;display:flex;align-items:center;gap:8px}
+#bar .st{flex:1;min-width:0;line-height:1.2}#bar .cnt{display:block;font-weight:700}#bar .sum{display:block;opacity:.9;font-size:.85em}
+#bar .btn{padding:8px 10px;font-size:.82em;background:#ffffff26;color:#fff;white-space:nowrap}
+body.hidedone .item.done{display:none}body.hidedone section.alldone{display:none}
+#warn{display:none;background:#fdecea;color:#a33;padding:8px 12px;border-radius:8px;margin:8px 4px;font-size:.88em}
+#saved{font-size:.8em;color:#2e7d32;min-height:1em;margin-top:6px}
+footer{font-size:.8em;color:#666;padding:16px;max-width:760px;margin:auto}
+</style></head><body>
+<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT ("Send notes to Meal Planner") at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
+<header><h1>Shopping, Mon 11/9: Walmart #4111 (cycle 4, Mon 11/9 to Wed 11/11)</h1><div class="w">Walmart #4111, 26824 FM 1093 Rd, Richmond TX 77406. Mon 11/9.</div>
+<div class="w" style="margin-top:4px;opacity:.85;font-size:.85em">Every price is an ESTIMATE (est.) from Walmart #4111 lookups (10/1) or past receipts; each line names its source. Before tax.</div>
+<div class="tot"><div>SL total: <b>$108.32</b> (21 items)</div></div><div class="w" style="margin-top:8px;font-size:.85em"><a href="#tools">Notes and send</a></div></header>
+<main>
+<div id="warn">This browser is not letting the page save (private browsing?). Checks and notes will be lost when you close it.</div>
+<p class="sub"><span class="est">est.</span> estimated (plan price, not checked online for this store; trays ring up by weight).<br><span class="bud b-meal">meal</span> <span class="bud b-staples">staples</span> <span class="bud b-flex">flex</span> budget bucket for each line.</p><p class="sub">Tap the box when an item is in the cart. Checks and notes save on this phone and browser only. Use "Send notes to Meal Planner" at the bottom when you are done.</p><p class="sub">DRAFT: cycle 4 is pending A39 and C42 feedback; this list may change. Same link.</p><p class="sub">Covers Mon 11/9 taco rice bowls, Tue 11/10 breakfast for dinner, Wed 11/11 crockpot salsa verde chicken, plus breakfasts and lunches through Wed. Pantry (rice, spices, onions, garlic, butter, GF soy) assumed on hand.</p><p class="sub">Aisles: shown only where Walmart #4111&#x27;s own page listed the aisle for this store (10/1 lookup). Others say &#x27;Aisle not confirmed&#x27;.</p><p class="sub">No pork. GF: check labels on taco seasoning, gravy and broth for G11 and A39.</p>
+<section class="grp"><h2><span class="ac">Aisle A19</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="oats">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value old fashioned oats 42 oz (Tue GF oat pancakes; Thu meatloaf)"></label>
+<div class="pic"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Great Value old fashioned oats 42 oz (Tue GF oat pancakes; Thu meatloaf)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $4.18 each &middot; line <b>$4.18</b> &middot; est. Walmart #4111 lookup 10/1</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A28</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="shredded">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)"></label>
+<div class="pic"><img alt="Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)" data-srcs="../images/generic/cheddar.jpg|../images/walmart/10315367.jpg"><a class="nopic" href="https://www.walmart.com/ip/10315367" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $6.92 each &middot; line <b>$6.92</b> &middot; est. Walmart #4111 lookup 10/1</div>
+<div class="m lnk"><a href="https://www.walmart.com/ip/10315367" target="_blank" rel="noopener">walmart.com/ip/10315367</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A29</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w26559565">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Greek yogurt 32 oz (breakfasts, C42)"></label>
+<div class="pic has"><img alt="Great Value Greek yogurt 32 oz (breakfasts, C42)" src="../images/walmart/26559565.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/26559565.jpg"><a class="nopic" href="https://www.walmart.com/ip/26559565" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Greek yogurt 32 oz (breakfasts, C42)</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $3.28 each &middot; line <b>$6.56</b> &middot; est. Walmart #4111 lookup 10/1</div>
+<div class="m lnk"><a href="https://www.walmart.com/ip/26559565" target="_blank" rel="noopener">walmart.com/ip/26559565</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A31</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="gturkey">
+<label class="chk"><input type="checkbox" aria-label="In cart: Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)"></label>
+<div class="pic"><img alt="Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)" data-srcs="../images/generic/gturkey.jpg|../images/walmart/10292757.jpg"><a class="nopic" href="https://www.walmart.com/ip/10292757" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
+<div class="m"><span class="est">est.</span> $15.92 each &middot; line <b>$15.92</b> &middot; est. Walmart #4111 lookup 10/1</div>
+<div class="m lnk"><a href="https://www.walmart.com/ip/10292757" target="_blank" rel="noopener">walmart.com/ip/10292757</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed</span><span class="n">4 items</span></h2><ul class="aisle"><li class="item" data-id="salsaverde">
+<label class="chk"><input type="checkbox" aria-label="In cart: Salsa verde 16 oz jar (Mon bowls, Wed crockpot)"></label>
+<div class="pic"><img alt="Salsa verde 16 oz jar (Mon bowls, Wed crockpot)" data-srcs="../images/aldi/salsa.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Salsa verde 16 oz jar (Mon bowls, Wed crockpot)</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
+<div class="m"><span class="est">est.</span> $3.98 each &middot; line <b>$7.96</b> &middot; est. 10/26 H-E-B #736 receipt (Herdez), Walmart shelf may differ</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="limes">
+<label class="chk"><input type="checkbox" aria-label="In cart: Limes (Wed)"></label>
+<div class="pic has"><img alt="Limes (Wed)" src="../images/generic/limes.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/limes.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Limes (Wed)</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
+<div class="m"><span class="est">est.</span> $0.20 each &middot; line <b>$0.40</b> &middot; est. 10/26 H-E-B #736 receipt</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="avocado">
+<label class="chk"><input type="checkbox" aria-label="In cart: Avocados (Wed)"></label>
+<div class="pic"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Avocados (Wed)</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
+<div class="m"><span class="est">est.</span> $0.98 each &middot; line <b>$1.96</b> &middot; est. est. from past purchases (H-E-B mini 6 ct $3.48); Walmart each price not looked up</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="turkey">
+<label class="chk"><input type="checkbox" aria-label="In cart: Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)"></label>
+<div class="pic has"><img alt="Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)" src="../images/generic/turkey-deli.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/turkey-deli.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
+<div class="m"><span class="est">est.</span> $7.97 each &middot; line <b>$7.97</b> &middot; est. 10/24 Walmart #4111 receipt</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A1)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w34017490">
+<label class="chk"><input type="checkbox" aria-label="In cart: Salad bags, about 12 oz (Mon bowls, lunches)"></label>
+<div class="pic has"><img alt="Salad bags, about 12 oz (Mon bowls, lunches)" src="../images/walmart/34017490.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/34017490.jpg"><a class="nopic" href="https://www.walmart.com/ip/34017490" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Salad bags, about 12 oz (Mon bowls, lunches)</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A1)</span></div>
+<div class="m"><span class="est">est.</span> $2.48 each &middot; line <b>$4.96</b> &middot; est. SL8b plan price</div>
+<div class="m lnk"><a href="https://www.walmart.com/ip/34017490" target="_blank" rel="noopener">walmart.com/ip/34017490</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A10)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="taco">
+<label class="chk"><input type="checkbox" aria-label="In cart: Taco seasoning packet, check GF label (Mon)"></label>
+<div class="pic has"><img alt="Taco seasoning packet, check GF label (Mon)" src="../images/aldi/sl5-17.jpg" loading="lazy" width="80" height="80" data-srcs="../images/aldi/sl5-17.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Taco seasoning packet, check GF label (Mon)</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A10)</span></div>
+<div class="m"><span class="est">est.</span> $0.50 each &middot; line <b>$1.00</b> &middot; est. SL8b plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A13)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="bbeans">
+<label class="chk"><input type="checkbox" aria-label="In cart: Black beans 15 oz can (Mon 1, Wed 2)"></label>
+<div class="pic"><img alt="Black beans 15 oz can (Mon 1, Wed 2)" data-srcs="../images/aldi/blackbeans.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Black beans 15 oz can (Mon 1, Wed 2)</div>
+<div class="m"><span class="qty">Buy 3</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A13)</span></div>
+<div class="m"><span class="est">est.</span> $0.95 each &middot; line <b>$2.85</b> &middot; est. 10/15 Aldi receipt, Walmart shelf may differ</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A20)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="bread">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value honey wheat bread (sandwiches, toast)"></label>
+<div class="pic has"><img alt="Great Value honey wheat bread (sandwiches, toast)" src="../images/generic/bread.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/bread.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Great Value honey wheat bread (sandwiches, toast)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A20)</span></div>
+<div class="m"><span class="est">est.</span> $2.02 each &middot; line <b>$2.02</b> &middot; est. SL8b plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A21)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="crackers">
+<label class="chk"><input type="checkbox" aria-label="In cart: Ritz or Club crackers (bentos, G15 snacks)"></label>
+<div class="pic has"><img alt="Ritz or Club crackers (bentos, G15 snacks)" src="../images/generic/crackers.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/crackers.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Ritz or Club crackers (bentos, G15 snacks)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A21)</span></div>
+<div class="m"><span class="est">est.</span> $3.57 each &middot; line <b>$3.57</b> &middot; est. SL8b plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A28)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="sourcream">
+<label class="chk"><input type="checkbox" aria-label="In cart: Sour cream 16 oz (Mon, Wed)"></label>
+<div class="pic has"><img alt="Sour cream 16 oz (Mon, Wed)" src="../images/walmart/12335111.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/12335111.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Sour cream 16 oz (Mon, Wed)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A28)</span></div>
+<div class="m"><span class="est">est.</span> $1.75 each &middot; line <b>$1.75</b> &middot; est. SL8b plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A29)</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="eggs">
+<label class="chk"><input type="checkbox" aria-label="In cart: Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)"></label>
+<div class="pic has"><img alt="Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)" src="../images/generic/eggs-18ct.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/eggs-18ct.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A29)</span></div>
+<div class="m"><span class="est">est.</span> $3.49 each &middot; line <b>$6.98</b> &middot; est. SL8b plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="milk">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value 2% milk 1 gal (pancakes, breakfasts)"></label>
+<div class="pic has"><img alt="Great Value 2% milk 1 gal (pancakes, breakfasts)" src="../images/walmart/10450115.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10450115.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Great Value 2% milk 1 gal (pancakes, breakfasts)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A29)</span></div>
+<div class="m"><span class="est">est.</span> $2.68 each &middot; line <b>$2.68</b> &middot; est. SL8b plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A31)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w27935840">
+<label class="chk"><input type="checkbox" aria-label="In cart: Boneless skinless chicken tenders tray, about 2 lb (Wed salsa verde)"></label>
+<div class="pic has"><img alt="Boneless skinless chicken tenders tray, about 2 lb (Wed salsa verde)" src="../images/walmart/27935840.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/27935840.jpg"><a class="nopic" href="https://www.walmart.com/ip/27935840" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Boneless skinless chicken tenders tray, about 2 lb (Wed salsa verde)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A31)</span></div>
+<div class="m"><span class="est">est.</span> $11.92 each &middot; line <b>$11.92</b> &middot; est. SL8b plan price</div>
+<div class="m lnk"><a href="https://www.walmart.com/ip/27935840" target="_blank" rel="noopener">walmart.com/ip/27935840</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed AP3)</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="straw">
+<label class="chk"><input type="checkbox" aria-label="In cart: Strawberries 1 lb (Tue breakfast for dinner)"></label>
+<div class="pic has"><img alt="Strawberries 1 lb (Tue breakfast for dinner)" src="../images/walmart/44391605.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44391605.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Strawberries 1 lb (Tue breakfast for dinner)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed AP3)</span></div>
+<div class="m"><span class="est">est.</span> $2.97 each &middot; line <b>$2.97</b> &middot; est. SL3 plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li>
+<li class="item" data-id="grapes">
+<label class="chk"><input type="checkbox" aria-label="In cart: Grapes, about 2 lb (bentos, Wed breakfast)"></label>
+<div class="pic has"><img alt="Grapes, about 2 lb (bentos, Wed breakfast)" src="../images/walmart/44390943.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390943.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Grapes, about 2 lb (bentos, Wed breakfast)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed AP3)</span></div>
+<div class="m"><span class="est">est.</span> $3.57 each &middot; line <b>$3.57</b> &middot; est. SL8b plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed AP8)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w44390948">
+<label class="chk"><input type="checkbox" aria-label="In cart: Bananas (breakfasts, snacks, Tue dinner)"></label>
+<div class="pic has"><img alt="Bananas (breakfasts, snacks, Tue dinner)" src="../images/walmart/44390948.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390948.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Bananas (breakfasts, snacks, Tue dinner)</div>
+<div class="m"><span class="qty">Buy 10</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed AP8)</span></div>
+<div class="m"><span class="est">est.</span> $0.22 each &middot; line <b>$2.20</b> &middot; est. SL8b plan price</div>
+<div class="m lnk"><a href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener">walmart.com/ip/44390948</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed deli)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="ham">
+<label class="chk"><input type="checkbox" aria-label="In cart: Deli ham, sliced, 1 lb (Mon bentos, Wed lunches)"></label>
+<div class="pic has"><img alt="Deli ham, sliced, 1 lb (Mon bentos, Wed lunches)" src="../images/generic/ham.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/ham.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
+<div class="body"><div class="t">Deli ham, sliced, 1 lb (Mon bentos, Wed lunches)</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed deli)</span></div>
+<div class="m"><span class="est">est.</span> $9.98 each &middot; line <b>$9.98</b> &middot; est. SL7 plan price</div>
+
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section>
+<section id="tools" class="card"><h3>Shopping notes</h3>
+<div class="m">Anything for Meal Planner: swaps, out of stock, what is still at home. Item notes are under each item.</div>
+<textarea id="general" rows="4" placeholder="e.g. eggs: got 18 ct, 60 ct was out. Skipped cucumbers, 3 still at home." style="margin-top:8px"></textarea>
+<div id="saved"></div>
+<div class="btns"><a id="mail" class="btn pri" href="mailto:carterfambot@gmail.com">Send notes to Meal Planner</a>
+<button id="copy" class="btn" type="button">Copy notes</button>
+<button id="reset" class="btn warn" type="button">Reset checks</button>
+<button id="clearnotes" class="btn warn" type="button">Clear notes</button></div>
+<div class="m" style="margin-top:8px;color:#666">Send opens your email app with the notes filled in, to carterfambot@gmail.com. Nothing is sent until you press Send there. Very long lists are shortened to fit the email link; Copy notes always copies everything.</div>
+</section>
+
+</main>
+<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT ("Send notes to Meal Planner") at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
+<footer>Cycle 4 shopping, Walmart #4111. Pictures: 19 of 21 lines have a saved photo from the picture library (images/walmart/ in the repo). A photo saved there as &lt;item number&gt;.jpg shows up automatically; until then the line shows a placeholder with the item link.</footer>
+<div id="bar"><div class="in"><div class="st"><span class="cnt" id="cnt">0 of 21 in cart</span><span class="sum" id="sum">$0.00 of $108.32</span></div>
+<button id="hide" class="btn" type="button">Hide in cart</button><a class="btn" href="#tools">Notes</a></div></div>
+<script id="listdata" type="application/json">{"list_id": "SL-20261109-MON", "title": "Shopping, Mon 11/9: Walmart #4111 (cycle 4, Mon 11/9 to Wed 11/11)", "where": "Walmart #4111, 26824 FM 1093 Rd, Richmond TX 77406", "when": "Mon 11/9", "notes_email": "carterfambot@gmail.com", "email_subject": "Shopping notes SL8b Walmart Thu 10/29", "items": [{"id": "oats", "name": "Great Value old fashioned oats 42 oz (Tue GF oat pancakes; Thu meatloaf)", "qty": "Buy 1", "line": 4.18, "aisle_text": "Aisle A19"}, {"id": "shredded", "name": "Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)", "qty": "Buy 1", "line": 6.92, "aisle_text": "Aisle A28"}, {"id": "w26559565", "name": "Great Value Greek yogurt 32 oz (breakfasts, C42)", "qty": "Buy 2", "line": 6.56, "aisle_text": "Aisle A29"}, {"id": "gturkey", "name": "Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)", "qty": "Buy 1", "line": 15.92, "aisle_text": "Aisle A31"}, {"id": "salsaverde", "name": "Salsa verde 16 oz jar (Mon bowls, Wed crockpot)", "qty": "Buy 2", "line": 7.96, "aisle_text": "Aisle not confirmed"}, {"id": "limes", "name": "Limes (Wed)", "qty": "Buy 2", "line": 0.4, "aisle_text": "Aisle not confirmed"}, {"id": "avocado", "name": "Avocados (Wed)", "qty": "Buy 2", "line": 1.96, "aisle_text": "Aisle not confirmed"}, {"id": "turkey", "name": "Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)", "qty": "Buy 1", "line": 7.97, "aisle_text": "Aisle not confirmed"}, {"id": "w34017490", "name": "Salad bags, about 12 oz (Mon bowls, lunches)", "qty": "Buy 2", "line": 4.96, "aisle_text": "Aisle not confirmed (SL8b listed A1)"}, {"id": "taco", "name": "Taco seasoning packet, check GF label (Mon)", "qty": "Buy 2", "line": 1.0, "aisle_text": "Aisle not confirmed (SL8b listed A10)"}, {"id": "bbeans", "name": "Black beans 15 oz can (Mon 1, Wed 2)", "qty": "Buy 3", "line": 2.85, "aisle_text": "Aisle not confirmed (SL8b listed A13)"}, {"id": "bread", "name": "Great Value honey wheat bread (sandwiches, toast)", "qty": "Buy 1", "line": 2.02, "aisle_text": "Aisle not confirmed (SL8b listed A20)"}, {"id": "crackers", "name": "Ritz or Club crackers (bentos, G15 snacks)", "qty": "Buy 1", "line": 3.57, "aisle_text": "Aisle not confirmed (SL8b listed A21)"}, {"id": "sourcream", "name": "Sour cream 16 oz (Mon, Wed)", "qty": "Buy 1", "line": 1.75, "aisle_text": "Aisle not confirmed (SL8b listed A28)"}, {"id": "eggs", "name": "Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)", "qty": "Buy 2", "line": 6.98, "aisle_text": "Aisle not confirmed (SL8b listed A29)"}, {"id": "milk", "name": "Great Value 2% milk 1 gal (pancakes, breakfasts)", "qty": "Buy 1", "line": 2.68, "aisle_text": "Aisle not confirmed (SL8b listed A29)"}, {"id": "w27935840", "name": "Boneless skinless chicken tenders tray, about 2 lb (Wed salsa verde)", "qty": "Buy 1", "line": 11.92, "aisle_text": "Aisle not confirmed (SL8b listed A31)"}, {"id": "straw", "name": "Strawberries 1 lb (Tue breakfast for dinner)", "qty": "Buy 1", "line": 2.97, "aisle_text": "Aisle not confirmed (SL8b listed AP3)"}, {"id": "grapes", "name": "Grapes, about 2 lb (bentos, Wed breakfast)", "qty": "Buy 1", "line": 3.57, "aisle_text": "Aisle not confirmed (SL8b listed AP3)"}, {"id": "w44390948", "name": "Bananas (breakfasts, snacks, Tue dinner)", "qty": "Buy 10", "line": 2.2, "aisle_text": "Aisle not confirmed (SL8b listed AP8)"}, {"id": "ham", "name": "Deli ham, sliced, 1 lb (Mon bentos, Wed lunches)", "qty": "Buy 1", "line": 9.98, "aisle_text": "Aisle not confirmed (SL8b listed deli)"}]}</script>
+<script>
+(function(){
+'use strict';
+var DATA = JSON.parse(document.getElementById('listdata').textContent);
+var KEY = 'mealplanner:shop:' + DATA.list_id;
+var MAILTO_LIMIT = 2000;
+var mem = {checks:{}, notes:{}, general:'', hide:false};
+var canSave = true;
+function load(){
+  try { var raw = localStorage.getItem(KEY); if (raw) { var s = JSON.parse(raw);
+    mem.checks = s.checks || {}; mem.notes = s.notes || {}; mem.general = s.general || ''; mem.hide = !!s.hide; } }
+  catch(e) { canSave = false; }
+}
+var savedTimer;
+function save(){
+  mem.v = 1; mem.updated = new Date().toISOString();
+  try { localStorage.setItem(KEY, JSON.stringify(mem)); flash('Saved on this phone'); }
+  catch(e) { canSave = false; showWarn(); }
+}
+function flash(t){ var el = document.getElementById('saved'); if(!el) return; el.textContent = t;
+  clearTimeout(savedTimer); savedTimer = setTimeout(function(){ el.textContent=''; }, 1500); }
+function showWarn(){ var w = document.getElementById('warn'); if (w) w.style.display = 'block'; }
+function cents(x){ return Math.round(x*100); }
+function fmt(c){ return '$' + (c/100).toFixed(2); }
+var byId = {}; DATA.items.forEach(function(it){ byId[it.id] = it; });
+var totalC = DATA.items.reduce(function(a,it){ return a + cents(it.line); }, 0);
+
+function refresh(){
+  var n = 0, c = 0;
+  DATA.items.forEach(function(it){ if (mem.checks[it.id]) { n++; c += cents(it.line); } });
+  document.getElementById('cnt').textContent = n + ' of ' + DATA.items.length + ' in cart';
+  document.getElementById('sum').textContent = fmt(c) + ' of ' + fmt(totalC) + ' checked';
+  document.querySelectorAll('section.grp').forEach(function(sec){
+    var all = sec.querySelectorAll('.item'), d = sec.querySelectorAll('.item.done');
+    sec.classList.toggle('alldone', all.length > 0 && all.length === d.length);
+  });
+  document.body.classList.toggle('hidedone', mem.hide);
+  var hb = document.getElementById('hide'); hb.textContent = mem.hide ? 'Show all' : 'Hide in cart';
+}
+function setNoteUi(li, txt){
+  var det = li.querySelector('details.inote'), sum = det.querySelector('summary');
+  var t = (txt || '').trim();
+  det.classList.toggle('has', !!t);
+  sum.textContent = t ? 'Note: ' + (t.length > 40 ? t.slice(0,40) + '...' : t) : 'Add note';
+}
+
+function buildBody(full){
+  var nl = '\r\n', lines = [], items = DATA.items;
+  var checked = items.filter(function(it){ return mem.checks[it.id]; });
+  var open = items.filter(function(it){ return !mem.checks[it.id]; });
+  var cc = checked.reduce(function(a,it){ return a + cents(it.line); }, 0);
+  lines.push(DATA.email_subject + ' (' + DATA.when + ')');
+  lines.push('In cart: ' + checked.length + ' of ' + items.length + ', ' + fmt(cc) + ' of ' + fmt(totalC) + ' (list prices)');
+  lines.push('');
+  var g = (mem.general || '').trim();
+  lines.push('GENERAL NOTES'); lines.push(g ? g.replace(/\r?\n/g, nl) : '(none)'); lines.push('');
+  var withNotes = items.filter(function(it){ return (mem.notes[it.id] || '').trim(); });
+  lines.push('ITEM NOTES (' + withNotes.length + ')');
+  if (!withNotes.length) lines.push('(none)');
+  withNotes.forEach(function(it){ lines.push('- ' + (mem.checks[it.id] ? '[x] ' : '[ ] ') + it.name + ': ' + mem.notes[it.id].trim().replace(/\s*\r?\n\s*/g, '; ')); });
+  lines.push('');
+  lines.push('NOT IN CART (' + open.length + ')');
+  open.forEach(function(it){ lines.push('- ' + it.name + ', ' + it.qty); });
+  lines.push('');
+  lines.push('IN CART (' + checked.length + ')');
+  checked.forEach(function(it){ lines.push('- ' + it.name); });
+  lines.push('');
+  lines.push('Sent from the ' + DATA.list_id + ' shopping page.');
+  if (full) return lines.join(nl);
+  // Fit within mailto length: keep whole lines in priority order, cut gracefully.
+  var head = 'mailto:' + DATA.notes_email + '?subject=' + encodeURIComponent(DATA.email_subject) + '&body=';
+  var tail = nl + '...(cut to fit the email link; the rest is still saved on the page)';
+  var budget = MAILTO_LIMIT - head.length - encodeURIComponent(tail).length;
+  var out = '', used = 0;
+  for (var i = 0; i < lines.length; i++) {
+    var piece = (i ? nl : '') + lines[i];
+    var len = encodeURIComponent(piece).length;
+    if (used + len <= budget) { out += piece; used += len; continue; }
+    // partial line: shrink until it fits
+    var lo = 0, hi = piece.length;
+    while (lo < hi) { var mid = Math.ceil((lo+hi)/2);
+      if (used + encodeURIComponent(piece.slice(0, mid)).length <= budget) lo = mid; else hi = mid - 1; }
+    var part = piece.slice(0, lo);
+    if (/[\uD800-\uDBFF]$/.test(part)) part = part.slice(0, -1);
+    return out + part + tail;
+  }
+  return out;
+}
+function mailtoUrl(){
+  return 'mailto:' + DATA.notes_email + '?subject=' + encodeURIComponent(DATA.email_subject) + '&body=' + encodeURIComponent(buildBody(false));
+}
+
+function initPics(){
+  document.querySelectorAll('.pic img[data-srcs]').forEach(function(img){
+    var srcs = img.getAttribute('data-srcs').split('|').filter(Boolean), i = 0, pic = img.parentNode;
+    img.onload = function(){ pic.classList.add('has'); };
+    img.onerror = function(){ pic.classList.remove('has'); i++; if (i < srcs.length) img.src = srcs[i]; else img.remove(); };
+    if (img.getAttribute('src')) {  // pre-rendered from the picture catalog
+      if (img.complete) { if (img.naturalWidth > 0) pic.classList.add('has'); else img.onerror(); }
+    } else if (srcs.length) img.src = srcs[0];
+  });
+}
+
+function init(){
+  load();
+  if (!canSave) showWarn();
+  document.querySelectorAll('li.item').forEach(function(li){
+    var id = li.getAttribute('data-id'), cb = li.querySelector('input[type=checkbox]');
+    var ta = li.querySelector('details.inote textarea');
+    cb.checked = !!mem.checks[id]; li.classList.toggle('done', cb.checked);
+    cb.addEventListener('change', function(){
+      if (cb.checked) mem.checks[id] = true; else delete mem.checks[id];
+      li.classList.toggle('done', cb.checked); save(); refresh();
+    });
+    ta.value = mem.notes[id] || ''; setNoteUi(li, ta.value);
+    ta.addEventListener('input', function(){
+      if (ta.value.trim()) mem.notes[id] = ta.value; else delete mem.notes[id];
+      setNoteUi(li, ta.value); save();
+    });
+  });
+  var gen = document.getElementById('general');
+  gen.value = mem.general;
+  gen.addEventListener('input', function(){ mem.general = gen.value; save(); });
+  document.getElementById('hide').addEventListener('click', function(){ mem.hide = !mem.hide; save(); refresh(); });
+  document.getElementById('reset').addEventListener('click', function(){
+    if (!confirm('Uncheck every item? Notes are kept.')) return;
+    mem.checks = {}; document.querySelectorAll('li.item').forEach(function(li){
+      li.querySelector('input[type=checkbox]').checked = false; li.classList.remove('done'); });
+    save(); refresh();
+  });
+  document.getElementById('clearnotes').addEventListener('click', function(){
+    if (!confirm('Erase all item notes and the general notes? Checks are kept.')) return;
+    mem.notes = {}; mem.general = ''; gen.value = '';
+    document.querySelectorAll('li.item').forEach(function(li){ li.querySelector('details.inote textarea').value=''; setNoteUi(li, ''); });
+    save();
+  });
+  var mail = document.getElementById('mail');
+  mail.addEventListener('click', function(){ mail.href = mailtoUrl(); });
+  mail.href = mailtoUrl();
+  document.getElementById('copy').addEventListener('click', function(){
+    var txt = buildBody(true);
+    function fallback(){ var t = document.createElement('textarea'); t.value = txt; document.body.appendChild(t); t.select();
+      try { document.execCommand('copy'); flash('Copied'); } catch(e) { alert(txt); } t.remove(); }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(function(){ flash('Copied'); }, fallback);
+    else fallback();
+  });
+  window.addEventListener('storage', function(e){ if (e.key === KEY) location.reload(); });
+  refresh(); initPics();
+}
+window.__shop = {buildBody: buildBody, mailtoUrl: mailtoUrl, KEY: KEY};
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>
+</body></html>
