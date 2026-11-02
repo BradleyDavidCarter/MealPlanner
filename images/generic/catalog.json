@@ -305,6 +305,20 @@
    "watermark": "EXAMPLE PHOTO",
    "file": "images/generic/gf-buns.jpg",
    "saved": "2026-11-02"
+  },
+  "ap-flour": {
+   "example_of": "all-purpose flour bag",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Sack_of_King_Arthur_all_purpose_flour_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "file": "images/generic/ap-flour.jpg",
+   "saved": "2026-11-02"
+  },
+  "paper-towels": {
+   "example_of": "paper towel roll",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Roll_of_Paper_Towels.jpg",
+   "license": "CC BY-SA 4.0",
+   "file": "images/generic/paper-towels.jpg",
+   "saved": "2026-11-02"
   }
  },
  "beggin": {
