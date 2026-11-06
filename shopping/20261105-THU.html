@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#1f3a5f">
-<title>SL-20261105-THU: Shopping, Thu 11/5: Walmart #4111 (ground beef, A39 snacks, detergent, pads)</title>
+<title>SL-20261105-THU: Shopping, Thu 11/5 invite (not shopped as of Fri 11/6): Walmart #4111</title>
 <style>
 *{box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;margin:0;background:#f4f5f7;color:#222;padding-bottom:84px}
@@ -15,6 +15,10 @@ h2 .ac{background:#1f3a5f;color:#fff;border-radius:6px;padding:2px 9px}h2 .hint{
 h2 .n{margin-left:auto;font-weight:400;color:#666;font-size:.8em}
 ul.aisle{list-style:none;margin:0;padding:0}
 .item{display:flex;gap:10px;background:#fff;border-radius:12px;padding:10px;margin:8px 0;box-shadow:0 1px 3px #0002;border-left:5px solid transparent;transition:opacity .15s}
+.item.opt:not(.done){border-left-color:#90caf9}
+.item.extra:not(.done){border-left-color:#f48fb1}
+.item.cond:not(.done){border-left-color:#f0b400}
+.item.choice:not(.done){border-left-color:#7e57c2}
 .item.done{opacity:.55;border-left-color:#2e7d32}.item.done .t{text-decoration:line-through}
 .chk{flex:0 0 30px;display:flex;align-items:flex-start;padding-top:2px}.chk input{width:26px;height:26px;margin:0;accent-color:#2e7d32}
 .pic{flex:0 0 80px;height:80px;display:flex;align-items:center;justify-content:center;background:#fafafa;border:1px dashed #d5d9e0;border-radius:8px;overflow:hidden}
@@ -30,6 +34,8 @@ ul.aisle{list-style:none;margin:0;padding:0}
 .onl{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
 .est{display:inline-block;background:#fdecea;color:#a33;border:1px solid #f5b7b1;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
 .rb{display:inline-block;background:#fff3cd;color:#7a5b00;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.optag{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:6px;padding:0 6px;font-size:.78em;font-weight:600}
+.condtag{display:inline-block;background:#fff3cd;color:#7a5b00;border:1px solid #f0d080;border-radius:6px;padding:0 6px;font-size:.78em;font-weight:600}
 .look{font-size:.86em;background:#fff8e1;border-left:3px solid #f0b400;padding:4px 7px;margin-top:6px;border-radius:4px}
 a{color:#1a5fb4}.lnk a{word-break:break-all;font-size:.95em}
 details.inote{margin-top:6px}details.inote summary{font-size:.84em;color:#1a5fb4;cursor:pointer;list-style:none;padding:4px 0}
@@ -50,7 +56,6 @@ body.hidedone .item.done{display:none}body.hidedone section.alldone{display:none
 #warn{display:none;background:#fdecea;color:#a33;padding:8px 12px;border-radius:8px;margin:8px 4px;font-size:.88em}
 #saved{font-size:.8em;color:#2e7d32;min-height:1em;margin-top:6px}
 footer{font-size:.8em;color:#666;padding:16px;max-width:760px;margin:auto}
-
 .a39{display:inline-block;background:#fce4ec;color:#880e4f;border:1px solid #f48fb1;border-radius:6px;padding:0 6px;font-size:.78em;font-weight:600}
 .choices{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin-top:8px}
 .choice{background:#fafafa;border:1px solid #dde;border-radius:10px;padding:8px;text-align:center;font-size:.78em;line-height:1.3}
@@ -62,118 +67,293 @@ footer{font-size:.8em;color:#666;padding:16px;max-width:760px;margin:auto}
 .cl li{padding:6px 0;border-bottom:1px solid #eee;font-size:.92em;display:flex;gap:8px;align-items:flex-start}
 .cl li:last-child{border-bottom:0}
 .cl .ok{color:#2e7d32;font-weight:700;min-width:1.4em}.cl .pend{color:#a33;font-weight:700;min-width:1.4em}
-
 </style></head><body>
-<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT ("Send notes to Meal Planner") at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
-<header><h1>Shopping, Thu 11/5: Walmart #4111 (ground beef, A39 snacks, detergent, pads)</h1><div class="w">Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406. Thu 11/5, 11:30 AM CT.</div>
-<div class="w" style="margin-top:4px;opacity:.85;font-size:.85em">Prices and aisles marked "confirmed 11/5 walmart.com #4111" were checked live on walmart.com for store #4111 today. Bananas count and pads placeholder are ESTIMATES (est.). Before tax.</div>
-<div class="tot"><div>Meal: <b>$37.12</b></div><div>Staples: <b>$15.23</b></div><div>Flex: <b>$0.00</b></div><div>SL total: <b>$52.35</b> (10 items, incl. optional granola $2.67)</div></div><div class="w" style="margin-top:8px;font-size:.85em"><a href="#tools">Notes and send</a> · <a href="#checklist">Checklist</a></div></header>
+<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT (&quot;Send notes to Meal Planner&quot;) at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
+<header><h1>Shopping, Thu 11/5 invite (not shopped as of Fri 11/6): Walmart #4111</h1>
+<div class="w">Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406. Invite Thu 11/5, 11:30 AM CT. Still open Fri 11/6 morning: no receipt, nothing from this list purchased.</div>
+<div class="w" style="margin-top:4px;opacity:.85;font-size:.85em">Nov 5 prices and aisles were checked for store #4111 on Nov 5 and were not rechecked today. Nov 6 prices (A39 extras, salad kit, gluten-free flour, cumin, whole milk) were checked Nov 6. Bananas, grapes, and salmon are estimates. Before tax.</div>
+<div class="tot"><div>Meal firm: <b>$105.53</b></div><div>Staples firm: <b>$0.00</b></div><div>Flex: <b>$0.00</b></div><div>Firm list: <b>$105.53</b> (21 lines)</div></div>
+<div class="w" style="margin-top:8px;font-size:.85em"><a href="#tools">Notes and send</a> · <a href="#checklist">Checklist</a> · <a href="#deli">Deli check</a></div></header>
 <main>
 <div id="warn">This browser is not letting the page save (private browsing?). Checks and notes will be lost when you close it.</div>
-<p class="sub"><span class="est">est.</span> estimated (count or placeholder until confirmed).<br><span class="onl">confirmed 11/5 walmart.com #4111</span> looked up today for this store.<br><span class="bud b-meal">meal</span> <span class="bud b-staples">staples</span> <span class="bud b-flex">flex</span> budget bucket. <span class="a39">From A39</span> snack request (pears, bananas, strawberries, oranges, cheese sticks).</p>
-<p class="sub">Tap the box when an item is in the cart. Checks and notes save on this phone and browser only. Use "Send notes to Meal Planner" at the bottom when you are done.</p>
-<p class="sub">Store walk: Produce (AP3 → AP5 → AP8), grocery A13 → A18 → A28 → A31, Health G10 (pads), then household cleaning near J15 (detergent aisle not confirmed — grouped with dish soap).</p>
-<p class="sub">Sat 11/7 burgers need the ground chuck (fridge). Thu dinner (honey-garlic chicken) uses the chicken breasts already bought; move one pack to the fridge tonight if not already. GF: green-label Kikkoman GF soy for G11 and A39. No green chiles. No grilled cheese.</p>
-<p class="sub">Detergent: Seventh Generation dishwasher packs listed; if Carter meant hand dish soap, swap to the Free &amp; Clear liquid 19 oz ($3.53, J15) shown under that line. Pads: A39 picks at the store (choice tiles under G10).</p>
-<section class="grp"><h2><span class="ac">AP3 Produce</span><span class="hint">strawberries</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="straw">
+<p class="sub">Firm list <b>$105.53</b> = must-buy <b>$88.82</b> + optional granola <b>$2.67</b> + A39 proposed extras <b>$14.04</b>. Greek yogurt $2.78 is inside the must-buy number as the default top-up; skip it if 2 or more full tubs remain. Fridge conditionals are outside the firm list: up to <b>$19.68</b> if every threshold fails (meals $17.00 + whole-milk staples $2.68). Pads $5.38–$14.47 and dishwasher packs $7.99 or hand dish soap $3.53 are at-store choices and are also outside the firm list.</p>
+<p class="sub"><span class="est">est.</span> estimated weight or count. <span class="onl">confirmed 11/5</span> or <span class="onl">confirmed 11/6</span> is the day that price was looked up for this store. <span class="bud b-meal">meal</span> <span class="bud b-staples">staples</span> budget bucket. <span class="a39">From A39</span> snack or extra. <span class="condtag">check fridge</span> unknown stock is not zero. <span class="optag">optional</span> granola stays in the firm total until you skip it.</p>
+<p class="sub">Coverage: remaining breakfasts, lunches, dinners, and snacks through Sun 11/8 dinner, plus Mon 11/9 breakfast and the packed school lunch before the next shop around 11:30 AM. Mon 11/9 dinner stays on the Monday list. A date that already passed does not mean that meal was cooked. Thursday dinner and Friday chili still use the chicken packs bought earlier; they are not new lines here. All cycle 4 days stay as approved.</p>
+<p class="sub">Store walk: produce AP2, AP3, AP5, AP8, then A1 produce, then grocery by aisle number, dairy, meat, freezer AC3, pharmacy G10, then household cleaning grouped near J15. Deli ham and turkey are a weight check with no aisle and no price. Dishwasher-pack aisle is NOT CONFIRMED.</p>
+<p class="sub">Imperial spread already at home is the fat for Sunday's lemon sauce. Paper towels stay off the list. Gluten-free pancake mix stays off the list. Green chiles stay off. Grilled cheese stays off. No green-chile chili and no grilled cheese.</p>
+<p class="sub">Tap the box when an item is in the cart. Checks and notes save on this phone and browser only.</p>
+<section id="deli" class="card"><h3>Deli ham and turkey — check weights (not a buy line)</h3>
+<p class="m">Boar's Head ham and turkey were bought earlier. The package weights are unknown. Unknown is not zero, and there is no SKU and no aisle to guess. Buy more deli only if what is in the fridge will not cover Friday lunch, Saturday roll-ups, Sunday lunch, and the Monday packed lunch. Tell Meal Planner the weights in the notes.</p>
+</section>
+<section class="grp" data-aisle="AP2"><h2><span class="ac">AP2 Produce</span><span class="hint">lemons</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="lemons" data-kind="firm" data-in-total="1" data-line="1.00" data-aisle="AP2" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Fresh Bulk Yellow Lemons"></label>
+<div class="pic has"><img alt="Fresh Bulk Yellow Lemons" src="../images/walmart/41752773.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/41752773.jpg"><a class="nopic" href="https://www.walmart.com/ip/Fresh-Bulk-Yellow-Lemons/41752773" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Fresh Bulk Yellow Lemons</div>
+<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP2 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> 2 for $1.00 &middot; line <b>$1.00</b> &middot; Nov 5 lookup for #4111. walmart.com #4111 41752773</div>
+<div class="look">Buy 2. Sunday lemon sauce uses Imperial spread already at home.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Fresh-Bulk-Yellow-Lemons/41752773" target="_blank" rel="noopener">walmart.com/ip/41752773</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="AP3"><h2><span class="ac">AP3 Produce</span><span class="hint">grapes, strawberries</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="grapes" data-kind="firm" data-in-total="1" data-line="4.43" data-aisle="AP3" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Green Seedless Grapes From California (~2.25 lb bag est.)"></label>
+<div class="pic has"><img alt="Green Seedless Grapes From California (~2.25 lb bag est.)" src="../images/walmart/44390943.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390943.jpg"><a class="nopic" href="https://www.walmart.com/ip/Green-Seedless-Grapes-From-California-Bag-2-25-lbs-Bag-Est/44390943" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Green Seedless Grapes From California (~2.25 lb bag est.)</div>
+<div class="m"><span class="qty">Buy 1 bag</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP3 (confirmed 11/5)</span></div>
+<div class="m"><span class="est">est.</span> $1.97/lb, about a 2.25 lb bag &middot; line <b>$4.43</b> &middot; Nov 5 price per pound. The register charges the actual bag weight. walmart.com #4111 44390943</div>
+<div class="look">Line estimate $4.43. This is not a fixed-weight guarantee.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Green-Seedless-Grapes-From-California-Bag-2-25-lbs-Bag-Est/44390943" target="_blank" rel="noopener">walmart.com/ip/44390943</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item" data-id="straw" data-kind="firm" data-in-total="1" data-line="2.37" data-aisle="AP3" data-env="meals">
 <label class="chk"><input type="checkbox" aria-label="In cart: Fresh Strawberries 1 lb"></label>
 <div class="pic has"><img alt="Fresh Strawberries 1 lb" src="../images/walmart/44391605.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44391605.jpg"><a class="nopic" href="https://www.walmart.com/ip/44391605" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
 <div class="body"><div class="t">Fresh Strawberries 1 lb</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="a39">From A39</span> <span class="ax">Aisle AP3 (confirmed 11/5)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.37 each &middot; line <b>$2.37</b> &middot; walmart.com #4111 44391605</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/44391605" target="_blank" rel="noopener">walmart.com/ip/44391605</a></div>
+<div class="m"><span class="qty">Buy 1</span> <span class="a39">From A39</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP3 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.37 each &middot; line <b>$2.37</b> &middot; Nov 5 lookup for #4111. walmart.com #4111 44391605</div>
+<div class="look">A39 snack. 1 lb clamshell.</div><div class="m lnk"><a href="https://www.walmart.com/ip/44391605" target="_blank" rel="noopener">walmart.com/ip/44391605</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">AP5 Produce</span><span class="hint">pears + oranges</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="pears">
-<label class="chk"><input type="checkbox" aria-label="In cart: Fresh Bartlett Pears 3 lb bag"></label>
-<div class="pic has"><img alt="Fresh Bartlett Pears 3 lb bag" src="../images/walmart/929297252.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/929297252.jpg"><a class="nopic" href="https://www.walmart.com/ip/929297252" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Fresh Bartlett Pears 3 lb bag</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="a39">From A39</span> <span class="ax">Aisle AP5 (confirmed 11/5)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $5.33 each &middot; line <b>$5.33</b> &middot; walmart.com #4111 929297252</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/929297252" target="_blank" rel="noopener">walmart.com/ip/929297252</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li><li class="item" data-id="oranges">
+</div></li></ul></section><section class="grp" data-aisle="AP5"><h2><span class="ac">AP5 Produce</span><span class="hint">oranges, pears</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="oranges" data-kind="firm" data-in-total="1" data-line="1.76" data-aisle="AP5" data-env="meals">
 <label class="chk"><input type="checkbox" aria-label="In cart: Navel oranges, 2"></label>
 <div class="pic has"><img alt="Navel oranges, 2" src="../images/walmart/162577028.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/162577028.jpg"><a class="nopic" href="https://www.walmart.com/ip/162577028" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
 <div class="body"><div class="t">Navel oranges, 2</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="a39">From A39</span> <span class="ax">Aisle AP5 (confirmed 11/5)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $0.88 each &middot; line <b>$1.76</b> &middot; walmart.com #4111 162577028 ($0.88 each)</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/162577028" target="_blank" rel="noopener">walmart.com/ip/162577028</a></div>
+<div class="m"><span class="qty">Buy 2</span> <span class="a39">From A39</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP5 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $0.88 each &middot; line <b>$1.76</b> &middot; Nov 5 lookup for #4111. Two navels. walmart.com #4111 162577028</div>
+<div class="look">A39 snack.</div><div class="m lnk"><a href="https://www.walmart.com/ip/162577028" target="_blank" rel="noopener">walmart.com/ip/162577028</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">AP8 Produce</span><span class="hint">bananas</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="bananas">
-<label class="chk"><input type="checkbox" aria-label="In cart: Bananas, about 6"></label>
-<div class="pic has"><img alt="Bananas, about 6" src="../images/walmart/44390948.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390948.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Bananas, about 6</div>
-<div class="m"><span class="qty">Buy ~6 (count est.)</span> <span class="bud b-meal">meal</span> <span class="a39">From A39</span> <span class="ax">Aisle AP8 (confirmed 11/5)</span></div>
-<div class="m"><span class="est">est.</span> $0.19 each &middot; line <b>$1.14</b> &middot; walmart.com #4111 44390948 ($0.19 each); count is est.</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener">walmart.com/ip/44390948</a></div>
+</div></li><li class="item" data-id="pears" data-kind="firm" data-in-total="1" data-line="5.33" data-aisle="AP5" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Fresh Bartlett Pears 3 lb bag"></label>
+<div class="pic has"><img alt="Fresh Bartlett Pears 3 lb bag" src="../images/walmart/929297252.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/929297252.jpg"><a class="nopic" href="https://www.walmart.com/ip/929297252" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Fresh Bartlett Pears 3 lb bag</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="a39">From A39</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP5 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $5.33 each &middot; line <b>$5.33</b> &middot; Nov 5 lookup for #4111. walmart.com #4111 929297252</div>
+<div class="look">A39 snack and breakfasts. 3 lb bag.</div><div class="m lnk"><a href="https://www.walmart.com/ip/929297252" target="_blank" rel="noopener">walmart.com/ip/929297252</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A13</span><span class="hint">soy sauce</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="soy">
-<label class="chk"><input type="checkbox" aria-label="In cart: Kikkoman Gluten-Free Soy Sauce 10 oz (green-label GF bottle)"></label>
-<div class="pic has"><img alt="Kikkoman Gluten-Free Soy Sauce 10 oz (green-label GF bottle)" src="../images/walmart/34276996.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/34276996.jpg"><a class="nopic" href="https://www.walmart.com/ip/34276996" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Kikkoman Gluten-Free Soy Sauce 10 oz (green-label GF bottle)</div>
+</div></li></ul></section><section class="grp" data-aisle="AP8"><h2><span class="ac">AP8 Produce</span><span class="hint">bananas</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="bananas" data-kind="firm" data-in-total="1" data-line="2.28" data-aisle="AP8" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Bananas, about 12"></label>
+<div class="pic has"><img alt="Bananas, about 12" src="../images/walmart/44390948.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390948.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Bananas, about 12</div>
+<div class="m"><span class="qty">Buy ~12 (count est.)</span> <span class="a39">From A39</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP8 (confirmed 11/5)</span></div>
+<div class="m"><span class="est">est.</span> $0.19 each × about 12 &middot; line <b>$2.28</b> &middot; Nov 5 each price. Count is an estimate. walmart.com #4111 44390948</div>
+<div class="look">About 12 comes to $2.28 at $0.19 each. The count is an estimate. The bunch is sold by weight, so this is not a fixed-weight guarantee.</div><div class="m lnk"><a href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener">walmart.com/ip/44390948</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A1"><h2><span class="ac">A1 Produce</span><span class="hint">green beans, salad kit</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="greenbeans" data-kind="firm" data-in-total="1" data-line="5.37" data-aisle="A1" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Marketside Fresh Green Beans, 32 oz"></label>
+<div class="pic has"><img alt="Marketside Fresh Green Beans, 32 oz" src="../images/walmart/16401583.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/16401583.jpg"><a class="nopic" href="https://www.walmart.com/ip/Marketside-Fresh-Green-Beans-32-oz/16401583" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Marketside Fresh Green Beans, 32 oz</div>
+<div class="m"><span class="qty">Buy 1 bag (32 oz)</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A1 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $5.37 each &middot; line <b>$5.37</b> &middot; Nov 5 lookup for #4111. walmart.com #4111 16401583</div>
+<div class="look">Sunday dinner needs about 1.5 lb. One 32 oz bag.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Marketside-Fresh-Green-Beans-32-oz/16401583" target="_blank" rel="noopener">walmart.com/ip/16401583</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item cond" data-id="salad" data-kind="conditional" data-in-total="0" data-line="5.54" data-aisle="A1" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Marketside Classic Italian Salad Kit, 9 oz (Fresh)"></label>
+<div class="pic has"><img alt="Marketside Classic Italian Salad Kit, 9 oz (Fresh)" src="../images/walmart/6721401602.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/6721401602.jpg"><a class="nopic" href="https://www.walmart.com/ip/Marketside-Classic-Italian-Salad-Kit-7-oz-Fresh/6721401602" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Marketside Classic Italian Salad Kit, 9 oz (Fresh)</div>
+<div class="m"><span class="qty">COND: Buy 2 kits only if 0 kits left (covers Fri+Sat dinner sides; 9 oz kit replaces OOS 24 oz)</span> <span class="condtag">check fridge</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A1 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $2.77 each × 2 kits &middot; line <b>$5.54</b> · not in the firm total &middot; Nov 6 lookup for #4111. Outside the firm total. walmart.com #4111 6721401602</div>
+<div class="look">Buy 2 kits only if zero kits are left for Friday dinner and Saturday dinner. One 9 oz kit covers one of those nights, so both nights need two kits ($5.54). The bag prints 9 oz net (salad and toppings plus dressing). The 24 oz iceberg bag is out of stock here. Unknown stock is not zero: open the fridge first.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Marketside-Classic-Italian-Salad-Kit-7-oz-Fresh/6721401602" target="_blank" rel="noopener">walmart.com/ip/6721401602</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A13"><h2><span class="ac">A13 Grocery</span><span class="hint">GF flour check, GF soy</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item cond" data-id="gf_flour" data-kind="conditional" data-in-total="0" data-line="4.08" data-aisle="A13" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Gluten Free All-Purpose Flour, 22 oz"></label>
+<div class="pic has"><img alt="Great Value Gluten Free All-Purpose Flour, 22 oz" src="../images/walmart/413125322.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/413125322.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Gluten-Free-All-Purpose-Flour-22-oz/413125322" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Gluten Free All-Purpose Flour, 22 oz</div>
+<div class="m"><span class="qty">COND: Buy 1 only if &lt;8 oz GF flour remain</span> <span class="condtag">check fridge</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A13 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $4.08 each &middot; line <b>$4.08</b> · not in the firm total &middot; Nov 6 lookup for #4111. Outside the firm total. Gluten-free all-purpose, 22 oz. walmart.com #4111 413125322</div>
+<div class="look">Buy 1 only if less than 8 oz of gluten-free flour remain. Saturday pancakes use gluten-free flour already at home. Leave gluten-free pancake mix on the shelf.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Gluten-Free-All-Purpose-Flour-22-oz/413125322" target="_blank" rel="noopener">walmart.com/ip/413125322</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item" data-id="soy" data-kind="firm" data-in-total="1" data-line="4.08" data-aisle="A13" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Kikkoman Gluten-Free Soy Sauce 10 oz (green-label)"></label>
+<div class="pic has"><img alt="Kikkoman Gluten-Free Soy Sauce 10 oz (green-label)" src="../images/walmart/34276996.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/34276996.jpg"><a class="nopic" href="https://www.walmart.com/ip/34276996" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Kikkoman Gluten-Free Soy Sauce 10 oz (green-label)</div>
 <div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A13 (confirmed 11/5)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $4.08 each &middot; line <b>$4.08</b> &middot; walmart.com #4111 34276996. Get the green-label GF bottle, NOT Great Value (not labeled GF).</div>
-<div class="look">GF for G11 and A39. Do not buy Great Value soy.</div><div class="m lnk"><a href="https://www.walmart.com/ip/34276996" target="_blank" rel="noopener">walmart.com/ip/34276996</a></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $4.08 each &middot; line <b>$4.08</b> &middot; Nov 5 lookup for #4111. Green-label gluten-free Kikkoman, 10 oz. walmart.com #4111 34276996</div>
+<div class="look">Match the photo: Kikkoman gluten-free 10 oz. Great Value soy is the wrong bottle.</div><div class="m lnk"><a href="https://www.walmart.com/ip/34276996" target="_blank" rel="noopener">walmart.com/ip/34276996</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A18</span><span class="hint">granola (optional)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="granola">
+</div></li></ul></section><section class="grp" data-aisle="A15"><h2><span class="ac">A15 Grocery</span><span class="hint">refried beans</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item extra" data-id="a39_refried" data-kind="a39" data-in-total="1" data-line="1.00" data-aisle="A15" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Traditional Refried Beans, 16 oz"></label>
+<div class="pic has"><img alt="Great Value Traditional Refried Beans, 16 oz" src="../images/walmart/10534037.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10534037.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Traditional-Refried-Beans-16-oz/10534037" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Traditional Refried Beans, 16 oz</div>
+<div class="m"><span class="qty">Buy 1 can (proposed)</span> <span class="a39">A39 extra · proposed size</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A15 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $1.00 each &middot; line <b>$1.00</b> &middot; Nov 6 lookup for #4111. Proposed 16 oz can. No saved brand preference. walmart.com #4111 10534037</div>
+<div class="look">A39 extra. Basic size chosen for this trip, not a saved preference.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Traditional-Refried-Beans-16-oz/10534037" target="_blank" rel="noopener">walmart.com/ip/10534037</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A16"><h2><span class="ac">A16 Spices</span><span class="hint">cumin check</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="cumin" data-kind="conditional" data-in-total="0" data-line="1.37" data-aisle="A16" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Ground Cumin, 2.5 oz"></label>
+<div class="pic has"><img alt="Great Value Ground Cumin, 2.5 oz" src="../images/walmart/985501095.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/985501095.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Ground-Cumin-2-5-oz/985501095" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Ground Cumin, 2.5 oz</div>
+<div class="m"><span class="qty">COND: Buy 1 only if cumin jar empty</span> <span class="condtag">check fridge</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A16 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $1.37 each &middot; line <b>$1.37</b> · not in the firm total &middot; Nov 6 lookup for #4111. Outside the firm total. walmart.com #4111 985501095</div>
+<div class="look">Buy 1 only if the cumin jar is empty. Friday chili uses about 2 tsp. Unknown stock is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Ground-Cumin-2-5-oz/985501095" target="_blank" rel="noopener">walmart.com/ip/985501095</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A18"><h2><span class="ac">A18 Grocery</span><span class="hint">granola, optional</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item opt" data-id="granola" data-kind="optional" data-in-total="1" data-line="2.67" data-aisle="A18" data-env="meals">
 <label class="chk"><input type="checkbox" aria-label="In cart: OPTIONAL, IF NEEDED: Great Value Oats &amp; Honey Granola 11 oz"></label>
 <div class="pic has"><img alt="OPTIONAL, IF NEEDED: Great Value Oats &amp; Honey Granola 11 oz" src="../images/walmart/202344615.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/202344615.jpg"><a class="nopic" href="https://www.walmart.com/ip/202344615" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
 <div class="body"><div class="t">OPTIONAL, IF NEEDED: Great Value Oats &amp; Honey Granola 11 oz</div>
-<div class="m"><span class="qty">Optional, if needed</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A18 (confirmed 11/5)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.67 each &middot; line <b>$2.67</b> &middot; walmart.com #4111 202344615. Only if needed (enough on hand until next week).</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/202344615" target="_blank" rel="noopener">walmart.com/ip/202344615</a></div>
+<div class="m"><span class="qty">OPTIONAL, if needed</span> <span class="optag">optional</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A18 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.67 each &middot; line <b>$2.67</b> &middot; Nov 5 lookup for #4111. Included in the firm total. walmart.com #4111 202344615</div>
+<div class="look">Optional. A prior note said the jar is enough until next week. The $2.67 stays in the firm total so the line is on the walk. Skip it if the jar is enough and the firm total is $2.67 lower.</div><div class="m lnk"><a href="https://www.walmart.com/ip/202344615" target="_blank" rel="noopener">walmart.com/ip/202344615</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A28</span><span class="hint">cheese sticks</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="cheese">
-<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Mozzarella String Cheese, 24 ct (24 oz)"></label>
-<div class="pic has"><img alt="Great Value Mozzarella String Cheese, 24 ct (24 oz)" src="../images/walmart/357809532.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/357809532.jpg"><a class="nopic" href="https://www.walmart.com/ip/357809532" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Great Value Mozzarella String Cheese, 24 ct (24 oz)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="a39">From A39</span> <span class="ax">Aisle A28 (confirmed 11/5)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $6.34 each &middot; line <b>$6.34</b> &middot; walmart.com #4111 357809532</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/357809532" target="_blank" rel="noopener">walmart.com/ip/357809532</a></div>
+</div></li></ul></section><section class="grp" data-aisle="A20"><h2><span class="ac">A20 Bakery</span><span class="hint">bread and buns, check fridge</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item cond" data-id="bread" data-kind="conditional" data-in-total="0" data-line="2.02" data-aisle="A20" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Honey Wheat Bread, 20 oz"></label>
+<div class="pic has"><img alt="Great Value Honey Wheat Bread, 20 oz" src="../images/walmart/44391070.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44391070.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Honey-Wheat-Bread-20-oz/44391070" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Honey Wheat Bread, 20 oz</div>
+<div class="m"><span class="qty">COND: Buy 1 only if &lt;1 full loaf remains</span> <span class="condtag">check fridge</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A20 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.02 each &middot; line <b>$2.02</b> · not in the firm total &middot; Nov 5 lookup for #4111. Outside the firm total. walmart.com #4111 44391070</div>
+<div class="look">Buy 1 loaf only if fewer than 1 full loaf remains. Unknown stock is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Honey-Wheat-Bread-20-oz/44391070" target="_blank" rel="noopener">walmart.com/ip/44391070</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A31</span><span class="hint">ground beef</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="beef">
-<label class="chk"><input type="checkbox" aria-label="In cart: 80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb tray (Sat 11/7 burgers)"></label>
-<div class="pic has"><img alt="80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb tray (Sat 11/7 burgers)" src="../images/walmart/959024059.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/959024059.jpg"><a class="nopic" href="https://www.walmart.com/ip/959024059" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb tray (Sat 11/7 burgers)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A31 (confirmed 11/5)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> <span class="rb">Rollback</span> $13.43 each &middot; line <b>$13.43</b> &middot; walmart.com #4111 959024059 Rollback. Carter's plan was ~2.5 lb; a 3 lb roll is $16.43 (15136794) if you want more.</div>
-<div class="look">For Saturday burgers. Fridge, no freezing needed.</div><div class="m lnk"><a href="https://www.walmart.com/ip/959024059" target="_blank" rel="noopener">walmart.com/ip/959024059</a></div>
+</div></li><li class="item cond" data-id="buns" data-kind="conditional" data-in-total="0" data-line="1.52" data-aisle="A20" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Hamburger Buns, 8 Count"></label>
+<div class="pic has"><img alt="Great Value Hamburger Buns, 8 Count" src="../images/walmart/10450104.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10450104.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Hamburger-Buns-8-Count-11-oz/10450104" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Hamburger Buns, 8 Count</div>
+<div class="m"><span class="qty">COND: Buy 1 only if &lt;8 buns remain for Sat</span> <span class="condtag">check fridge</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A20 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $1.52 each &middot; line <b>$1.52</b> · not in the firm total &middot; Nov 5 lookup for #4111. Outside the firm total. walmart.com #4111 10450104</div>
+<div class="look">Buy 1 pack only if fewer than 8 buns remain for Saturday. Gluten-free burgers are lettuce wraps. There is no gluten-free bun on this list. Unknown stock is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Hamburger-Buns-8-Count-11-oz/10450104" target="_blank" rel="noopener">walmart.com/ip/10450104</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle G10</span><span class="hint">feminine pads (A39 choice)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="pads">
-<label class="chk"><input type="checkbox" aria-label="In cart: Feminine pads, A39&#x27;s choice (she uses a specific kind — pick one below)"></label>
-<div class="pic has"><img alt="Feminine pads, A39&#x27;s choice (she uses a specific kind — pick one below)" src="../images/walmart/2304198.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/2304198.jpg"><a class="nopic" href="https://www.walmart.com/ip/2304198" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Feminine pads, A39&#x27;s choice (she uses a specific kind — pick one below)</div>
-<div class="m"><span class="qty">Buy 1 (A39 picks)</span> <span class="bud b-staples">staples</span> <span class="ax">Aisle G10 (confirmed 11/5)</span></div>
-<div class="m"><span class="est">est.</span> $7.24 each &middot; line <b>$7.24</b> &middot; placeholder est. $7.24 (Always Ultra Thin Size 2 Long Super 40 ct). A39 uses a specific kind; choice tiles below. Ask her or text if unsure.</div>
-<div class="look">A39's choice. Total uses $7.24 est. until she picks.</div><div class="choices"><div class="choice"><img src="../images/walmart/2304198.jpg" alt="Always Ultra Thin, no wings, Size 2 Long Super, 40 ct" width="72" height="72" loading="lazy"><div class="cn">Always Ultra Thin, no wings, Size 2 Long Super, 40 ct</div><div class="cp">$7.24</div><a href="https://www.walmart.com/ip/2304198" target="_blank" rel="noopener">walmart.com/ip/2304198</a></div><div class="choice"><img src="../images/walmart/17909353050.jpg" alt="Always Ultra Thin, wings, Size 5 Overnight, 60 ct" width="72" height="72" loading="lazy"><div class="cn">Always Ultra Thin, wings, Size 5 Overnight, 60 ct</div><div class="cp">$14.47</div><a href="https://www.walmart.com/ip/17909353050" target="_blank" rel="noopener">walmart.com/ip/17909353050</a></div><div class="choice"><img src="../images/walmart/43826376.jpg" alt="Always Maxi, wings, Size 5, 36 ct" width="72" height="72" loading="lazy"><div class="cn">Always Maxi, wings, Size 5, 36 ct</div><div class="cp">$10.97</div><a href="https://www.walmart.com/ip/43826376" target="_blank" rel="noopener">walmart.com/ip/43826376</a></div><div class="choice"><img src="../images/walmart/329282492.jpg" alt="Equate Maxi, wings, Long Super, 42 ct" width="72" height="72" loading="lazy"><div class="cn">Equate Maxi, wings, Long Super, 42 ct</div><div class="cp">$5.38</div><a href="https://www.walmart.com/ip/329282492" target="_blank" rel="noopener">walmart.com/ip/329282492</a></div></div><div class="m lnk"><a href="https://www.walmart.com/ip/2304198" target="_blank" rel="noopener">walmart.com/ip/2304198</a></div>
+</div></li></ul></section><section class="grp" data-aisle="A21"><h2><span class="ac">A21 Grocery</span><span class="hint">Goldfish</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="goldfish" data-kind="firm" data-in-total="1" data-line="2.37" data-aisle="A21" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Goldfish Cheddar Crackers, 6.6 oz"></label>
+<div class="pic has"><img alt="Goldfish Cheddar Crackers, 6.6 oz" src="../images/walmart/10294707.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10294707.jpg"><a class="nopic" href="https://www.walmart.com/ip/Goldfish-Cheddar-Cheese-Crackers-Baked-Snack-Crackers-6-6-oz-Bag/10294707" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Goldfish Cheddar Crackers, 6.6 oz</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A21 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.37 each &middot; line <b>$2.37</b> &middot; Nov 5 lookup for #4111. walmart.com #4111 10294707</div>
+<div class="look">Kids&#x27; school lunches. Cheddar, 6.6 oz.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Goldfish-Cheddar-Cheese-Crackers-Baked-Snack-Crackers-6-6-oz-Bag/10294707" target="_blank" rel="noopener">walmart.com/ip/10294707</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Household cleaning (near J15)</span><span class="hint">detergent — aisle not confirmed</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="detergent">
-<label class="chk"><input type="checkbox" aria-label="In cart: Seventh Generation Dishwasher Detergent Packs, Free &amp; Clear, 20 ct"></label>
-<div class="pic has"><img alt="Seventh Generation Dishwasher Detergent Packs, Free &amp; Clear, 20 ct" src="../images/walmart/1303579342.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/1303579342.jpg"><a class="nopic" href="https://www.walmart.com/ip/1303579342" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Seventh Generation Dishwasher Detergent Packs, Free &amp; Clear, 20 ct</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-staples">staples</span> <span class="ax">Aisle not confirmed (group with dish soap near J15)</span></div>
-<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $7.99 each &middot; line <b>$7.99</b> &middot; walmart.com #4111 1303579342. Aisle not confirmed; grouped in household cleaning next to dish soap (J15).</div>
-<div class="look">Pending Carter: packs or liquid? Alternative: Seventh Generation Free &amp; Clear Dish Soap 19 oz, $3.53, J15, <a href="https://www.walmart.com/ip/131508635" target="_blank" rel="noopener">walmart.com/ip/131508635</a>. Photo of the liquid is saved next to this line.</div><div class="m lnk"><a href="https://www.walmart.com/ip/1303579342" target="_blank" rel="noopener">walmart.com/ip/1303579342</a><div class="m" style="margin-top:6px;display:flex;gap:10px;align-items:center"><img src="../images/walmart/131508635.jpg" alt="Seventh Generation Free &amp; Clear Dish Soap 19 oz" width="56" height="56" style="object-fit:contain;border-radius:6px;background:#fff;border:1px solid #dde" loading="lazy"><span class="ax">Alt photo: liquid dish soap 19 oz, $3.53, aisle J15 (confirmed).</span></div>
+</div></li></ul></section><section class="grp" data-aisle="A28"><h2><span class="ac">A28 Dairy</span><span class="hint">string cheese, eggs check</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="cheese" data-kind="firm" data-in-total="1" data-line="6.34" data-aisle="A28" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Mozzarella String Cheese, 24 ct"></label>
+<div class="pic has"><img alt="Great Value Mozzarella String Cheese, 24 ct" src="../images/walmart/357809532.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/357809532.jpg"><a class="nopic" href="https://www.walmart.com/ip/357809532" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Mozzarella String Cheese, 24 ct</div>
+<div class="m"><span class="qty">Buy 1</span> <span class="a39">From A39</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A28 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $6.34 each &middot; line <b>$6.34</b> &middot; Nov 5 lookup for #4111. walmart.com #4111 357809532</div>
+<div class="look">A39 string cheese, 24 ct.</div><div class="m lnk"><a href="https://www.walmart.com/ip/357809532" target="_blank" rel="noopener">walmart.com/ip/357809532</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item cond" data-id="eggs" data-kind="conditional" data-in-total="0" data-line="2.47" data-aisle="A28" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Large White Eggs 18 Count"></label>
+<div class="pic has"><img alt="Great Value Large White Eggs 18 Count" src="../images/walmart/172844767.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/172844767.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Large-White-Eggs-18-Count/172844767" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Large White Eggs 18 Count</div>
+<div class="m"><span class="qty">COND: Buy 1 only if &lt;18 eggs remain</span> <span class="condtag">check fridge</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A28 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.47 each &middot; line <b>$2.47</b> · not in the firm total &middot; Nov 5 lookup for #4111. Outside the firm total. walmart.com #4111 172844767</div>
+<div class="look">Buy the 18-count only if fewer than 18 eggs remain. Friday through Sunday need about 16. Unknown stock is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Large-White-Eggs-18-Count/172844767" target="_blank" rel="noopener">walmart.com/ip/172844767</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A29"><h2><span class="ac">A29 Dairy</span><span class="hint">A39 dairy, yogurt, milk check</span><span class="n">6 items</span></h2><ul class="aisle"><li class="item extra" data-id="a39_half_half" data-kind="a39" data-in-total="1" data-line="1.78" data-aisle="A29" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Half &amp; Half, 16 fl oz"></label>
+<div class="pic has"><img alt="Great Value Half &amp; Half, 16 fl oz" src="../images/walmart/10450337.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10450337.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Half-Half-16-fl-oz/10450337" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Half &amp; Half, 16 fl oz</div>
+<div class="m"><span class="qty">Buy 1 (proposed)</span> <span class="a39">A39 extra · proposed size</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A29 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $1.78 each &middot; line <b>$1.78</b> &middot; Nov 6 lookup for #4111. Proposed 16 fl oz. No saved brand preference. walmart.com #4111 10450337</div>
+<div class="look">A39 extra. Basic size chosen for this trip, not a saved preference.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Half-Half-16-fl-oz/10450337" target="_blank" rel="noopener">walmart.com/ip/10450337</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item extra" data-id="a39_whipping_cream" data-kind="a39" data-in-total="1" data-line="2.96" data-aisle="A29" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Heavy Whipping Cream, 16 oz"></label>
+<div class="pic has"><img alt="Great Value Heavy Whipping Cream, 16 oz" src="../images/walmart/10450339.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10450339.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Heavy-Whipping-Cream-16-oz-Carton-Refrigerated/10450339" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Heavy Whipping Cream, 16 oz</div>
+<div class="m"><span class="qty">Buy 1 (proposed)</span> <span class="a39">A39 extra · proposed size</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A29 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $2.96 each &middot; line <b>$2.96</b> &middot; Nov 6 lookup for #4111. Proposed 16 oz. No saved brand preference. walmart.com #4111 10450339</div>
+<div class="look">A39 extra. Basic size chosen for this trip, not a saved preference.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Heavy-Whipping-Cream-16-oz-Carton-Refrigerated/10450339" target="_blank" rel="noopener">walmart.com/ip/10450339</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item extra" data-id="a39_yogurt_sticks" data-kind="a39" data-in-total="1" data-line="1.87" data-aisle="A29" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Kids Yogurt Tubes, 2 oz ×8 Variety"></label>
+<div class="pic has"><img alt="Great Value Kids Yogurt Tubes, 2 oz ×8 Variety" src="../images/walmart/20682063527.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/20682063527.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Kids-Low-fat-Blueberry-Strawberry-Yogurt-Variety-Pack-2-oz-Yogurt-Tubes-8-Count/20682063527" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Kids Yogurt Tubes, 2 oz ×8 Variety</div>
+<div class="m"><span class="qty">Buy 1 (proposed)</span> <span class="a39">A39 extra · proposed size</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A29 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $1.87 each &middot; line <b>$1.87</b> &middot; Nov 6 lookup for #4111. Proposed 8 ct. No saved brand preference. walmart.com #4111 20682063527</div>
+<div class="look">A39 asked for yogurt tubes, 8 ct. School lunch cups are a separate line: two strawberry 4-packs.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Kids-Low-fat-Blueberry-Strawberry-Yogurt-Variety-Pack-2-oz-Yogurt-Tubes-8-Count/20682063527" target="_blank" rel="noopener">walmart.com/ip/20682063527</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item" data-id="greek" data-kind="firm" data-in-total="1" data-line="2.78" data-aisle="A29" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Greek Plain Nonfat Yogurt, 32 oz"></label>
+<div class="pic has"><img alt="Great Value Greek Plain Nonfat Yogurt, 32 oz" src="../images/walmart/26559565.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/26559565.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Greek-Plain-Nonfat-Yogurt-32-oz-Tub/26559565" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Greek Plain Nonfat Yogurt, 32 oz</div>
+<div class="m"><span class="qty">Buy 1 tub (skip if ≥2 full tubs remain)</span> <span class="condtag">skip if 2+ tubs remain</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A29 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.78 each &middot; line <b>$2.78</b> &middot; Nov 5 lookup for #4111. Default top-up, inside the firm total. walmart.com #4111 26559565</div>
+<div class="look">Buy 1 tub unless 2 or more full tubs remain. If you skip it, the firm total is $2.78 lower. Unknown stock is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Greek-Plain-Nonfat-Yogurt-32-oz-Tub/26559565" target="_blank" rel="noopener">walmart.com/ip/26559565</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item" data-id="kidsyogurt" data-kind="firm" data-in-total="1" data-line="4.52" data-aisle="A29" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Original Strawberry Low Fat Yogurt, 6 oz ×4 Cups"></label>
+<div class="pic has"><img alt="Great Value Original Strawberry Low Fat Yogurt, 6 oz ×4 Cups" src="../images/walmart/16785072.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/16785072.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Original-Strawberry-Lowfat-Yogurt-6-oz-4-Count/16785072" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Original Strawberry Low Fat Yogurt, 6 oz ×4 Cups</div>
+<div class="m"><span class="qty">Buy 2 packs (8 cups)</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A29 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $2.26 each pack × 2 &middot; line <b>$4.52</b> &middot; Nov 5 lookup for #4111. Two 4-packs = 8 cups. walmart.com #4111 16785072</div>
+<div class="look">School lunch cups. Two 4-packs are $4.52. Yogurt tubes are the separate A39 line.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Original-Strawberry-Lowfat-Yogurt-6-oz-4-Count/16785072" target="_blank" rel="noopener">walmart.com/ip/16785072</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item cond" data-id="milk" data-kind="conditional" data-in-total="0" data-line="2.68" data-aisle="A29" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Whole Vitamin D Milk, Gallon"></label>
+<div class="pic has"><img alt="Great Value Whole Vitamin D Milk, Gallon" src="../images/walmart/10450114.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10450114.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-Whole-Vitamin-D-Milk-Gallon-Plastic-Jug-128-Fl-Oz/10450114" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Whole Vitamin D Milk, Gallon</div>
+<div class="m"><span class="qty">COND: Buy 1 gal only if &lt;0.5 gal remains</span> <span class="condtag">check fridge</span> <span class="bud b-staples">staples</span> <span class="ax">Aisle A29 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $2.68 each &middot; line <b>$2.68</b> · not in the firm total &middot; Nov 6 lookup for #4111. Whole milk. Staples. Outside the firm total. walmart.com #4111 10450114</div>
+<div class="look">Buy 1 gallon only if less than half a gallon remains for Saturday pancakes. This jug is whole milk. Unknown stock is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-Whole-Vitamin-D-Milk-Gallon-Plastic-Jug-128-Fl-Oz/10450114" target="_blank" rel="noopener">walmart.com/ip/10450114</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A31"><h2><span class="ac">A31 Meat</span><span class="hint">1 lb extra, 3 lb burgers, salmon</span><span class="n">3 items</span></h2><ul class="aisle"><li class="item extra" data-id="a39_hamburger_1lb" data-kind="a39" data-in-total="1" data-line="6.43" data-aisle="A31" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: 80/20 Ground Beef Chuck, 1 lb Roll"></label>
+<div class="pic has"><img alt="80/20 Ground Beef Chuck, 1 lb Roll" src="../images/walmart/15136791.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/15136791.jpg"><a class="nopic" href="https://www.walmart.com/ip/80-Lean-20-Fat-Ground-Beef-Chuck-1-lb-Roll-Fresh-All-Natural/15136791" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">80/20 Ground Beef Chuck, 1 lb Roll</div>
+<div class="m"><span class="qty">Buy 1 (proposed)</span> <span class="a39">A39 extra · proposed size</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A31 (confirmed 11/6)</span></div>
+<div class="m"><span class="onl">confirmed 11/6 walmart.com #4111</span> $6.43 each &middot; line <b>$6.43</b> &middot; Nov 6 lookup for #4111. Proposed 1 lb roll. No saved brand preference. walmart.com #4111 15136791</div>
+<div class="look">A39 extra, 1 lb. Saturday burgers need 2.5 lb and use the 3 lb roll on the next line. This pound does not replace that roll.</div><div class="m lnk"><a href="https://www.walmart.com/ip/80-Lean-20-Fat-Ground-Beef-Chuck-1-lb-Roll-Fresh-All-Natural/15136791" target="_blank" rel="noopener">walmart.com/ip/15136791</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item" data-id="beef" data-kind="firm" data-in-total="1" data-line="16.43" data-aisle="A31" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: 80/20 Ground Beef Chuck, 3 lb Roll"></label>
+<div class="pic has"><img alt="80/20 Ground Beef Chuck, 3 lb Roll" src="../images/walmart/15136794.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/15136794.jpg"><a class="nopic" href="https://www.walmart.com/ip/80-Lean-20-Fat-Ground-Beef-Chuck-3-lb-Roll-Fresh-All-Natural/15136794" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">80/20 Ground Beef Chuck, 3 lb Roll</div>
+<div class="m"><span class="qty">Buy 1 (3 lb)</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A31 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $16.43 each &middot; line <b>$16.43</b> &middot; Nov 5 lookup for #4111. 3 lb roll. walmart.com #4111 15136794</div>
+<div class="look">Saturday burgers need 2.5 lb. This 3 lb roll covers that. The 1 lb roll above is a separate A39 request.</div><div class="m lnk"><a href="https://www.walmart.com/ip/80-Lean-20-Fat-Ground-Beef-Chuck-3-lb-Roll-Fresh-All-Natural/15136794" target="_blank" rel="noopener">walmart.com/ip/15136794</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li><li class="item" data-id="salmon" data-kind="firm" data-in-total="1" data-line="21.02" data-aisle="A31" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Marketside Atlantic Salmon Fillets Skin-On 2.0–3.0 lb"></label>
+<div class="pic has"><img alt="Marketside Atlantic Salmon Fillets Skin-On 2.0–3.0 lb" src="../images/walmart/805059635.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/805059635.jpg"><a class="nopic" href="https://www.walmart.com/ip/Marketside-Skin-On-Atlantic-Salmon-Fillet-2-0-3-0-lb/805059635" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Marketside Atlantic Salmon Fillets Skin-On 2.0–3.0 lb</div>
+<div class="m"><span class="qty">Buy 1 pack (~$9.47/lb)</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A31 (confirmed 11/5)</span></div>
+<div class="m"><span class="est">est.</span> $9.47/lb, 2.0–3.0 lb pack &middot; line <b>$21.02</b> &middot; Nov 5 price per pound. The register charges the actual pack weight. walmart.com #4111 805059635</div>
+<div class="look">Sunday dinner. The line estimate is $21.02. A39 and G6 do not eat salmon; their Sunday protein is the frozen tenderloins in AC3.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Marketside-Skin-On-Atlantic-Salmon-Fillet-2-0-3-0-lb/805059635" target="_blank" rel="noopener">walmart.com/ip/805059635</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="AC3"><h2><span class="ac">AC3 Freezer</span><span class="hint">plain tenderloins</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="tenderloins" data-kind="firm" data-in-total="1" data-line="8.74" data-aisle="AC3" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Chicken Breast Tenderloins, 3 lb Frozen"></label>
+<div class="pic has"><img alt="Great Value Chicken Breast Tenderloins, 3 lb Frozen" src="../images/walmart/51259070.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/51259070.jpg"><a class="nopic" href="https://www.walmart.com/ip/Great-Value-All-Natural-Chicken-Breast-Tenderloins-3-lb-Frozen/51259070" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Chicken Breast Tenderloins, 3 lb Frozen</div>
+<div class="m"><span class="qty">Buy 1 bag; use ~1 lb Sun</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AC3 (confirmed 11/5)</span></div>
+<div class="m"><span class="onl">confirmed 11/5 walmart.com #4111</span> $8.74 each &middot; line <b>$8.74</b> &middot; Nov 5 lookup for #4111. Plain unbreaded tenderloins. Aisle AC3. walmart.com #4111 51259070</div>
+<div class="look">3 lb bag of plain frozen chicken breast tenderloins. Use about 1 lb Sunday for A39 and G6.</div><div class="m lnk"><a href="https://www.walmart.com/ip/Great-Value-All-Natural-Chicken-Breast-Tenderloins-3-lb-Frozen/51259070" target="_blank" rel="noopener">walmart.com/ip/51259070</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="G10"><h2><span class="ac">G10 Pharmacy</span><span class="hint">pads, A39 picks</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item choice" data-id="pads" data-kind="choice" data-in-total="0" data-line="" data-aisle="G10" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Feminine pads — A39 picks at store"></label>
+<div class="pic has"><img alt="Feminine pads — A39 picks at store" src="../images/walmart/2304198.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/2304198.jpg"><a class="nopic" href="https://www.walmart.com/ip/2304198" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Feminine pads — A39 picks at store</div>
+<div class="m"><span class="qty">Buy 1 (A39 choice at store)</span> <span class="condtag">at-store choice</span> <span class="bud b-staples">staples</span> <span class="ax">Aisle G10 (confirmed 11/5)</span></div>
+<div class="m"><span class="est">choice</span> <span class="onl">prices confirmed 11/5 walmart.com #4111</span> $5.38–$14.47 on the tiles &middot; not in the firm total &middot; Nov 5 choice prices for #4111. No pad price is in the firm total. walmart.com #4111 2304198</div>
+<div class="look">A39 picks one pack at the store. The tiles are the real choices with their prices. The firm total does not include a pad placeholder.</div><div class="choices"><div class="choice"><img src="../images/walmart/2304198.jpg" alt="Always Ultra Thin, no wings, Size 2 Long Super, 40 ct" width="72" height="72" loading="lazy"><div class="cn">Always Ultra Thin, no wings, Size 2 Long Super, 40 ct</div><div class="cp">$7.24 · aisle G10</div><a href="https://www.walmart.com/ip/2304198" target="_blank" rel="noopener">walmart.com/ip/2304198</a></div><div class="choice"><img src="../images/walmart/17909353050.jpg" alt="Always Ultra Thin, wings, Size 5 Overnight, 60 ct" width="72" height="72" loading="lazy"><div class="cn">Always Ultra Thin, wings, Size 5 Overnight, 60 ct</div><div class="cp">$14.47 · aisle G10</div><a href="https://www.walmart.com/ip/17909353050" target="_blank" rel="noopener">walmart.com/ip/17909353050</a></div><div class="choice"><img src="../images/walmart/43826376.jpg" alt="Always Maxi, wings, Size 5, 36 ct" width="72" height="72" loading="lazy"><div class="cn">Always Maxi, wings, Size 5, 36 ct</div><div class="cp">$10.97 · aisle G10</div><a href="https://www.walmart.com/ip/43826376" target="_blank" rel="noopener">walmart.com/ip/43826376</a></div><div class="choice"><img src="../images/walmart/329282492.jpg" alt="Equate Maxi, wings, Long Super, 42 ct" width="72" height="72" loading="lazy"><div class="cn">Equate Maxi, wings, Long Super, 42 ct</div><div class="cp">$5.38 · aisle G10</div><a href="https://www.walmart.com/ip/329282492" target="_blank" rel="noopener">walmart.com/ip/329282492</a></div></div><div class="m lnk"><a href="https://www.walmart.com/ip/2304198" target="_blank" rel="noopener">walmart.com/ip/2304198</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="near J15"><h2><span class="ac">Household cleaning (near J15)</span><span class="hint">aisle NOT CONFIRMED for packs</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item choice" data-id="detergent" data-kind="choice" data-in-total="0" data-line="" data-aisle="near J15" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Dishwasher detergent — packs OR liquid (at-store choice)"></label>
+<div class="pic has"><img alt="Dishwasher detergent — packs OR liquid (at-store choice)" src="../images/walmart/1303579342.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/1303579342.jpg"><a class="nopic" href="https://www.walmart.com/ip/1303579342" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Dishwasher detergent — packs OR liquid (at-store choice)</div>
+<div class="m"><span class="qty">Buy 1 form — Carter picks packs vs liquid at store</span> <span class="condtag">at-store choice</span> <span class="bud b-staples">staples</span> <span class="ax">Aisle NOT CONFIRMED (grouped in household cleaning near J15)</span></div>
+<div class="m"><span class="est">choice</span> <span class="onl">prices confirmed 11/5 walmart.com #4111</span> packs $7.99 or hand soap $3.53 &middot; not in the firm total &middot; Nov 5 prices. Neither price is in the firm total. walmart.com #4111 1303579342</div>
+<div class="look">Two different products. Dishwasher packs go in the dishwasher. The 19 oz liquid is hand dish soap and does not replace dishwasher detergent. Buy one only if that is the product you need. Do not buy both unless you mean to buy both. The packs aisle is NOT CONFIRMED; they are grouped here near J15. Hand soap is aisle J15.</div><div class="choices"><div class="choice"><img src="../images/walmart/1303579342.jpg" alt="Seventh Generation Dishwasher Packs, Free &amp; Clear, 20 ct" width="72" height="72" loading="lazy"><div class="cn">Seventh Generation Dishwasher Packs, Free &amp; Clear, 20 ct</div><div class="cp">$7.99 · aisle NOT CONFIRMED — grouped near J15</div><a href="https://www.walmart.com/ip/1303579342" target="_blank" rel="noopener">walmart.com/ip/1303579342</a></div><div class="choice"><img src="../images/walmart/131508635.jpg" alt="Seventh Generation Free &amp; Clear Dish Soap, 19 oz (hand soap)" width="72" height="72" loading="lazy"><div class="cn">Seventh Generation Free &amp; Clear Dish Soap, 19 oz (hand soap)</div><div class="cp">$3.53 · aisle J15 · hand dish soap, a different product</div><a href="https://www.walmart.com/ip/131508635" target="_blank" rel="noopener">walmart.com/ip/131508635</a></div></div><div class="m lnk"><a href="https://www.walmart.com/ip/1303579342" target="_blank" rel="noopener">walmart.com/ip/1303579342</a></div>
 <details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
 </div></li></ul></section>
-<section id="checklist" class="card"><h3>Quality checklist (item 13)</h3>
+<section class="card"><h3>Leave these off this cart</h3>
 <ul class="cl">
-<li><span class="ok">OK</span> Pictures: every line has a Walmart #4111 product photo in images/walmart/.</li>
-<li><span class="ok">OK</span> Correct store: Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406.</li>
-<li><span class="ok">OK</span> Aisles: confirmed for this store, or marked "not confirmed" (detergent).</li>
-<li><span class="ok">OK</span> Prices: confirmed today or marked est. (bananas count, pads placeholder).</li>
-<li><span class="ok">OK</span> Totals: meals $37.12 + staples $15.23 = $52.35 (computed with code).</li>
-<li><span class="ok">OK</span> Banners: red SUBMIT / receipt banners at top and bottom.</li>
-<li><span class="ok">OK</span> Links: same invite URL shopping/20261105-THU.html (updated in place).</li>
-<li><span class="ok">OK</span> Menu rules: no pork; GF soy noted; A39 snacks tagged; no green chiles.</li>
-<li><span class="ok">OK</span> Store-library rule: every photo and price is Walmart #4111 (no H-E-B photos or prices).</li>
-<li><span class="pend">PENDING</span> Price book updated: Current/History push after this trip's receipt is filed.</li>
-<li><span class="pend">PENDING</span> Inventory updated: receipt items added, served meals subtracted (after the trip).</li>
+<li><span class="ok">OFF</span> Mon 11/9 dinner (turkey taco bowls) belongs on the Monday list, shopping/20261109-MON.html.</li>
+<li><span class="ok">OFF</span> Paper towels.</li>
+<li><span class="ok">OFF</span> Butter. Imperial spread already at home covers Sunday's sauce.</li>
+<li><span class="ok">OFF</span> Gluten-free pancake mix. Saturday pancakes use gluten-free flour on hand, with the flour line only if under 8 oz remain.</li>
+<li><span class="ok">OFF</span> Green chiles. Grilled cheese.</li>
+<li><span class="ok">OFF</span> Oats. Those are for a later breakfast and stay on the Monday list.</li>
+</ul>
+</section>
+<section id="checklist" class="card"><h3>Quality checklist</h3>
+<ul class="cl">
+<li><span class="ok">OK</span> Pictures: every line and every choice tile uses the Walmart photo saved as images/walmart/&lt;item number&gt;.jpg.</li>
+<li><span class="ok">OK</span> Store: Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406.</li>
+<li><span class="ok">OK</span> Aisles: Nov 5 or Nov 6 lookup, or marked NOT CONFIRMED (dishwasher packs, and deli has no aisle).</li>
+<li><span class="ok">OK</span> Prices: Nov 5 labels are Nov 5 lookups. Nov 6 labels are Nov 6. Bananas, grapes, and salmon are estimates.</li>
+<li><span class="ok">OK</span> Firm total $105.53 = must-buy $88.82 + optional granola $2.67 + A39 extras $14.04. Conditionals up to $19.68, pads, and detergent are outside it. Meal firm $105.53, staples firm $0.00.</li>
+<li><span class="ok">OK</span> Red SUBMIT / receipt banners at the top and the bottom.</li>
+<li><span class="ok">OK</span> Same invite file: shopping/20261105-THU.html.</li>
+<li><span class="ok">OK</span> Cycle 4 days stay as approved. Coverage runs through Sun 11/8 dinner plus Mon 11/9 breakfast and packed lunch. Mon dinner is the next list.</li>
+<li><span class="ok">OK</span> Whole-milk gallon is the milk photo. The 2% gallon photo is not used. Salad is the 9 oz Italian kit. Beef lines are the 1 lb roll and the 3 lb roll.</li>
+<li><span class="pend">PENDING</span> Price book. Remote HGB-prices was not updated from this page.</li>
+<li><span class="pend">PENDING</span> Inventory and envelopes wait for a receipt. This trip has not happened. Passed dates were not treated as meals already served.</li>
 </ul>
 </section>
 <section id="tools" class="card"><h3>Shopping notes</h3>
-<div class="m">Anything for Meal Planner: swaps, out of stock, what is still at home. Item notes are under each item. Tell us which pad A39 picked and whether detergent was packs or liquid.</div>
-<textarea id="general" rows="4" placeholder="e.g. got Always Size 5 Overnight; bought liquid dish soap instead of packs; skipped granola." style="margin-top:8px"></textarea>
+<div class="m">Swaps, out of stock, and what you found at home. Say which pad A39 picked, whether you bought dishwasher packs, hand dish soap, both, or neither, which fridge lines you bought, the deli weights, and whether the Greek tub was skipped.</div>
+<textarea id="general" rows="4" placeholder="e.g. A39 picked Equate maxi; bought dishwasher packs; skipped granola; 14 eggs so bought the 18 ct; deli turkey 0.4 lb left." style="margin-top:8px"></textarea>
 <div id="saved"></div>
 <div class="btns"><a id="mail" class="btn pri" href="mailto:carterfambot@gmail.com">Send notes to Meal Planner</a>
 <button id="copy" class="btn" type="button">Copy notes</button>
@@ -181,13 +361,12 @@ footer{font-size:.8em;color:#666;padding:16px;max-width:760px;margin:auto}
 <button id="clearnotes" class="btn warn" type="button">Clear notes</button></div>
 <div class="m" style="margin-top:8px;color:#666">Send opens your email app with the notes filled in, to carterfambot@gmail.com. Nothing is sent until you press Send there. Very long lists are shortened to fit the email link; Copy notes always copies everything.</div>
 </section>
-
 </main>
-<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT ("Send notes to Meal Planner") at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
-<footer>Thu 11/5 Walmart #4111 trip. Pictures: 10 of 10 lines (plus 4 pad choice tiles and 1 detergent-alt photo) saved under images/walmart/ in the repo. Store walk by aisle. Totals computed with code.</footer>
-<div id="bar"><div class="in"><div class="st"><span class="cnt" id="cnt">0 of 10 in cart</span><span class="sum" id="sum">$0.00 of $52.35</span></div>
+<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT (&quot;Send notes to Meal Planner&quot;) at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
+<footer>Thu 11/5 invite, still the open Walmart #4111 trip on Fri 11/6. 30 lines on one store walk. Each line and choice tile uses a JPEG in images/walmart/ for that item number. Firm total $105.53 is the sum of the must-buy, optional granola, and A39 extra lines. Conditionals and at-store choices are on the page and outside that total. Price book and inventory were not updated.</footer>
+<div id="bar"><div class="in"><div class="st"><span class="cnt" id="cnt">0 of 30 in cart</span><span class="sum" id="sum">$0.00 of $105.53 firm</span></div>
 <button id="hide" class="btn" type="button">Hide in cart</button><a class="btn" href="#tools">Notes</a></div></div>
-<script id="listdata" type="application/json">{"list_id": "SL-20261105-THU","title": "Shopping, Thu 11/5: Walmart #4111 (ground beef, A39 snacks, detergent, pads)","where": "Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406","when": "Thu 11/5, 11:30 AM CT","notes_email": "carterfambot@gmail.com","email_subject": "Shopping notes SL-20261105-THU","items": [{"id": "straw","name": "Fresh Strawberries 1 lb","qty": "Buy 1","line": 2.37,"aisle_text": "Aisle AP3 (confirmed 11/5)"},{"id": "pears","name": "Fresh Bartlett Pears 3 lb bag","qty": "Buy 1","line": 5.33,"aisle_text": "Aisle AP5 (confirmed 11/5)"},{"id": "oranges","name": "Navel oranges, 2","qty": "Buy 2","line": 1.76,"aisle_text": "Aisle AP5 (confirmed 11/5)"},{"id": "bananas","name": "Bananas, about 6","qty": "Buy ~6 (count est.)","line": 1.14,"aisle_text": "Aisle AP8 (confirmed 11/5)"},{"id": "soy","name": "Kikkoman Gluten-Free Soy Sauce 10 oz (green-label GF bottle)","qty": "Buy 1","line": 4.08,"aisle_text": "Aisle A13 (confirmed 11/5)"},{"id": "granola","name": "OPTIONAL, IF NEEDED: Great Value Oats & Honey Granola 11 oz","qty": "Optional, if needed","line": 2.67,"aisle_text": "Aisle A18 (confirmed 11/5)"},{"id": "cheese","name": "Great Value Mozzarella String Cheese, 24 ct (24 oz)","qty": "Buy 1","line": 6.34,"aisle_text": "Aisle A28 (confirmed 11/5)"},{"id": "beef","name": "80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb tray (Sat 11/7 burgers)","qty": "Buy 1","line": 13.43,"aisle_text": "Aisle A31 (confirmed 11/5)"},{"id": "pads","name": "Feminine pads, A39's choice (she uses a specific kind \u2014 pick one below)","qty": "Buy 1 (A39 picks)","line": 7.24,"aisle_text": "Aisle G10 (confirmed 11/5)"},{"id": "detergent","name": "Seventh Generation Dishwasher Detergent Packs, Free & Clear, 20 ct","qty": "Buy 1","line": 7.99,"aisle_text": "Aisle not confirmed (group with dish soap near J15)"}]}</script>
+<script id="listdata" type="application/json">{"list_id": "SL-20261105-THU", "title": "Shopping, Thu 11/5 invite (not shopped as of Fri 11/6): Walmart #4111", "where": "Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406", "when": "Invite Thu 11/5, 11:30 AM CT. Not shopped as of Fri 11/6 morning.", "notes_email": "carterfambot@gmail.com", "email_subject": "Shopping notes SL-20261105-THU", "firm_total": 105.53, "items": [{"id": "lemons", "name": "Fresh Bulk Yellow Lemons", "qty": "Buy 2", "line": 1.0, "in_total": true, "kind": "firm", "aisle_text": "Aisle AP2 (confirmed 11/5)", "envelope": "meals"}, {"id": "grapes", "name": "Green Seedless Grapes From California (~2.25 lb bag est.)", "qty": "Buy 1 bag", "line": 4.43, "in_total": true, "kind": "firm", "aisle_text": "Aisle AP3 (confirmed 11/5)", "envelope": "meals"}, {"id": "straw", "name": "Fresh Strawberries 1 lb", "qty": "Buy 1", "line": 2.37, "in_total": true, "kind": "firm", "aisle_text": "Aisle AP3 (confirmed 11/5)", "envelope": "meals"}, {"id": "oranges", "name": "Navel oranges, 2", "qty": "Buy 2", "line": 1.76, "in_total": true, "kind": "firm", "aisle_text": "Aisle AP5 (confirmed 11/5)", "envelope": "meals"}, {"id": "pears", "name": "Fresh Bartlett Pears 3 lb bag", "qty": "Buy 1", "line": 5.33, "in_total": true, "kind": "firm", "aisle_text": "Aisle AP5 (confirmed 11/5)", "envelope": "meals"}, {"id": "bananas", "name": "Bananas, about 12", "qty": "Buy ~12 (count est.)", "line": 2.28, "in_total": true, "kind": "firm", "aisle_text": "Aisle AP8 (confirmed 11/5)", "envelope": "meals"}, {"id": "greenbeans", "name": "Marketside Fresh Green Beans, 32 oz", "qty": "Buy 1 bag (32 oz)", "line": 5.37, "in_total": true, "kind": "firm", "aisle_text": "Aisle A1 (confirmed 11/5)", "envelope": "meals"}, {"id": "salad", "name": "Marketside Classic Italian Salad Kit, 9 oz (Fresh)", "qty": "COND: Buy 2 kits only if 0 kits left (covers Fri+Sat dinner sides; 9 oz kit replaces OOS 24 oz)", "line": 5.54, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A1 (confirmed 11/6)", "envelope": "meals"}, {"id": "gf_flour", "name": "Great Value Gluten Free All-Purpose Flour, 22 oz", "qty": "COND: Buy 1 only if <8 oz GF flour remain", "line": 4.08, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A13 (confirmed 11/6)", "envelope": "meals"}, {"id": "soy", "name": "Kikkoman Gluten-Free Soy Sauce 10 oz (green-label)", "qty": "Buy 1", "line": 4.08, "in_total": true, "kind": "firm", "aisle_text": "Aisle A13 (confirmed 11/5)", "envelope": "meals"}, {"id": "a39_refried", "name": "Great Value Traditional Refried Beans, 16 oz", "qty": "Buy 1 can (proposed)", "line": 1.0, "in_total": true, "kind": "a39", "aisle_text": "Aisle A15 (confirmed 11/6)", "envelope": "meals"}, {"id": "cumin", "name": "Great Value Ground Cumin, 2.5 oz", "qty": "COND: Buy 1 only if cumin jar empty", "line": 1.37, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A16 (confirmed 11/6)", "envelope": "meals"}, {"id": "granola", "name": "OPTIONAL, IF NEEDED: Great Value Oats & Honey Granola 11 oz", "qty": "OPTIONAL, if needed", "line": 2.67, "in_total": true, "kind": "optional", "aisle_text": "Aisle A18 (confirmed 11/5)", "envelope": "meals"}, {"id": "bread", "name": "Great Value Honey Wheat Bread, 20 oz", "qty": "COND: Buy 1 only if <1 full loaf remains", "line": 2.02, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A20 (confirmed 11/5)", "envelope": "meals"}, {"id": "buns", "name": "Great Value Hamburger Buns, 8 Count", "qty": "COND: Buy 1 only if <8 buns remain for Sat", "line": 1.52, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A20 (confirmed 11/5)", "envelope": "meals"}, {"id": "goldfish", "name": "Goldfish Cheddar Crackers, 6.6 oz", "qty": "Buy 1", "line": 2.37, "in_total": true, "kind": "firm", "aisle_text": "Aisle A21 (confirmed 11/5)", "envelope": "meals"}, {"id": "cheese", "name": "Great Value Mozzarella String Cheese, 24 ct", "qty": "Buy 1", "line": 6.34, "in_total": true, "kind": "firm", "aisle_text": "Aisle A28 (confirmed 11/5)", "envelope": "meals"}, {"id": "eggs", "name": "Great Value Large White Eggs 18 Count", "qty": "COND: Buy 1 only if <18 eggs remain", "line": 2.47, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A28 (confirmed 11/5)", "envelope": "meals"}, {"id": "a39_half_half", "name": "Great Value Half & Half, 16 fl oz", "qty": "Buy 1 (proposed)", "line": 1.78, "in_total": true, "kind": "a39", "aisle_text": "Aisle A29 (confirmed 11/6)", "envelope": "meals"}, {"id": "a39_whipping_cream", "name": "Great Value Heavy Whipping Cream, 16 oz", "qty": "Buy 1 (proposed)", "line": 2.96, "in_total": true, "kind": "a39", "aisle_text": "Aisle A29 (confirmed 11/6)", "envelope": "meals"}, {"id": "a39_yogurt_sticks", "name": "Great Value Kids Yogurt Tubes, 2 oz ×8 Variety", "qty": "Buy 1 (proposed)", "line": 1.87, "in_total": true, "kind": "a39", "aisle_text": "Aisle A29 (confirmed 11/6)", "envelope": "meals"}, {"id": "greek", "name": "Great Value Greek Plain Nonfat Yogurt, 32 oz", "qty": "Buy 1 tub (skip if ≥2 full tubs remain)", "line": 2.78, "in_total": true, "kind": "firm", "aisle_text": "Aisle A29 (confirmed 11/5)", "envelope": "meals"}, {"id": "kidsyogurt", "name": "Great Value Original Strawberry Low Fat Yogurt, 6 oz ×4 Cups", "qty": "Buy 2 packs (8 cups)", "line": 4.52, "in_total": true, "kind": "firm", "aisle_text": "Aisle A29 (confirmed 11/5)", "envelope": "meals"}, {"id": "milk", "name": "Great Value Whole Vitamin D Milk, Gallon", "qty": "COND: Buy 1 gal only if <0.5 gal remains", "line": 2.68, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A29 (confirmed 11/6)", "envelope": "staples"}, {"id": "a39_hamburger_1lb", "name": "80/20 Ground Beef Chuck, 1 lb Roll", "qty": "Buy 1 (proposed)", "line": 6.43, "in_total": true, "kind": "a39", "aisle_text": "Aisle A31 (confirmed 11/6)", "envelope": "meals"}, {"id": "beef", "name": "80/20 Ground Beef Chuck, 3 lb Roll", "qty": "Buy 1 (3 lb)", "line": 16.43, "in_total": true, "kind": "firm", "aisle_text": "Aisle A31 (confirmed 11/5)", "envelope": "meals"}, {"id": "salmon", "name": "Marketside Atlantic Salmon Fillets Skin-On 2.0–3.0 lb", "qty": "Buy 1 pack (~$9.47/lb)", "line": 21.02, "in_total": true, "kind": "firm", "aisle_text": "Aisle A31 (confirmed 11/5)", "envelope": "meals"}, {"id": "tenderloins", "name": "Great Value Chicken Breast Tenderloins, 3 lb Frozen", "qty": "Buy 1 bag; use ~1 lb Sun", "line": 8.74, "in_total": true, "kind": "firm", "aisle_text": "Aisle AC3 (confirmed 11/5)", "envelope": "meals"}, {"id": "pads", "name": "Feminine pads — A39 picks at store", "qty": "Buy 1 (A39 choice at store)", "line": null, "in_total": false, "kind": "choice", "aisle_text": "Aisle G10 (confirmed 11/5)", "envelope": "staples"}, {"id": "detergent", "name": "Dishwasher detergent — packs OR liquid (at-store choice)", "qty": "Buy 1 form — Carter picks packs vs liquid at store", "line": null, "in_total": false, "kind": "choice", "aisle_text": "Aisle NOT CONFIRMED (grouped in household cleaning near J15)", "envelope": "staples"}]}</script>
 <script>
 (function(){
 'use strict';
@@ -210,16 +389,37 @@ function save(){
 function flash(t){ var el = document.getElementById('saved'); if(!el) return; el.textContent = t;
   clearTimeout(savedTimer); savedTimer = setTimeout(function(){ el.textContent=''; }, 1500); }
 function showWarn(){ var w = document.getElementById('warn'); if (w) w.style.display = 'block'; }
-function cents(x){ return Math.round(x*100); }
+function cents(x){ return Math.round(Number(x)*100); }
 function fmt(c){ return '$' + (c/100).toFixed(2); }
+function inFirm(it){ return it.in_total !== false; }
+function lineCents(it){
+  if (it.line == null || it.line === '') return 0;
+  return cents(it.line);
+}
 var byId = {}; DATA.items.forEach(function(it){ byId[it.id] = it; });
-var totalC = DATA.items.reduce(function(a,it){ return a + cents(it.line); }, 0);
+var totalC = DATA.items.reduce(function(a,it){ return a + (inFirm(it) ? lineCents(it) : 0); }, 0);
+if (Math.abs(totalC - Math.round(DATA.firm_total*100)) > 0) {
+  console.error('firm total mismatch', totalC, DATA.firm_total);
+}
 
+function splitChecked(){
+  var firmC = 0, condC = 0, choiceN = 0, n = 0;
+  DATA.items.forEach(function(it){
+    if (!mem.checks[it.id]) return;
+    n++;
+    if (it.kind === 'choice') { choiceN++; return; }
+    if (inFirm(it)) firmC += lineCents(it);
+    else condC += lineCents(it);
+  });
+  return {n:n, firmC:firmC, condC:condC, choiceN:choiceN};
+}
 function refresh(){
-  var n = 0, c = 0;
-  DATA.items.forEach(function(it){ if (mem.checks[it.id]) { n++; c += cents(it.line); } });
-  document.getElementById('cnt').textContent = n + ' of ' + DATA.items.length + ' in cart';
-  document.getElementById('sum').textContent = fmt(c) + ' of ' + fmt(totalC) + ' checked';
+  var s = splitChecked();
+  document.getElementById('cnt').textContent = s.n + ' of ' + DATA.items.length + ' in cart';
+  var sum = fmt(s.firmC) + ' of ' + fmt(totalC) + ' firm';
+  if (s.condC) sum += ' + ' + fmt(s.condC) + ' conditional';
+  if (s.choiceN) sum += ' + ' + s.choiceN + ' at-store choice';
+  document.getElementById('sum').textContent = sum;
   document.querySelectorAll('section.grp').forEach(function(sec){
     var all = sec.querySelectorAll('.item'), d = sec.querySelectorAll('.item.done');
     sec.classList.toggle('alldone', all.length > 0 && all.length === d.length);
@@ -233,14 +433,21 @@ function setNoteUi(li, txt){
   det.classList.toggle('has', !!t);
   sum.textContent = t ? 'Note: ' + (t.length > 40 ? t.slice(0,40) + '...' : t) : 'Add note';
 }
+function moneyLabel(it){
+  if (it.line == null) return 'price not in firm total';
+  var s = fmt(lineCents(it));
+  if (!inFirm(it)) s += ' (not in firm total)';
+  return s;
+}
 
 function buildBody(full){
   var nl = '\r\n', lines = [], items = DATA.items;
   var checked = items.filter(function(it){ return mem.checks[it.id]; });
   var open = items.filter(function(it){ return !mem.checks[it.id]; });
-  var cc = checked.reduce(function(a,it){ return a + cents(it.line); }, 0);
+  var s = splitChecked();
   lines.push(DATA.email_subject + ' (' + DATA.when + ')');
-  lines.push('In cart: ' + checked.length + ' of ' + items.length + ', ' + fmt(cc) + ' of ' + fmt(totalC) + ' (list prices)');
+  lines.push('In cart: ' + checked.length + ' of ' + items.length);
+  lines.push('Firm list: ' + fmt(totalC) + '. Firm in cart: ' + fmt(s.firmC) + '. Conditionals in cart: ' + fmt(s.condC) + '. At-store choices in cart: ' + s.choiceN + '.');
   lines.push('');
   var g = (mem.general || '').trim();
   lines.push('GENERAL NOTES'); lines.push(g ? g.replace(/\r?\n/g, nl) : '(none)'); lines.push('');
@@ -250,14 +457,13 @@ function buildBody(full){
   withNotes.forEach(function(it){ lines.push('- ' + (mem.checks[it.id] ? '[x] ' : '[ ] ') + it.name + ': ' + mem.notes[it.id].trim().replace(/\s*\r?\n\s*/g, '; ')); });
   lines.push('');
   lines.push('NOT IN CART (' + open.length + ')');
-  open.forEach(function(it){ lines.push('- ' + it.name + ', ' + it.qty); });
+  open.forEach(function(it){ lines.push('- ' + it.name + ', ' + it.qty + ', ' + moneyLabel(it)); });
   lines.push('');
   lines.push('IN CART (' + checked.length + ')');
-  checked.forEach(function(it){ lines.push('- ' + it.name); });
+  checked.forEach(function(it){ lines.push('- ' + it.name + ', ' + moneyLabel(it)); });
   lines.push('');
   lines.push('Sent from the ' + DATA.list_id + ' shopping page.');
   if (full) return lines.join(nl);
-  // Fit within mailto length: keep whole lines in priority order, cut gracefully.
   var head = 'mailto:' + DATA.notes_email + '?subject=' + encodeURIComponent(DATA.email_subject) + '&body=';
   var tail = nl + '...(cut to fit the email link; the rest is still saved on the page)';
   var budget = MAILTO_LIMIT - head.length - encodeURIComponent(tail).length;
@@ -266,7 +472,6 @@ function buildBody(full){
     var piece = (i ? nl : '') + lines[i];
     var len = encodeURIComponent(piece).length;
     if (used + len <= budget) { out += piece; used += len; continue; }
-    // partial line: shrink until it fits
     var lo = 0, hi = piece.length;
     while (lo < hi) { var mid = Math.ceil((lo+hi)/2);
       if (used + encodeURIComponent(piece.slice(0, mid)).length <= budget) lo = mid; else hi = mid - 1; }
@@ -285,7 +490,7 @@ function initPics(){
     var srcs = img.getAttribute('data-srcs').split('|').filter(Boolean), i = 0, pic = img.parentNode;
     img.onload = function(){ pic.classList.add('has'); };
     img.onerror = function(){ pic.classList.remove('has'); i++; if (i < srcs.length) img.src = srcs[i]; else img.remove(); };
-    if (img.getAttribute('src')) {  // pre-rendered from the picture catalog
+    if (img.getAttribute('src')) {
       if (img.complete) { if (img.naturalWidth > 0) pic.classList.add('has'); else img.onerror(); }
     } else if (srcs.length) img.src = srcs[0];
   });
@@ -337,7 +542,7 @@ function init(){
   window.addEventListener('storage', function(e){ if (e.key === KEY) location.reload(); });
   refresh(); initPics();
 }
-window.__shop = {buildBody: buildBody, mailtoUrl: mailtoUrl, KEY: KEY};
+window.__shop = {buildBody: buildBody, mailtoUrl: mailtoUrl, KEY: KEY, firmCents: function(){ return totalC; }};
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
 </script>
