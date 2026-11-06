@@ -1,6 +1,6 @@
 {
  "store": "walmart",
- "updated": "2026-11-06T18:50:00-06:00",
+ "updated": "2026-11-06T23:30:00-06:00",
  "items": {
   "10294707": {
    "id": "10294707",
@@ -204,13 +204,13 @@
   },
   "44390949": {
    "id": "44390949",
-   "name": "Fresh Hass avocados, each (Wed)",
+   "name": "Fresh Hass Avocado, each",
    "source_url": "https://i5.walmartimages.com/seo/Fresh-Hass-Avocados-Each_af510d27-f416-4691-99fa-0943d730f8d2.8607ec56ce71993860620dc4c8ca9cd6.jpeg",
-   "saved": "2026-11-01",
+   "saved": "2026-11-06",
    "file": "images/walmart/44390949.jpg",
    "width": 400,
    "height": 400,
-   "bytes": 18664
+   "bytes": 19903
   },
   "44390953": {
    "id": "44390953",
@@ -521,6 +521,136 @@
    "width": 400,
    "height": 400,
    "bytes": 32288
+  },
+  "10452439": {
+   "id": "10452439",
+   "name": "Great Value Mild Cheddar Finely Shredded Cheese, 32 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Finely-Shredded-Mild-Cheddar-Cheese-32-oz-Bag-Plastic-Packaging_e5ffb0ce-77d7-45f2-83b8-3f80e721c6ce.796c44be5b6fe4f9d7d86da615105d9c.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10452439.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 27092
+  },
+  "887305646": {
+   "id": "887305646",
+   "name": "Bob's Red Mill Gluten Free Old Fashioned Rolled Oats, 32 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Bob-s-Red-Mill-Gluten-Free-Old-Fashioned-Rolled-Oats-32-oz-Pkg_57908e20-7c67-4429-b5d5-71b18d935ead.725ef2ec00c77c700781993c36dbc238.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/887305646.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 30423
+  },
+  "20235907924": {
+   "id": "20235907924",
+   "name": "Honeysuckle White Fresh Ground Turkey 93/7, 3 lb tray",
+   "source_url": "https://i5.walmartimages.com/seo/Honeysuckle-White-Fresh-Ground-Turkey-93-7-Tray-3-lbs-23-Grams-of-Protein-per-Serving_dd59b677-bda9-44e3-ae4a-054965b2b3db.bde0083d2847514ad3e986807f231b32.png",
+   "saved": "2026-11-06",
+   "file": "images/walmart/20235907924.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 32758
+  },
+  "2922389780": {
+   "id": "2922389780",
+   "name": "Great Value Medium Cantina Style Salsa Verde, 16 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Medium-Cantina-Style-Salsa-Verde-16-oz_23dde7d8-3c3d-4de0-acef-3c5055e715da.7a246a596eb61d790612dab77762045d.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/2922389780.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 30480
+  },
+  "44391008": {
+   "id": "44391008",
+   "name": "Fresh Lime, each",
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Lime-Each_12314833-2e54-4739-94a2-7db45b63109d.16ff07e3c111df9be4158853c2e505ef.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/44391008.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 17942
+  },
+  "22406025": {
+   "id": "22406025",
+   "name": "Butterball Oven Roasted Turkey Breast, deli sliced",
+   "source_url": "https://i5.walmartimages.com/seo/Butterball-Gluten-Free-Oven-Roasted-Turkey-Breast-Deli-Sliced_a272ee1d-fd45-483f-b671-35c424d7710f.8333218d79d5e7ee074a2763ae381125.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/22406025.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23615
+  },
+  "13893729": {
+   "id": "13893729",
+   "name": "Marketside Classic Iceberg Salad, 12 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Marketside-Classic-Iceberg-Salad-12-oz-Bag-Fresh_3600b117-2bef-446b-866c-2c39ef007d6b.7bd64af232868ac0453d191a3c1ea202.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/13893729.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 26502
+  },
+  "10813462": {
+   "id": "10813462",
+   "name": "Old El Paso Mild Taco Seasoning Mix, Gluten Free, 1 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Old-El-Paso-Mild-Taco-Seasoning-Mix-Gluten-Free-1-oz_48f6bf26-7d8a-44e8-b1ef-bfbde2da95d2.98afdbce54a35e0fd37c95e9c1fc3f18.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10813462.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 29067
+  },
+  "10534038": {
+   "id": "10534038",
+   "name": "Great Value Black Beans, 15 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Black-Beans-15-oz-Can_eda74fce-1af9-45bc-8f56-05721b6abb52.111c67135274d7670ad44553d567d9d6.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10534038.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 22680
+  },
+  "10534043": {
+   "id": "10534043",
+   "name": "Great Value Pinto Beans, 15.5 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Pinto-Beans-15-5-oz-Can_6277a242-d150-49a8-b0db-1d25a19d3c71.278537db514b6d76eb6924bbe7fcd40c.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10534043.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23269
+  },
+  "34632324": {
+   "id": "34632324",
+   "name": "RITZ Original Crackers, 13.7 oz",
+   "source_url": "https://i5.walmartimages.com/seo/RITZ-Original-Crackers-Snacks-for-Kids-and-Adults-Lunch-Snacks-13-7-oz_d248171f-bbbe-42a3-a7b8-3dac4e00e51d.faa12758e657c3722b8d34030a592d19.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/34632324.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23052
+  },
+  "12335111": {
+   "id": "12335111",
+   "name": "Great Value Original Sour Cream, 16 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Original-Sour-Cream-16-oz-Tub_1dce8dd9-506d-4ce8-b4d7-f4019f23e635.8b223761c45dfbffa4c361ed7d5abf13.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/12335111.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 14550
+  },
+  "122585297": {
+   "id": "122585297",
+   "name": "Prima Della Off-the-Bone Ham, deli sliced",
+   "source_url": "https://i5.walmartimages.com/seo/Prima-Della-Fully-Cooked-off-the-Bone-Ham-Deli-Sliced_2d56806e-ccd4-47cc-a466-d985f27b1c7a.05eb5e01ea20613d1bb6f6206856827c.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/122585297.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 26953
   }
  }
 }
