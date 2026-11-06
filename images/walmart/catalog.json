@@ -1,6 +1,6 @@
 {
  "store": "walmart",
- "updated": "2026-11-01T18:40:56-06:00",
+ "updated": "2026-11-06T18:50:00-06:00",
  "items": {
   "10294707": {
    "id": "10294707",
@@ -351,6 +351,176 @@
    "width": 400,
    "height": 400,
    "bytes": 29817
+  },
+  "41752773": {
+   "id": "41752773",
+   "name": "Fresh Bulk Yellow Lemons",
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Bulk-Yellow-Lemons_f025c57c-13e1-4a1a-ac81-0695aaf2473d.7f3c9f067735c2730223c9147a646f7c.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/41752773.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 10388
+  },
+  "16401583": {
+   "id": "16401583",
+   "name": "Marketside Fresh Green Beans, 32 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Marketside-Fresh-Green-Beans-32-oz_277b23a7-f288-49ed-9770-33c6d177b8ee.1f91ca31ac94293d16b570f50192c96b.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/16401583.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20114
+  },
+  "6721401602": {
+   "id": "6721401602",
+   "name": "Marketside Classic Italian Salad Kit, 9 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Marketside-Classic-Italian-Salad-Kit-7-oz-Fresh_e77e9d42-ac27-417c-84c4-ce97b3a25ae8.9d744bb95755b3b06c1b5c2240a94104.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/6721401602.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 29240
+  },
+  "413125322": {
+   "id": "413125322",
+   "name": "Great Value Gluten Free All-Purpose Flour, 22 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Gluten-Free-All-Purpose-Flour-22-oz_c166f376-6581-4312-898e-c29876f870e0.b28d4bbb6cc208bcb323c7a054b3e2fe.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/413125322.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 30381
+  },
+  "10534037": {
+   "id": "10534037",
+   "name": "Great Value Traditional Refried Beans, 16 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Traditional-Refried-Beans-16-oz_17e05daa-9c0d-4bdd-8865-47295701b6d4.f908db80155857af8ee3c823b0b3f553.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10534037.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 27132
+  },
+  "985501095": {
+   "id": "985501095",
+   "name": "Great Value Ground Cumin, 2.5 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Ground-Cumin-2-5-oz_7ea9960d-2ba4-4c4a-9b29-4635f4c2c633.3e6cae02bc2f27b3854ba5da14bd7df5.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/985501095.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 15837
+  },
+  "44391070": {
+   "id": "44391070",
+   "name": "Great Value Honey Wheat Bread, 20 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Honey-Wheat-Bread-20-oz_7c8efaf7-d8ee-4d9f-b3a0-9d13d771b073.a58fb2aada5bfbead5b54dc4480cf099.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/44391070.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 13027
+  },
+  "172844767": {
+   "id": "172844767",
+   "name": "Great Value Large White Eggs, 18 Count",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Large-White-Eggs-18-Count_29020399-6000-44c9-b24f-e62ae46465c0_1.4930c3b92bbbc2fa70be370e40f85446.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/172844767.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 13296
+  },
+  "10450337": {
+   "id": "10450337",
+   "name": "Great Value Half & Half, 16 fl oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Half-Half-16-fl-oz_5007293a-e346-4db0-8dfe-c2b32dec92f4.84c047bf6fa411a0c225b483fccfb803.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10450337.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 17528
+  },
+  "10450339": {
+   "id": "10450339",
+   "name": "Great Value Heavy Whipping Cream, 16 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Heavy-Whipping-Cream-16-oz-Carton-Refrigerated_1045c3ae-6f22-45df-b271-ac26ee21dff0_2.98baf618acab7c5c605d0b7931ad8e41.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10450339.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 17080
+  },
+  "20682063527": {
+   "id": "20682063527",
+   "name": "Great Value Kids Yogurt Tubes, 2 oz x 8",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Kids-Low-fat-Blueberry-Strawberry-Yogurt-Variety-Pack-2-oz-Yogurt-Tubes-8-Count_4e6b53ce-ad0d-4a80-b129-df626533f2ed.f7ede43c57c3b80d0c343ad6e6f3a55e.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/20682063527.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 22012
+  },
+  "16785072": {
+   "id": "16785072",
+   "name": "Great Value Original Strawberry Lowfat Yogurt, 6 oz x 4",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Original-Strawberry-Lowfat-Yogurt-6-oz-4-Count_1266e174-d7d4-4b81-bb3c-dd7bbd206d67.57c5be83ba23f19abf334de70de070c8.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/16785072.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 14871
+  },
+  "10450114": {
+   "id": "10450114",
+   "name": "Great Value Whole Vitamin D Milk, Gallon",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Whole-Vitamin-D-Milk-Gallon-Plastic-Jug-128-Fl-Oz_6a7b09b4-f51d-4bea-a01c-85767f1b481a.86876244397d83ce6cdedb030abe6e4a.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/10450114.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 11482
+  },
+  "15136791": {
+   "id": "15136791",
+   "name": "80/20 Ground Beef Chuck, 1 lb Roll",
+   "source_url": "https://i5.walmartimages.com/seo/80-Lean-20-Fat-Ground-Beef-Chuck-1-lb-Roll-Fresh-All-Natural_2e2aed47-2819-45b6-8925-27bf950477a0.d430c0668d8c9252fcd38d487d3ac48d.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/15136791.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 27019
+  },
+  "15136794": {
+   "id": "15136794",
+   "name": "80/20 Ground Beef Chuck, 3 lb Roll",
+   "source_url": "https://i5.walmartimages.com/seo/80-Lean-20-Fat-Ground-Beef-Chuck-3-lb-Roll-Fresh-All-Natural_f8c9763c-d1ed-407e-8316-f838e6319ac6.0cf945b198d1a82c3f1895ea52bd34ba.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/15136794.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 22898
+  },
+  "805059635": {
+   "id": "805059635",
+   "name": "Marketside Atlantic Salmon Fillets Skin-On, 2.0-3.0 lb",
+   "source_url": "https://i5.walmartimages.com/seo/Marketside-Skin-On-Atlantic-Salmon-Fillet-2-0-3-0-lb_33ddaf7e-75df-43ae-9446-17f354e053d3.07dc8e24b64f26885d05709492bc8bec.png",
+   "saved": "2026-11-06",
+   "file": "images/walmart/805059635.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 15839
+  },
+  "51259070": {
+   "id": "51259070",
+   "name": "Great Value Chicken Breast Tenderloins, 3 lb Frozen",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-All-Natural-Chicken-Breast-Tenderloins-3-lb-Frozen_d363d7a2-46e7-42bb-947d-2507c188fa20.22e821b5b913e63cb6cd28c9378939c6.jpeg",
+   "saved": "2026-11-06",
+   "file": "images/walmart/51259070.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 32288
   }
  }
 }
