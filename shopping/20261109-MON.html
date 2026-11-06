@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#1f3a5f">
-<title>Shopping, Mon 11/9: Walmart #4111 (cycle 4, Mon 11/9 to Wed 11/11)</title>
+<title>SL-20261109-MON: Shopping, Mon 11/9 Walmart #4111 through Thu 11/12 lunch</title>
 <style>
 *{box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;margin:0;background:#f4f5f7;color:#222;padding-bottom:84px}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;margin:0;background:#f4f5f7;color:#222;padding-bottom:96px}
 header{background:#1f3a5f;color:#fff;padding:14px 16px}h1{font-size:1.25em;margin:0 0 6px}
 header .w{font-size:.92em;opacity:.95}header a{color:#cfe3ff}
 .tot{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.tot div{background:#ffffff22;border-radius:8px;padding:6px 10px;font-size:.95em}
@@ -15,6 +15,9 @@ h2 .ac{background:#1f3a5f;color:#fff;border-radius:6px;padding:2px 9px}h2 .hint{
 h2 .n{margin-left:auto;font-weight:400;color:#666;font-size:.8em}
 ul.aisle{list-style:none;margin:0;padding:0}
 .item{display:flex;gap:10px;background:#fff;border-radius:12px;padding:10px;margin:8px 0;box-shadow:0 1px 3px #0002;border-left:5px solid transparent;transition:opacity .15s}
+.item.core:not(.done){border-left-color:#1f3a5f}
+.item.cond:not(.done){border-left-color:#f0b400}
+.item.opt:not(.done){border-left-color:#90caf9}
 .item.done{opacity:.55;border-left-color:#2e7d32}.item.done .t{text-decoration:line-through}
 .chk{flex:0 0 30px;display:flex;align-items:flex-start;padding-top:2px}.chk input{width:26px;height:26px;margin:0;accent-color:#2e7d32}
 .pic{flex:0 0 80px;height:80px;display:flex;align-items:center;justify-content:center;background:#fafafa;border:1px dashed #d5d9e0;border-radius:8px;overflow:hidden}
@@ -29,7 +32,8 @@ ul.aisle{list-style:none;margin:0;padding:0}
 .ax{font-size:.8em;color:#666}
 .onl{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
 .est{display:inline-block;background:#fdecea;color:#a33;border:1px solid #f5b7b1;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
-.rb{display:inline-block;background:#fff3cd;color:#7a5b00;border-radius:6px;padding:0 6px;font-size:.8em;font-weight:600}
+.optag{display:inline-block;background:#e3f2fd;color:#0d47a1;border:1px solid #90caf9;border-radius:6px;padding:0 6px;font-size:.78em;font-weight:600}
+.condtag{display:inline-block;background:#fff3cd;color:#7a5b00;border:1px solid #f0d080;border-radius:6px;padding:0 6px;font-size:.78em;font-weight:600}
 .look{font-size:.86em;background:#fff8e1;border-left:3px solid #f0b400;padding:4px 7px;margin-top:6px;border-radius:4px}
 a{color:#1a5fb4}.lnk a{word-break:break-all;font-size:.95em}
 details.inote{margin-top:6px}details.inote summary{font-size:.84em;color:#1a5fb4;cursor:pointer;list-style:none;padding:4px 0}
@@ -50,191 +54,327 @@ body.hidedone .item.done{display:none}body.hidedone section.alldone{display:none
 #warn{display:none;background:#fdecea;color:#a33;padding:8px 12px;border-radius:8px;margin:8px 4px;font-size:.88em}
 #saved{font-size:.8em;color:#2e7d32;min-height:1em;margin-top:6px}
 footer{font-size:.8em;color:#666;padding:16px;max-width:760px;margin:auto}
+.cl{list-style:none;margin:0;padding:0}
+.cl li{padding:6px 0;border-bottom:1px solid #eee;font-size:.92em;display:flex;gap:8px;align-items:flex-start}
+.cl li:last-child{border-bottom:0}
+.cl .ok{color:#2e7d32;font-weight:700;min-width:1.4em}.cl .pend{color:#a33;font-weight:700;min-width:1.4em}
 </style></head><body>
-<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT ("Send notes to Meal Planner") at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
-<header><h1>Shopping, Mon 11/9: Walmart #4111 (cycle 4, Mon 11/9 to Wed 11/11)</h1><div class="w">Walmart #4111, 26824 FM 1093 Rd, Richmond TX 77406. Mon 11/9.</div>
-<div class="w" style="margin-top:4px;opacity:.85;font-size:.85em">Every price is an ESTIMATE (est.) from Walmart #4111 lookups (10/1) or past receipts; each line names its source. Before tax.</div>
-<div class="tot"><div>SL total: <b>$126.41</b> (21 items)</div></div><div class="w" style="margin-top:8px;font-size:.85em"><a href="#tools">Notes and send</a></div></header>
+<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT (&quot;Send notes to Meal Planner&quot;) at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
+<header><h1>Shopping, Mon 11/9: Walmart #4111 through Thu 11/12 lunch</h1>
+<div class="w">Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406. Mon 11/9, 11:30 AM–12:30 PM CT. Next trip Thu 11/12, 11:30 AM.</div>
+<div class="w" style="margin-top:4px;opacity:.85;font-size:.85em">No price on this page is a fresh 11/9 #4111 shelf check. Dated lookups say 11/5 or 11/6. Older plan numbers say historical estimate. Confirmed firm net is $0.00 until stock and fresh prices are known.</div>
+<div class="tot"><div>Confirmed firm: <b>$0.00</b></div><div>Core candidates est.: <b>$33.02</b></div><div>Stock-check max est.: <b>$74.65</b></div><div>Extra dated gates: <b>$13.89</b></div></div>
+<div class="w" style="margin-top:8px;font-size:.85em"><a href="#tools">Notes and send</a> · <a href="#not-monday">Not this trip</a> · <a href="#checklist">Checklist</a></div></header>
 <main>
 <div id="warn">This browser is not letting the page save (private browsing?). Checks and notes will be lost when you close it.</div>
-<p class="sub"><span class="est">est.</span> estimated (plan price, not checked online for this store; trays ring up by weight).<br><span class="bud b-meal">meal</span> <span class="bud b-staples">staples</span> <span class="bud b-flex">flex</span> budget bucket for each line.</p><p class="sub">Tap the box when an item is in the cart. Checks and notes save on this phone and browser only. Use "Send notes to Meal Planner" at the bottom when you are done.</p><p class="sub">DRAFT: cycle 4 is pending A39 and C42 feedback; this list may change. Same link.</p><p class="sub">Covers Mon 11/9 taco rice bowls, Tue 11/10 breakfast for dinner, Wed 11/11 crockpot salsa verde chicken, plus breakfasts and lunches through Wed. Pantry (rice, spices, onions, garlic, butter, GF soy) assumed on hand.</p><p class="sub">Aisles: shown only where Walmart #4111&#x27;s own page listed the aisle for this store (10/1 lookup). Others say &#x27;Aisle not confirmed&#x27;.</p><p class="sub">No pork. GF: check labels on taco seasoning, gravy and broth for G11 and A39.</p>
-<section class="grp"><h2><span class="ac">Aisle A19</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w10314925">
-<label class="chk"><input type="checkbox" aria-label="In cart: Great Value old fashioned oats 42 oz (Tue GF oat pancakes; Thu meatloaf)"></label>
-<div class="pic has"><img alt="Great Value old fashioned oats 42 oz (Tue GF oat pancakes; Thu meatloaf)" src="../images/walmart/10314925.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10314925.jpg"><a class="nopic" href="https://www.walmart.com/ip/10314925" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Great Value old fashioned oats 42 oz (Tue GF oat pancakes; Thu meatloaf)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
-<div class="m"><span class="est">est.</span> $4.18 each &middot; line <b>$4.18</b> &middot; est. Walmart #4111 lookup 10/1</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/10314925" target="_blank" rel="noopener">walmart.com/ip/10314925</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A28</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="shredded">
-<label class="chk"><input type="checkbox" aria-label="In cart: Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)"></label>
-<div class="pic"><img alt="Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)" data-srcs="../images/generic/cheddar.jpg|../images/walmart/10315367.jpg"><a class="nopic" href="https://www.walmart.com/ip/10315367" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
-<div class="m"><span class="est">est.</span> $6.92 each &middot; line <b>$6.92</b> &middot; est. Walmart #4111 lookup 10/1</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/10315367" target="_blank" rel="noopener">walmart.com/ip/10315367</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A29</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w26559565">
-<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Greek yogurt 32 oz (breakfasts, C42)"></label>
-<div class="pic has"><img alt="Great Value Greek yogurt 32 oz (breakfasts, C42)" src="../images/walmart/26559565.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/26559565.jpg"><a class="nopic" href="https://www.walmart.com/ip/26559565" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Great Value Greek yogurt 32 oz (breakfasts, C42)</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span></div>
-<div class="m"><span class="est">est.</span> $3.28 each &middot; line <b>$6.56</b> &middot; est. Walmart #4111 lookup 10/1</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/26559565" target="_blank" rel="noopener">walmart.com/ip/26559565</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle A31</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="gturkey">
-<label class="chk"><input type="checkbox" aria-label="In cart: Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)"></label>
-<div class="pic"><img alt="Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)" data-srcs="../images/generic/gturkey.jpg|../images/walmart/10292757.jpg"><a class="nopic" href="https://www.walmart.com/ip/10292757" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span></div>
-<div class="m"><span class="est">est.</span> $15.92 each &middot; line <b>$15.92</b> &middot; est. Walmart #4111 lookup 10/1</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/10292757" target="_blank" rel="noopener">walmart.com/ip/10292757</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed</span><span class="n">4 items</span></h2><ul class="aisle"><li class="item" data-id="salsaverde">
-<label class="chk"><input type="checkbox" aria-label="In cart: Salsa verde 16 oz jar (Mon bowls, Wed crockpot)"></label>
-<div class="pic"><img alt="Salsa verde 16 oz jar (Mon bowls, Wed crockpot)" data-srcs="../images/aldi/salsa.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Salsa verde 16 oz jar (Mon bowls, Wed crockpot)</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
-<div class="m"><span class="est">est.</span> $3.98 each &middot; line <b>$7.96</b> &middot; est. 10/26 H-E-B #736 receipt (Herdez), Walmart shelf may differ</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li>
-<li class="item" data-id="limes">
-<label class="chk"><input type="checkbox" aria-label="In cart: Limes (Wed)"></label>
-<div class="pic has"><img alt="Limes (Wed)" src="../images/generic/limes.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/limes.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Limes (Wed)</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
-<div class="m"><span class="est">est.</span> $0.20 each &middot; line <b>$0.40</b> &middot; est. 10/26 H-E-B #736 receipt</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li>
-<li class="item" data-id="w44390949">
-<label class="chk"><input type="checkbox" aria-label="In cart: Fresh Hass avocados, each (Wed, +1 for Haley)"></label>
-<div class="pic has"><img alt="Fresh Hass avocados, each (Wed, +1 for Haley)" src="../images/walmart/44390949.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390949.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390949" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Fresh Hass avocados, each (Wed, +1 for Haley)</div>
-<div class="m"><span class="qty">Buy 3</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
-<div class="m"><span class="est">est.</span> $0.73 each &middot; line <b>$2.19</b> &middot; est. walmart.com online price $0.73 each, read 11/1 (store not confirmed as #4111; Rollback $0.56 also seen)</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/44390949" target="_blank" rel="noopener">walmart.com/ip/44390949</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li>
-<li class="item" data-id="turkey">
-<label class="chk"><input type="checkbox" aria-label="In cart: Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)"></label>
-<div class="pic has"><img alt="Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)" src="../images/generic/turkey-deli.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/turkey-deli.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed</span></div>
-<div class="m"><span class="est">est.</span> $7.97 each &middot; line <b>$7.97</b> &middot; est. 10/24 Walmart #4111 receipt</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A1)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w34017490">
-<label class="chk"><input type="checkbox" aria-label="In cart: Salad bags, about 12 oz (Mon bowls, lunches)"></label>
-<div class="pic has"><img alt="Salad bags, about 12 oz (Mon bowls, lunches)" src="../images/walmart/34017490.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/34017490.jpg"><a class="nopic" href="https://www.walmart.com/ip/34017490" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Salad bags, about 12 oz (Mon bowls, lunches)</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A1)</span></div>
-<div class="m"><span class="est">est.</span> $2.48 each &middot; line <b>$4.96</b> &middot; est. SL8b plan price</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/34017490" target="_blank" rel="noopener">walmart.com/ip/34017490</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A10)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="taco">
-<label class="chk"><input type="checkbox" aria-label="In cart: Taco seasoning packet, check GF label (Mon)"></label>
-<div class="pic has"><img alt="Taco seasoning packet, check GF label (Mon)" src="../images/aldi/sl5-17.jpg" loading="lazy" width="80" height="80" data-srcs="../images/aldi/sl5-17.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Taco seasoning packet, check GF label (Mon)</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A10)</span></div>
-<div class="m"><span class="est">est.</span> $0.50 each &middot; line <b>$1.00</b> &middot; est. SL8b plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A13)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="bbeans">
-<label class="chk"><input type="checkbox" aria-label="In cart: Black beans 15 oz can (Mon 1, Wed 3 with Haley)"></label>
-<div class="pic"><img alt="Black beans 15 oz can (Mon 1, Wed 3 with Haley)" data-srcs="../images/aldi/blackbeans.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Black beans 15 oz can (Mon 1, Wed 3 with Haley)</div>
-<div class="m"><span class="qty">Buy 4</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A13)</span></div>
-<div class="m"><span class="est">est.</span> $0.95 each &middot; line <b>$3.80</b> &middot; est. 10/15 Aldi receipt, Walmart shelf may differ</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A20)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="bread">
-<label class="chk"><input type="checkbox" aria-label="In cart: Great Value honey wheat bread (sandwiches, toast)"></label>
-<div class="pic has"><img alt="Great Value honey wheat bread (sandwiches, toast)" src="../images/generic/bread.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/bread.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Great Value honey wheat bread (sandwiches, toast)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A20)</span></div>
-<div class="m"><span class="est">est.</span> $2.02 each &middot; line <b>$2.02</b> &middot; est. SL8b plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A21)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="crackers">
-<label class="chk"><input type="checkbox" aria-label="In cart: Ritz or Club crackers (bentos, G15 snacks)"></label>
-<div class="pic has"><img alt="Ritz or Club crackers (bentos, G15 snacks)" src="../images/generic/crackers.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/crackers.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Ritz or Club crackers (bentos, G15 snacks)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A21)</span></div>
-<div class="m"><span class="est">est.</span> $3.57 each &middot; line <b>$3.57</b> &middot; est. SL8b plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A28)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="sourcream">
-<label class="chk"><input type="checkbox" aria-label="In cart: Sour cream 16 oz (Mon, Wed)"></label>
-<div class="pic has"><img alt="Sour cream 16 oz (Mon, Wed)" src="../images/walmart/12335111.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/12335111.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Sour cream 16 oz (Mon, Wed)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A28)</span></div>
-<div class="m"><span class="est">est.</span> $1.75 each &middot; line <b>$1.75</b> &middot; est. SL8b plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A29)</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="eggs">
-<label class="chk"><input type="checkbox" aria-label="In cart: Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)"></label>
-<div class="pic has"><img alt="Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)" src="../images/generic/eggs-18ct.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/eggs-18ct.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A29)</span></div>
-<div class="m"><span class="est">est.</span> $3.49 each &middot; line <b>$6.98</b> &middot; est. SL8b plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li>
-<li class="item" data-id="milk">
-<label class="chk"><input type="checkbox" aria-label="In cart: Great Value 2% milk 1 gal (pancakes, breakfasts)"></label>
-<div class="pic has"><img alt="Great Value 2% milk 1 gal (pancakes, breakfasts)" src="../images/walmart/10450115.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10450115.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Great Value 2% milk 1 gal (pancakes, breakfasts)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A29)</span></div>
-<div class="m"><span class="est">est.</span> $2.68 each &middot; line <b>$2.68</b> &middot; est. SL8b plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed A31)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w27935840">
-<label class="chk"><input type="checkbox" aria-label="In cart: Boneless skinless chicken tenders tray, about 2 lb each (Wed salsa verde 2 1/2 lb with Haley; freeze the rest)"></label>
-<div class="pic has"><img alt="Boneless skinless chicken tenders tray, about 2 lb each (Wed salsa verde 2 1/2 lb with Haley; freeze the rest)" src="../images/walmart/27935840.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/27935840.jpg"><a class="nopic" href="https://www.walmart.com/ip/27935840" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Boneless skinless chicken tenders tray, about 2 lb each (Wed salsa verde 2 1/2 lb with Haley; freeze the rest)</div>
-<div class="m"><span class="qty">Buy 2</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed A31)</span></div>
-<div class="m"><span class="est">est.</span> $11.92 each &middot; line <b>$23.84</b> &middot; est. SL8b plan price</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/27935840" target="_blank" rel="noopener">walmart.com/ip/27935840</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed AP3)</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item" data-id="straw">
-<label class="chk"><input type="checkbox" aria-label="In cart: Strawberries 1 lb (Tue breakfast for dinner)"></label>
-<div class="pic has"><img alt="Strawberries 1 lb (Tue breakfast for dinner)" src="../images/walmart/44391605.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44391605.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Strawberries 1 lb (Tue breakfast for dinner)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed AP3)</span></div>
-<div class="m"><span class="est">est.</span> $2.97 each &middot; line <b>$2.97</b> &middot; est. SL3 plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li>
-<li class="item" data-id="grapes">
-<label class="chk"><input type="checkbox" aria-label="In cart: Grapes, about 2 lb (bentos, Wed breakfast)"></label>
-<div class="pic has"><img alt="Grapes, about 2 lb (bentos, Wed breakfast)" src="../images/walmart/44390943.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390943.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Grapes, about 2 lb (bentos, Wed breakfast)</div>
-<div class="m"><span class="qty">Buy 1</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed AP3)</span></div>
-<div class="m"><span class="est">est.</span> $3.57 each &middot; line <b>$3.57</b> &middot; est. SL8b plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed AP8)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="w44390948">
-<label class="chk"><input type="checkbox" aria-label="In cart: Bananas (breakfasts, snacks, Tue dinner)"></label>
-<div class="pic has"><img alt="Bananas (breakfasts, snacks, Tue dinner)" src="../images/walmart/44390948.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390948.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
-<div class="body"><div class="t">Bananas (breakfasts, snacks, Tue dinner)</div>
-<div class="m"><span class="qty">Buy 10</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed AP8)</span></div>
-<div class="m"><span class="est">est.</span> $0.22 each &middot; line <b>$2.20</b> &middot; est. SL8b plan price</div>
-<div class="m lnk"><a href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener">walmart.com/ip/44390948</a></div>
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
-</div></li></ul></section><section class="grp"><h2><span class="ac">Aisle not confirmed (SL8b listed deli)</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item" data-id="ham">
-<label class="chk"><input type="checkbox" aria-label="In cart: Deli ham, sliced, 1 1/2 lb (Mon bentos, Wed lunches incl. Haley)"></label>
-<div class="pic has"><img alt="Deli ham, sliced, 1 1/2 lb (Mon bentos, Wed lunches incl. Haley)" src="../images/generic/ham.jpg" loading="lazy" width="80" height="80" data-srcs="../images/generic/ham.jpg"><div class="nopic"><span class="cam" aria-hidden="true"></span>No photo yet</div></div>
-<div class="body"><div class="t">Deli ham, sliced, 1 1/2 lb (Mon bentos, Wed lunches incl. Haley)</div>
-<div class="m"><span class="qty">Buy 1.5 lb</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle not confirmed (SL8b listed deli)</span></div>
-<div class="m"><span class="est">est.</span> $9.98 each &middot; line <b>$14.97</b> &middot; est. SL7 plan price</div>
-
-<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. got 18 ct instead of 60, or skipped, 3 at home"></textarea></details>
+<p class="sub">Confirmed firm net is <b>$0.00</b>. Core candidates <b>$33.02</b> and the stock-check maximum <b>$74.65</b> are dated estimates. Added together they are the old-line historical maximum <b>$107.67</b>, and that number is not a checkout total. Extra dated gates (granola, pears, yogurt cups, cumin) add <b>$13.89</b>. A HEB carrot receipt of $2.24 is not included, because it is not a Walmart price. Priced lines if every threshold failed would be about <b>$121.56</b> in dated estimates: meals <b>$116.51</b> and staples <b>$5.05</b>.</p>
+<p class="sub">Envelope left after the Nov 6 receipt, as confirmed: meals <b>$58.02</b>, staples <b>$186.51</b>, flex <b>$28.34</b>. The meals side of a full priced scenario is above $58.02. The meals envelope does not cover that scenario. The three unidentified Nov 6 receipt lines are Flex, not cheese. Nov 6 beef is 5 lb total. Salmon already covers the three portions on the card (G15, G11, and a small C42). Do not buy salmon again for them.</p>
+<p class="sub"><span class="est">est.</span> dated or historical price. <span class="condtag">core candidate</span> has no receipt covering it, and the price is still an estimate. <span class="condtag">stock check</span> means unknown on-hand is not zero. <span class="bud b-meal">meal</span> <span class="bud b-staples">staples</span>.</p>
+<p class="sub">Coverage is Monday after 11:30 through Thursday 11/12 breakfast and packed lunch. Thursday dinner is the Thursday trip. Haley’s Wednesday portions are already in the Wednesday card; do not add them again. Monday breakfast and the Monday packed lunch have to be in the house before this shop. Cycle 4 days stay as approved. The old DRAFT line was stale.</p>
+<p class="sub">Walk: produce AP3, AP5, AP8, then produce whose aisle is not confirmed, then A16, A18, A19, A20, grocery whose aisle is not confirmed, A28, dairy whose aisle is not confirmed, A29, deli whose aisle is not confirmed, A31, freezer AC3. No Sam’s Club stop. The Nov 2 size comparison did not justify a second store for a 2 lb turkey need or a 32 oz cheese bag.</p>
+<p class="sub">Tap the box when an item is in the cart. Checks and notes stay on this phone under the same list id as before.</p>
+<section class="grp" data-aisle="AP3"><h2><span class="ac">AP3 Produce</span><span class="hint">strawberries, grapes</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item core" data-id="straw" data-kind="core" data-in-total="0" data-line="2.37" data-aisle="AP3" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Fresh strawberries, 1 lb (Tue dinner fruit)"></label>
+<div class="pic has"><img alt="Fresh strawberries, 1 lb (Tue dinner fruit)" src="../images/walmart/44391605.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44391605.jpg"><a class="nopic" href="https://www.walmart.com/ip/44391605" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Fresh strawberries, 1 lb (Tue dinner fruit)</div>
+<div class="m"><span class="qty">Buy 1 if none remain</span> <span class="condtag">core candidate</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP3 (confirmed 11/5 for this item, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $2.37 each &middot; line <b>$2.37</b> · not in the confirmed firm total &middot; Dated 11/5 #4111 lookup. Not a fresh 11/9 shelf check.</div>
+<div class="look">Core candidate for Tuesday&#x27;s fruit. Mixed berries were not substituted. Skip if a usable 1 lb is already home.</div><div class="m lnk"><a href="https://www.walmart.com/ip/44391605" target="_blank" rel="noopener">walmart.com/ip/44391605</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="grapes" data-kind="conditional" data-in-total="0" data-line="3.57" data-aisle="AP3" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Green seedless grapes"></label>
+<div class="pic has"><img alt="Green seedless grapes" src="../images/walmart/44390943.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390943.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390943" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Green seedless grapes</div>
+<div class="m"><span class="qty">Top up only if fruit for Wed and Thu is short</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP3 (confirmed 11/5 for this green-grape item, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> historical line $3.57 &middot; line <b>$3.57</b> · not in the confirmed firm total &middot; Older plan estimate. The 11/5 bag price was about $4.43 and is not this line. Not a fresh 11/9 price. No automatic second bag. Nov 6 already bought about 2.26 lb.</div>
+<div class="look">Monday&#x27;s packed lunch needed grapes before this trip. Buy more only if what is left will not cover Wednesday and Thursday.</div><div class="m lnk"><a href="https://www.walmart.com/ip/44390943" target="_blank" rel="noopener">walmart.com/ip/44390943</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="AP5"><h2><span class="ac">AP5 Produce</span><span class="hint">pears</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="pears" data-kind="extra" data-in-total="0" data-line="5.33" data-aisle="AP5" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Fresh Bartlett pears, 3 lb bag"></label>
+<div class="pic has"><img alt="Fresh Bartlett pears, 3 lb bag" src="../images/walmart/929297252.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/929297252.jpg"><a class="nopic" href="https://www.walmart.com/ip/929297252" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Fresh Bartlett pears, 3 lb bag</div>
+<div class="m"><span class="qty">Buy 1 only if the Nov 6 bag is used up</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP5 (confirmed 11/5 for this 3 lb bag, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $5.33 each &middot; line <b>$5.33</b> · not in the confirmed firm total &middot; Nov 6 receipt price for this bag, not a new shelf check.</div>
+<div class="look">Tuesday G15 snack and Thursday A39 breakfast. Do not buy another bag if usable pears remain.</div><div class="m lnk"><a href="https://www.walmart.com/ip/929297252" target="_blank" rel="noopener">walmart.com/ip/929297252</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="AP8"><h2><span class="ac">AP8 Produce</span><span class="hint">bananas</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="w44390948" data-kind="conditional" data-in-total="0" data-line="2.20" data-aisle="AP8" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Bananas"></label>
+<div class="pic has"><img alt="Bananas" src="../images/walmart/44390948.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390948.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Bananas</div>
+<div class="m"><span class="qty">Fill the shortfall only. Do not auto-buy 10.</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AP8 (confirmed 11/5, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> historical line $2.20 &middot; line <b>$2.20</b> · not in the confirmed firm total &middot; Older plan estimate. Do not multiply a banana count by the Nov 6 receipt rate of $0.48/lb. Not a fresh 11/9 price.</div>
+<div class="look">Count usable bananas for Tue breakfast, Tue dinner, and Thu pre-trip toast. Nov 6 bought 2.90 lb. Unknown remaining is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/44390948" target="_blank" rel="noopener">walmart.com/ip/44390948</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="PUN"><h2><span class="ac">Produce — aisle NOT CONFIRMED</span><span class="hint">avocados, limes, carrots, lettuce</span><span class="n">4 items</span></h2><ul class="aisle"><li class="item core" data-id="w44390949" data-kind="core" data-in-total="0" data-line="2.19" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Hass avocados, 3 (Wednesday, Haley already included)"></label>
+<div class="pic has"><img alt="Hass avocados, 3 (Wednesday, Haley already included)" src="../images/walmart/44390949.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44390949.jpg"><a class="nopic" href="https://www.walmart.com/ip/44390949" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Hass avocados, 3 (Wednesday, Haley already included)</div>
+<div class="m"><span class="qty">Buy 3 only if fewer than 3 usable remain</span> <span class="condtag">core candidate</span> <span class="bud b-meal">meal</span> <span class="ax">Produce aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $2.19 &middot; line <b>$2.19</b> · not in the confirmed firm total &middot; Older plan estimate for this line. Not a fresh each-price. Do not add a fourth for Haley.</div>
+<div class="look">Wednesday card is already 3 avocados including Haley. No recent avocado receipt.</div><div class="m lnk"><a href="https://www.walmart.com/ip/44390949" target="_blank" rel="noopener">walmart.com/ip/44390949</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="limes" data-kind="conditional" data-in-total="0" data-line="0.40" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Limes, 2 (Wednesday)"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Limes, 2 (Wednesday)</div>
+<div class="m"><span class="qty">Buy 2 only if fewer than 2 usable limes remain</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Produce aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $0.40 &middot; line <b>$0.40</b> · not in the confirmed firm total &middot; Older plan estimate. Very likely stale. Not a fresh 11/9 price. No photo until the store lookup returns a SKU.</div>
+<div class="look">Nov 2 bought 2 limes. Friday chili may have used one. Unknown remaining is not zero.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="carrots" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Carrots for Tue sandwiches and Thu packed lunches"></label>
+<div class="pic has"><img alt="Carrots for Tue sandwiches and Thu packed lunches" src="../images/walmart/10535757.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10535757.jpg"><a class="nopic" href="https://www.walmart.com/ip/10535757" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Carrots for Tue sandwiches and Thu packed lunches</div>
+<div class="m"><span class="qty">Top up only if the Nov 2 bags are gone</span> <span class="optag">unpriced gate</span> <span class="bud b-meal">meal</span> <span class="ax">Produce aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> Walmart price unknown &middot; not in any dollar total &middot; Photo is Walmart carrots item 10535757. The HEB Nov 2 receipt was $2.24 and is not this store&#x27;s price. Not in any dollar total.</div>
+<div class="look">Thursday packed lunches are before the Thursday trip, so carrots have to be in the house from this list or from what is already home.</div><div class="m lnk"><a href="https://www.walmart.com/ip/10535757" target="_blank" rel="noopener">walmart.com/ip/10535757</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="w34017490" data-kind="conditional" data-in-total="0" data-line="4.96" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Lettuce or salad bags (Mon bowls, Thu wraps)"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Lettuce or salad bags (Mon bowls, Thu wraps)</div>
+<div class="m"><span class="qty">Up to 2 bags only if no usable lettuce or kits remain</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Produce aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $4.96 &middot; line <b>$4.96</b> · not in the confirmed firm total &middot; Older plan estimate for about 2 salad bags. Not a fresh price. Item 34017490 is baby spinach, 6 oz, and is not this line. No spinach photo and no spinach link.</div>
+<div class="look">Nov 6 coleslaw is not lettuce. Nov 2 salad kits may be partly gone. Reserve some for Thursday G15 and Haley lettuce wraps. Unknown remaining is not zero.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A16"><h2><span class="ac">A16 Spices</span><span class="hint">cumin</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="cumin" data-kind="extra" data-in-total="0" data-line="1.37" data-aisle="A16" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value ground cumin, 2.5 oz"></label>
+<div class="pic has"><img alt="Great Value ground cumin, 2.5 oz" src="../images/walmart/985501095.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/985501095.jpg"><a class="nopic" href="https://www.walmart.com/ip/985501095" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value ground cumin, 2.5 oz</div>
+<div class="m"><span class="qty">Buy 1 only if the jar will not cover 1 tsp Wednesday</span> <span class="condtag">stock check</span> <span class="bud b-staples">staples</span> <span class="ax">Aisle A16 (confirmed 11/6, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $1.37 each &middot; line <b>$1.37</b> · not in the confirmed firm total &middot; Dated 11/6 #4111 lookup. Staples. Not a fresh 11/9 check.</div>
+<div class="look">Wednesday salsa chicken uses about 1 tsp. Friday chili was a separate earlier use.</div><div class="m lnk"><a href="https://www.walmart.com/ip/985501095" target="_blank" rel="noopener">walmart.com/ip/985501095</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A18"><h2><span class="ac">A18 Grocery</span><span class="hint">granola</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="granola" data-kind="extra" data-in-total="0" data-line="2.67" data-aisle="A18" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value Oats &amp; Honey granola, 11 oz"></label>
+<div class="pic has"><img alt="Great Value Oats &amp; Honey granola, 11 oz" src="../images/walmart/202344615.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/202344615.jpg"><a class="nopic" href="https://www.walmart.com/ip/202344615" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value Oats &amp; Honey granola, 11 oz</div>
+<div class="m"><span class="qty">Buy 1 only if the 6 oz baseline is not enough</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A18 (confirmed 11/5, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $2.67 each &middot; line <b>$2.67</b> · not in the confirmed firm total &middot; Dated 11/5 #4111 lookup. A prior note said the jar lasts until next week. Not a fresh 11/9 check.</div>
+<div class="look">Tue and Wed breakfasts, Thu breakfast, and Thu G15/Haley snacks. No Nov 6 granola purchase. Unknown use is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/202344615" target="_blank" rel="noopener">walmart.com/ip/202344615</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A19"><h2><span class="ac">A19 Grocery</span><span class="hint">oats, not certified GF</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="w10314925" data-kind="conditional" data-in-total="0" data-line="4.18" data-aisle="A19" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value old fashioned oats, 42 oz"></label>
+<div class="pic has"><img alt="Great Value old fashioned oats, 42 oz" src="../images/walmart/10314925.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10314925.jpg"><a class="nopic" href="https://www.walmart.com/ip/10314925" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value old fashioned oats, 42 oz</div>
+<div class="m"><span class="qty">Buy the shortfall only, after reserving 3 cups</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A19 (older #4111 listing, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> historical $4.18 &middot; line <b>$4.18</b> · not in the confirmed firm total &middot; Estimate from a 10/1 #4111 lookup. Not a fresh 11/9 price. This canister is not labeled certified gluten-free.</div>
+<div class="look">Tuesday pancakes need 2 cups blended to flour. Thursday meatloaf reserves 1 more cup. Do not treat this jar as certified gluten-free unless the label you see says so. No pancake mix.</div><div class="m lnk"><a href="https://www.walmart.com/ip/10314925" target="_blank" rel="noopener">walmart.com/ip/10314925</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A20"><h2><span class="ac">A20 Bakery</span><span class="hint">bread</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="bread" data-kind="conditional" data-in-total="0" data-line="2.02" data-aisle="A20" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value honey wheat bread, 20 oz"></label>
+<div class="pic has"><img alt="Great Value honey wheat bread, 20 oz" src="../images/walmart/44391070.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/44391070.jpg"><a class="nopic" href="https://www.walmart.com/ip/44391070" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value honey wheat bread, 20 oz</div>
+<div class="m"><span class="qty">Buy 1 only if toast and sandwiches run short before Thu lunch</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A20 (confirmed 11/5 for this honey-wheat loaf, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $2.02 each &middot; line <b>$2.02</b> · not in the confirmed firm total &middot; Dated 11/5 #4111 lookup. Not a fresh 11/9 check.</div>
+<div class="look">Nov 6 bought 2 honey-wheat loaves plus Pan Sobao. Monday breakfast and packed lunch cannot depend on this trip. Unknown remaining is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/44391070" target="_blank" rel="noopener">walmart.com/ip/44391070</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="GUN"><h2><span class="ac">Grocery — aisle NOT CONFIRMED</span><span class="hint">salsa verde, taco seasoning, beans, crackers</span><span class="n">4 items</span></h2><ul class="aisle"><li class="item cond" data-id="salsaverde" data-kind="conditional" data-in-total="0" data-line="7.96" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Salsa verde, 16 oz jar (no green chiles)"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Salsa verde, 16 oz jar (no green chiles)</div>
+<div class="m"><span class="qty">Up to 2 jars only if no usable jar remains</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Grocery aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $7.96 &middot; line <b>$7.96</b> · not in the confirmed firm total &middot; Older plan estimate for 2 jars. Not a fresh 11/9 price. No photo until a SKU is confirmed. Not an Aldi jar.</div>
+<div class="look">Wednesday needs one 16 oz jar. Monday bowls need a topping. Check the label: tomatillo salsa, not canned green chiles, not red salsa. An Oct 26 Herdez jar may still be usable. Unknown is not zero.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="taco" data-kind="conditional" data-in-total="0" data-line="1.00" data-aisle="" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Gluten-free taco seasoning, 2 packets"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Gluten-free taco seasoning, 2 packets</div>
+<div class="m"><span class="qty">Buy only the packets you cannot already cover</span> <span class="condtag">stock check</span> <span class="bud b-staples">staples</span> <span class="ax">Grocery aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $1.00 &middot; line <b>$1.00</b> · not in the confirmed firm total &middot; Older plan estimate. Not a fresh 11/9 price. Staples. No photo until the GF packet SKU is confirmed.</div>
+<div class="look">Monday bowls need 2 gluten-free packets. Read the label. A prior packet may still be in the pantry.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item core" data-id="bbeans" data-kind="core" data-in-total="0" data-line="3.80" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Black beans, 15 oz cans (Wed 3, Mon 1 black or pinto)"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Black beans, 15 oz cans (Wed 3, Mon 1 black or pinto)</div>
+<div class="m"><span class="qty">Buy the shortfall only, ceiling 4 cans</span> <span class="condtag">core candidate</span> <span class="bud b-meal">meal</span> <span class="ax">Grocery aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $3.80 &middot; line <b>$3.80</b> · not in the confirmed firm total &middot; Older plan estimate for up to 4 cans. Not a fresh 11/9 price. No photo until the can SKU is confirmed. Nov 6 refried beans do not replace these.</div>
+<div class="look">Core candidate because no black-bean receipt covers this. Still subtract any cans you find. Three black for Wednesday including Haley, plus one black or pinto for Monday.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="crackers" data-kind="conditional" data-in-total="0" data-line="3.57" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Ritz or Club crackers"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Ritz or Club crackers</div>
+<div class="m"><span class="qty">Buy 1 box only if the Nov 2 box will not last</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Grocery aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $3.57 &middot; line <b>$3.57</b> · not in the confirmed firm total &middot; Older plan estimate. Not a fresh 11/9 price. No photo until the box SKU is confirmed. Do not buy another Goldfish bag for this line.</div>
+<div class="look">Bentos and G15/Haley snacks. Nov 6 Goldfish is extra, not a replacement for this cracker line.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A28"><h2><span class="ac">A28 Dairy</span><span class="hint">shredded cheddar, eggs</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item cond" data-id="shredded" data-kind="conditional" data-in-total="0" data-line="6.92" data-aisle="A28" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value finely shredded mild cheddar, 32 oz"></label>
+<div class="pic has"><img alt="Great Value finely shredded mild cheddar, 32 oz" src="../images/walmart/10452439.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10452439.jpg"><a class="nopic" href="https://www.walmart.com/ip/10452439" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value finely shredded mild cheddar, 32 oz</div>
+<div class="m"><span class="qty">Buy 1 only if blocks on hand will not cover the toppings</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A28 (older #4111 listing for shredded cheddar, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> historical $6.92 &middot; line <b>$6.92</b> · not in the confirmed firm total &middot; Older plan estimate. Not a fresh 11/9 #4111 price. Photo is the 32 oz finely shredded mild bag. The old link 10315367 was not rechecked today.</div>
+<div class="look">Monday and Wednesday toppings. String cheese and Goldfish are not shredded cheddar. Block weights from Nov 2 are unknown, so unknown is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/10452439" target="_blank" rel="noopener">walmart.com/ip/10452439</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="eggs" data-kind="conditional" data-in-total="0" data-line="4.94" data-aisle="A28" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value large white eggs, 18 count"></label>
+<div class="pic has"><img alt="Great Value large white eggs, 18 count" src="../images/walmart/172844767.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/172844767.jpg"><a class="nopic" href="https://www.walmart.com/ip/172844767" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value large white eggs, 18 count</div>
+<div class="m"><span class="qty">Buy only the shortfall, ceiling 2 cartons (36)</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A28 (confirmed 11/5 for the 18-count, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $2.47 each dated 11/5; line ceiling $4.94 &middot; line <b>$4.94</b> · not in the confirmed firm total &middot; Two cartons at the 11/5 price. Not a fresh 11/9 price. Buy one carton if that covers the gap.</div>
+<div class="look">Tuesday dinner is 12 eggs total (10 scramble + 2 in the pancakes), plus about 4 more for A39 Tue/Wed breakfasts. Wednesday lunch eggs are uncounted. Thursday dinner reserves 3 more and is not this trip. Nov 2 carton size was unprinted. Unknown is not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/172844767" target="_blank" rel="noopener">walmart.com/ip/172844767</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="DUN"><h2><span class="ac">Dairy — aisle NOT CONFIRMED</span><span class="hint">sour cream</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item cond" data-id="sourcream" data-kind="conditional" data-in-total="0" data-line="1.75" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value original sour cream"></label>
+<div class="pic has"><img alt="Great Value original sour cream" src="../images/walmart/12335111.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/12335111.jpg"><a class="nopic" href="https://www.walmart.com/ip/12335111" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value original sour cream</div>
+<div class="m"><span class="qty">Buy 1 x 16 oz only if the tub on hand is not enough</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Dairy aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical $1.75 &middot; line <b>$1.75</b> · not in the confirmed firm total &middot; Older plan estimate. Not a fresh 11/9 price. Confirm the tub in your hand says 16 oz.</div>
+<div class="look">Monday and Wednesday toppings. A tub was bought earlier. Remaining amount is unknown, not zero.</div><div class="m lnk"><a href="https://www.walmart.com/ip/12335111" target="_blank" rel="noopener">walmart.com/ip/12335111</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A29"><h2><span class="ac">A29 Dairy</span><span class="hint">Greek yogurt, cups, whole milk</span><span class="n">3 items</span></h2><ul class="aisle"><li class="item cond" data-id="w26559565" data-kind="conditional" data-in-total="0" data-line="5.56" data-aisle="A29" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value plain Greek nonfat yogurt, 32 oz"></label>
+<div class="pic has"><img alt="Great Value plain Greek nonfat yogurt, 32 oz" src="../images/walmart/26559565.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/26559565.jpg"><a class="nopic" href="https://www.walmart.com/ip/26559565" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value plain Greek nonfat yogurt, 32 oz</div>
+<div class="m"><span class="qty">Up to 2 tubs only for a plain-Greek shortfall</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A29 (confirmed 11/5, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $2.78 each dated 11/5; line ceiling $5.56 &middot; line <b>$5.56</b> · not in the confirmed firm total &middot; Not a fresh 11/9 price. Not an automatic 2.</div>
+<div class="look">Nov 2 had 3 plain tubs. Nov 6 added 2 vanilla tubs (64 oz). Vanilla is not plain Greek. No use has been confirmed since those counts. Skip if plain Greek still covers breakfasts.</div><div class="m lnk"><a href="https://www.walmart.com/ip/26559565" target="_blank" rel="noopener">walmart.com/ip/26559565</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="kids_yogurt" data-kind="extra" data-in-total="0" data-line="4.52" data-aisle="A29" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value strawberry yogurt cups, 6 oz x 4"></label>
+<div class="pic has"><img alt="Great Value strawberry yogurt cups, 6 oz x 4" src="../images/walmart/16785072.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/16785072.jpg"><a class="nopic" href="https://www.walmart.com/ip/16785072" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value strawberry yogurt cups, 6 oz x 4</div>
+<div class="m"><span class="qty">Up to 2 packs only if tubs cannot be packed as cups</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A29 (confirmed 11/5, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $2.26 each pack dated 11/5; line $4.52 &middot; line <b>$4.52</b> · not in the confirmed firm total &middot; Not a fresh 11/9 price. Not an automatic buy.</div>
+<div class="look">School bentos and Thursday snacks say Walmart yogurt. Nov 6 bought vanilla tubs, not cups. Use the tubs in portion cups if that matches the meal. Buy cups only when a portable cup is what the lunch needs.</div><div class="m lnk"><a href="https://www.walmart.com/ip/16785072" target="_blank" rel="noopener">walmart.com/ip/16785072</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="milk" data-kind="conditional" data-in-total="0" data-line="2.68" data-aisle="A29" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value whole milk, 1 gallon"></label>
+<div class="pic has"><img alt="Great Value whole milk, 1 gallon" src="../images/walmart/10450114.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10450114.jpg"><a class="nopic" href="https://www.walmart.com/ip/10450114" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value whole milk, 1 gallon</div>
+<div class="m"><span class="qty">Buy 1 gallon only if usable milk is short</span> <span class="condtag">stock check</span> <span class="bud b-staples">staples</span> <span class="ax">Aisle A29 (confirmed 11/6 for this whole-milk gallon, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $2.68 each &middot; line <b>$2.68</b> · not in the confirmed firm total &middot; Dated 11/6 #4111 lookup. Staples. Not a fresh 11/9 check. This jug is whole milk.</div>
+<div class="look">Nov 2 started with about 2 gallons. Nov 6 added 1 gallon 2% and 1 gallon whole. No confirmed use since. Tuesday pancakes need about 1.5 cups. Thursday mash wants a splash and is mostly the next trip.</div><div class="m lnk"><a href="https://www.walmart.com/ip/10450114" target="_blank" rel="noopener">walmart.com/ip/10450114</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="DELI"><h2><span class="ac">Deli — aisle NOT CONFIRMED</span><span class="hint">ham, turkey</span><span class="n">2 items</span></h2><ul class="aisle"><li class="item cond" data-id="ham" data-kind="conditional" data-in-total="0" data-line="14.97" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Deli ham, sliced, about 1.5 lb"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Deli ham, sliced, about 1.5 lb</div>
+<div class="m"><span class="qty">Buy the shortfall only, counter ham, not a tub</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Deli counter aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $14.97 &middot; line <b>$14.97</b> · not in the confirmed firm total &middot; Older plan estimate for about 1.5 lb. Not a fresh deli price. No photo: weight and brand are chosen at the counter.</div>
+<div class="look">Monday breakfast and lunch should already be covered before you shop. This line is for Wednesday and Thursday lunches, Haley included. Nov 2 Boar&#x27;s Head ham was $14.65 with the weight unprinted. Unknown weight is not zero. The approved cards include ham.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item cond" data-id="turkey" data-kind="conditional" data-in-total="0" data-line="7.97" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Deli turkey, sliced, for Tue sandwiches and Wed roll-ups"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Deli turkey, sliced, for Tue sandwiches and Wed roll-ups</div>
+<div class="m"><span class="qty">Counter top-up only. Do not auto-buy a Hillshire tub.</span> <span class="condtag">stock check</span> <span class="bud b-meal">meal</span> <span class="ax">Deli counter aisle NOT CONFIRMED</span></div>
+<div class="m"><span class="est">est.</span> historical line $7.97 &middot; line <b>$7.97</b> · not in the confirmed firm total &middot; Older plan estimate. Not a fresh deli price. No photo and no tub substitution.</div>
+<div class="look">Nov 2 Boar&#x27;s Head turkey was $20.13 with the weight unprinted. Buy more only if that package will not cover Tuesday and Wednesday.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="A31"><h2><span class="ac">A31 Meat</span><span class="hint">ground turkey 3 lb</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item core" data-id="gturkey" data-kind="core" data-in-total="0" data-line="15.92" data-aisle="A31" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Jennie-O fresh ground turkey 93% lean / 7% fat, 3 lb tray"></label>
+<div class="pic has"><img alt="Jennie-O fresh ground turkey 93% lean / 7% fat, 3 lb tray" src="../images/walmart/10292757.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/10292757.jpg"><a class="nopic" href="https://www.walmart.com/ip/10292757" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Jennie-O fresh ground turkey 93% lean / 7% fat, 3 lb tray</div>
+<div class="m"><span class="qty">Buy 1 tray (3 lb) for Monday&#x27;s 2 lb</span> <span class="condtag">core candidate</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle A31 (older #4111 listing, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> historical $15.92 &middot; line <b>$15.92</b> · not in the confirmed firm total &middot; Older plan estimate for this 3 lb tray. Not a fresh 11/9 #4111 price. Photo is the 3 lb 93/7 tray.</div>
+<div class="look">Monday dinner needs 2 lb raw. The 5 lb of ground beef from Nov 6 is not turkey. A 3 lb tray leaves about 1 lb. No ground turkey on the Nov 2 or Nov 6 receipts.</div><div class="m lnk"><a href="https://www.walmart.com/ip/10292757" target="_blank" rel="noopener">walmart.com/ip/10292757</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="AC3"><h2><span class="ac">AC3 Freezer</span><span class="hint">plain tenderloins</span><span class="n">1 item</span></h2><ul class="aisle"><li class="item core" data-id="w27935840" data-kind="core" data-in-total="0" data-line="8.74" data-aisle="AC3" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Great Value plain chicken breast tenderloins, 3 lb frozen"></label>
+<div class="pic has"><img alt="Great Value plain chicken breast tenderloins, 3 lb frozen" src="../images/walmart/51259070.jpg" loading="lazy" width="80" height="80" data-srcs="../images/walmart/51259070.jpg"><a class="nopic" href="https://www.walmart.com/ip/51259070" target="_blank" rel="noopener"><span class="cam" aria-hidden="true"></span>No photo yet<br><u>View item</u></a></div>
+<div class="body"><div class="t">Great Value plain chicken breast tenderloins, 3 lb frozen</div>
+<div class="m"><span class="qty">Buy 1 bag if no plain tenderloins remain for Wednesday</span> <span class="condtag">core candidate</span> <span class="bud b-meal">meal</span> <span class="ax">Aisle AC3 (confirmed 11/5 for this frozen bag, not rechecked 11/9)</span></div>
+<div class="m"><span class="est">est.</span> $8.74 each &middot; line <b>$8.74</b> · not in the confirmed firm total &middot; Dated 11/5 #4111 lookup. Not a fresh 11/9 check. This replaces the old 2-tray plan.</div>
+<div class="look">Wednesday needs 2.5 lb raw, Haley included. One 3 lb bag covers that with about 0.5 lb left. It does not also cover Sunday&#x27;s missing 1 lb for A39 and G6. Nov 6 did not include a tenderloin bag. The Nov 2 chicken breasts are reserved for other meals and their weights were unprinted.</div><div class="m lnk"><a href="https://www.walmart.com/ip/51259070" target="_blank" rel="noopener">walmart.com/ip/51259070</a></div>
+<details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li></ul></section><section class="grp" data-aisle="PAN"><h2><span class="ac">Pantry checks — no price</span><span class="hint">stock gates, not a second store</span><span class="n">11 items</span></h2><ul class="aisle"><li class="item opt" data-id="nuts" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Mixed nuts for Tue G15 snack"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Mixed nuts for Tue G15 snack</div>
+<div class="m"><span class="qty">No new bag unless the 30 oz from Nov 2 is gone</span> <span class="optag">unpriced gate</span> <span class="bud b-meal">meal</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Stock check only.</div>
+<div class="look">30 oz were on hand Nov 2. No confirmed use. Unknown is not zero.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="cheese_cubes" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Cheese cubes or slices (not string cheese)"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Cheese cubes or slices (not string cheese)</div>
+<div class="m"><span class="qty">Use the Nov 2 blocks and sliced American first</span> <span class="optag">unpriced gate</span> <span class="bud b-meal">meal</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Weights unknown, so no pack size is invented.</div>
+<div class="look">Toast, bentos, roll-ups, and Thursday wraps need block or sliced cheese. Nov 6 string cheese is not cubes. The unidentified Nov 6 receipt lines are Flex, not cheese.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="rice" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Long-grain rice"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Long-grain rice</div>
+<div class="m"><span class="qty">No new bag unless the open bag is short of 3.5 dry cups plus a Friday reserve</span> <span class="optag">unpriced gate</span> <span class="bud b-meal">meal</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Nov 2 bag size was never printed. The workbook negative is that gap, not an empty bin.</div>
+<div class="look">Monday 1.5 cups plus Wednesday 2 cups including Haley. Do not buy a bulk bag from a missing number.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="onion_garlic" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Onion and garlic"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Onion and garlic</div>
+<div class="m"><span class="qty">Reserve Wednesday&#x27;s onion and 3 cloves, and half an onion for Thursday</span> <span class="optag">unpriced gate</span> <span class="bud b-meal">meal</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Cards say on hand. Remaining amount is unknown.</div>
+<div class="look">No fabricated depletion.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="baking_powder" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Baking powder, 2 tsp for Tuesday pancakes"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Baking powder, 2 tsp for Tuesday pancakes</div>
+<div class="m"><span class="qty">Confirm a usable can. Do not buy pancake mix.</span> <span class="optag">unpriced gate</span> <span class="bud b-staples">staples</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Not in the Nov 2 count. Staples.</div>
+<div class="look">Coverage gate only.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="honey" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Honey"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Honey</div>
+<div class="m"><span class="qty">Reserve 1 Tbsp for pancakes and the Thursday sandwiches</span> <span class="optag">unpriced gate</span> <span class="bud b-staples">staples</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; 24 oz on Nov 2. No confirmed use. Staples.</div>
+<div class="look">No automatic jar.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="peanut_butter" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Peanut butter for Thursday toast and sandwiches"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Peanut butter for Thursday toast and sandwiches</div>
+<div class="m"><span class="qty">Use the 10 oz from Nov 2 unless it is actually short</span> <span class="optag">unpriced gate</span> <span class="bud b-meal">meal</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; No automatic 40 oz jar.</div>
+<div class="look">Thursday lunch is before the Thursday trip.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="syrup" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Syrup for Tuesday pancakes"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Syrup for Tuesday pancakes</div>
+<div class="m"><span class="qty">Confirm some is on hand. Amount on the card is not specified.</span> <span class="optag">unpriced gate</span> <span class="bud b-staples">staples</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Staples. No SKU until you know it is missing.</div>
+<div class="look">Coverage gate only.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="imperial" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Imperial spread (butter substitute already approved)"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Imperial spread (butter substitute already approved)</div>
+<div class="m"><span class="qty">Use what remains from Nov 2 before buying butter</span> <span class="optag">unpriced gate</span> <span class="bud b-meal">meal</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; No automatic butter purchase.</div>
+<div class="look">Tuesday scramble and pancakes, and a reserve for Thursday mash.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="salt_oil_pepper" data-kind="unpriced" data-in-total="0" data-line="" data-aisle="" data-env="staples">
+<label class="chk"><input type="checkbox" aria-label="In cart: Salt, pepper, olive oil"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Salt, pepper, olive oil</div>
+<div class="m"><span class="qty">No bulk oil. About 100 oz of oil was the baseline, with 1 oz logged out.</span> <span class="optag">unpriced gate</span> <span class="bud b-staples">staples</span> <span class="ax">Pantry check, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Staples. Salt and pepper amounts are unknown, not zero.</div>
+<div class="look">Do not treat a missing count as an empty bottle.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
+</div></li><li class="item opt" data-id="turkey_sausage" data-kind="optional" data-in-total="0" data-line="" data-aisle="" data-env="meals">
+<label class="chk"><input type="checkbox" aria-label="In cart: Turkey sausage for Tuesday dinner (optional on the card)"></label>
+<div class="pic"><a class="nopic" href="#tools"><span class="cam" aria-hidden="true"></span>No matching photo yet<br><u>See the note</u></a></div>
+<div class="body"><div class="t">Turkey sausage for Tuesday dinner (optional on the card)</div>
+<div class="m"><span class="qty">Do not buy until a SKU, size, and price are chosen</span> <span class="optag">optional</span> <span class="bud b-meal">meal</span> <span class="ax">Optional, no aisle, no price</span></div>
+<div class="m"><span class="est">est.</span> No price &middot; not in any dollar total &middot; Optional. Left unpriced on purpose.</div>
+<div class="look">The card says optional. No confirmed package is on a receipt.</div><details class="inote"><summary>Add note</summary><textarea rows="2" placeholder="e.g. 1 tub already open, skipped, bought the 18 ct"></textarea></details>
 </div></li></ul></section>
+<section id="not-monday" class="card"><h3>Not fixed by this Monday trip</h3>
+<ul class="cl">
+<li><span class="pend">FRI</span> Friday white chili is already in the past relative to this shop. Broth, Great Northern beans, corn, cream cheese, Monterey Jack, tortilla chips, salad, lime, onion, garlic, cumin, and oregano had to come from earlier purchases. This list does not repair Friday. No green chiles.</li>
+<li><span class="pend">SAT</span> Saturday burgers draw 2.5 lb from the confirmed 5 lb of beef. That 2.5 lb is a reservation, not proof it was cooked. Buns, fries, and salad were not on the Nov 6 receipt. Check them at home. This list does not add a second beef package for Saturday.</li>
+<li><span class="pend">SUN</span> Salmon for G15, G11, and a small C42 is confirmed adequate. Do not rebuy it. A39 and G6 still needed about 1 lb of plain chicken tenderloins and about 1.5 lb of green beans for Sunday, and neither was on the Nov 6 receipt. The frozen bag on this list is for Wednesday’s 2.5 lb, not a makeup trip for Sunday. No extra trip is scheduled here. If Sunday is still uncooked when you read this, that is a stock note, not a new stop.</li>
+<li><span class="ok">MON AM</span> Monday ham-and-cheese toast, bananas, yogurt, bentos, grapes, and crackers are eaten before 11:30. This shop cannot go back and pack them.</li>
+</ul>
+</section>
+<section id="checklist" class="card"><h3>Quality checklist</h3>
+<ul class="cl">
+<li><span class="ok">OK</span> Same file shopping/20261109-MON.html. Thursday 11/5 page was not edited.</li>
+<li><span class="ok">OK</span> List id SL-20261109-MON kept, so earlier checks and notes on this phone still match the same item ids. Notes subject is Shopping notes SL-20261109-MON.</li>
+<li><span class="ok">OK</span> Red receipt banners at the top and the bottom. Send, Copy, Reset, and Hide in cart still work.</li>
+<li><span class="ok">OK</span> Confirmed firm $0.00. Header, sticky bar, and the list JSON use the same split: core candidates $33.02, stock-check max $74.65, extra dated gates $13.89. Historical maximum of the old lines $107.67 is labeled as not a firm total.</li>
+<li><span class="ok">OK</span> 18 lines use a repo JPEG of that product and size, including the 32 oz finely shredded mild cheddar and the 3 lb 93/7 turkey tray. Whole milk, honey-wheat bread, 18-count eggs, and plain tenderloins replaced the mismatched photos.</li>
+<li><span class="pend">PENDING</span> Fresh 11/9 #4111 price and aisle for the open lookup batch. Nothing here is marked as a live 11/9 shelf price.</li>
+<li><span class="pend">PENDING</span> Photos still absent, on purpose, until a SKU exists: salsa verde, limes, lettuce/salad bags, taco seasoning, black beans, crackers, deli ham, deli turkey. Baby spinach and Aldi stand-ins are not used.</li>
+<li><span class="pend">PENDING</span> On-hand counts. Unknown stock is a threshold, not zero.</li>
+<li><span class="pend">PENDING</span> Price book. This repo does not write it. Meals remaining $58.02 can be exceeded by the priced scenario. No budget clearance is claimed.</li>
+</ul>
+</section>
 <section id="tools" class="card"><h3>Shopping notes</h3>
-<div class="m">Anything for Meal Planner: swaps, out of stock, what is still at home. Item notes are under each item.</div>
-<textarea id="general" rows="4" placeholder="e.g. eggs: got 18 ct, 60 ct was out. Skipped cucumbers, 3 still at home." style="margin-top:8px"></textarea>
+<div class="m">Say what you found at home, which stock-check lines you bought, the deli weights, and any swap. Sunday’s missing tenderloins and green beans belong in this note if they are still outstanding. They are not a new trip on this page.</div>
+<textarea id="general" rows="4" placeholder="e.g. 2 Greek tubs left so skipped; bought 1 egg carton; deli ham 0.8 lb still sealed; salsa verde jar half full." style="margin-top:8px"></textarea>
 <div id="saved"></div>
 <div class="btns"><a id="mail" class="btn pri" href="mailto:carterfambot@gmail.com">Send notes to Meal Planner</a>
 <button id="copy" class="btn" type="button">Copy notes</button>
@@ -242,13 +382,12 @@ footer{font-size:.8em;color:#666;padding:16px;max-width:760px;margin:auto}
 <button id="clearnotes" class="btn warn" type="button">Clear notes</button></div>
 <div class="m" style="margin-top:8px;color:#666">Send opens your email app with the notes filled in, to carterfambot@gmail.com. Nothing is sent until you press Send there. Very long lists are shortened to fit the email link; Copy notes always copies everything.</div>
 </section>
-
 </main>
-<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT ("Send notes to Meal Planner") at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
-<footer>Cycle 4 shopping, Walmart #4111. Pictures: 21 of 21 lines have a saved photo from the picture library (images/walmart/ in the repo). A photo saved there as &lt;item number&gt;.jpg shows up automatically; until then the line shows a placeholder with the item link.</footer>
-<div id="bar"><div class="in"><div class="st"><span class="cnt" id="cnt">0 of 21 in cart</span><span class="sum" id="sum">$0.00 of $107.82</span></div>
+<div class="donebanner" style="display:block;background:#d50000;color:#fff;font-weight:900;font-size:1.45em;line-height:1.3;text-align:center;border:6px solid #7f0000;border-radius:10px;padding:16px 12px;margin:10px;text-transform:uppercase;font-family:Arial,sans-serif">WHEN DONE: hit SUBMIT (&quot;Send notes to Meal Planner&quot;) at the bottom, then email the bot inbox carterfambot@gmail.com and ATTACH A PHOTO OF THE RECEIPT.</div>
+<footer>Mon 11/9 Walmart #4111 list, same invite file. 37 lines. 18 lines have a matching repo photo. Confirmed firm $0.00. Core candidates $33.02 est. Stock-check maximum $74.65 est. Extra dated gates $13.89 est. Old-line historical maximum $107.67 is not a firm total. Price book was not updated.</footer>
+<div id="bar"><div class="in"><div class="st"><span class="cnt" id="cnt">0 of 37 in cart</span><span class="sum" id="sum">Firm $0.00 · core $0.00 of $33.02 est. · checks $0.00 of $74.65 est.</span></div>
 <button id="hide" class="btn" type="button">Hide in cart</button><a class="btn" href="#tools">Notes</a></div></div>
-<script id="listdata" type="application/json">{"list_id": "SL-20261109-MON", "title": "Shopping, Mon 11/9: Walmart #4111 (cycle 4, Mon 11/9 to Wed 11/11)", "where": "Walmart #4111, 26824 FM 1093 Rd, Richmond TX 77406", "when": "Mon 11/9", "notes_email": "carterfambot@gmail.com", "email_subject": "Shopping notes SL8b Walmart Thu 10/29", "items": [{"id": "w10314925", "name": "Great Value old fashioned oats 42 oz (Tue GF oat pancakes; Thu meatloaf)", "qty": "Buy 1", "line": 4.18, "aisle_text": "Aisle A19"}, {"id": "shredded", "name": "Great Value finely shredded mild cheddar 32 oz (Mon bowls, Wed)", "qty": "Buy 1", "line": 6.92, "aisle_text": "Aisle A28"}, {"id": "w26559565", "name": "Great Value Greek yogurt 32 oz (breakfasts, C42)", "qty": "Buy 2", "line": 6.56, "aisle_text": "Aisle A29"}, {"id": "gturkey", "name": "Ground turkey 93/7, 3 lb tray (Mon taco bowls, 2 lb)", "qty": "Buy 1", "line": 15.92, "aisle_text": "Aisle A31"}, {"id": "salsaverde", "name": "Salsa verde 16 oz jar (Mon bowls, Wed crockpot)", "qty": "Buy 2", "line": 7.96, "aisle_text": "Aisle not confirmed"}, {"id": "limes", "name": "Limes (Wed)", "qty": "Buy 2", "line": 0.4, "aisle_text": "Aisle not confirmed"}, {"id": "w44390949", "name": "Fresh Hass avocados, each (Wed, +1 for Haley)", "qty": "Buy 3", "line": 2.19, "aisle_text": "Aisle not confirmed"}, {"id": "turkey", "name": "Hillshire deli turkey lunchmeat (Tue sandwiches, C42 snacks)", "qty": "Buy 1", "line": 7.97, "aisle_text": "Aisle not confirmed"}, {"id": "w34017490", "name": "Salad bags, about 12 oz (Mon bowls, lunches)", "qty": "Buy 2", "line": 4.96, "aisle_text": "Aisle not confirmed (SL8b listed A1)"}, {"id": "taco", "name": "Taco seasoning packet, check GF label (Mon)", "qty": "Buy 2", "line": 1.0, "aisle_text": "Aisle not confirmed (SL8b listed A10)"}, {"id": "bbeans", "name": "Black beans 15 oz can (Mon 1, Wed 3 with Haley)", "qty": "Buy 4", "line": 3.8, "aisle_text": "Aisle not confirmed (SL8b listed A13)"}, {"id": "bread", "name": "Great Value honey wheat bread (sandwiches, toast)", "qty": "Buy 1", "line": 2.02, "aisle_text": "Aisle not confirmed (SL8b listed A20)"}, {"id": "crackers", "name": "Ritz or Club crackers (bentos, G15 snacks)", "qty": "Buy 1", "line": 3.57, "aisle_text": "Aisle not confirmed (SL8b listed A21)"}, {"id": "sourcream", "name": "Sour cream 16 oz (Mon, Wed)", "qty": "Buy 1", "line": 1.75, "aisle_text": "Aisle not confirmed (SL8b listed A28)"}, {"id": "eggs", "name": "Eggs, 18 ct (Tue breakfast for dinner + A39 breakfasts)", "qty": "Buy 2", "line": 6.98, "aisle_text": "Aisle not confirmed (SL8b listed A29)"}, {"id": "milk", "name": "Great Value 2% milk 1 gal (pancakes, breakfasts)", "qty": "Buy 1", "line": 2.68, "aisle_text": "Aisle not confirmed (SL8b listed A29)"}, {"id": "w27935840", "name": "Boneless skinless chicken tenders tray, about 2 lb each (Wed salsa verde 2 1/2 lb with Haley; freeze the rest)", "qty": "Buy 2", "line": 23.84, "aisle_text": "Aisle not confirmed (SL8b listed A31)"}, {"id": "straw", "name": "Strawberries 1 lb (Tue breakfast for dinner)", "qty": "Buy 1", "line": 2.97, "aisle_text": "Aisle not confirmed (SL8b listed AP3)"}, {"id": "grapes", "name": "Grapes, about 2 lb (bentos, Wed breakfast)", "qty": "Buy 1", "line": 3.57, "aisle_text": "Aisle not confirmed (SL8b listed AP3)"}, {"id": "w44390948", "name": "Bananas (breakfasts, snacks, Tue dinner)", "qty": "Buy 10", "line": 2.2, "aisle_text": "Aisle not confirmed (SL8b listed AP8)"}, {"id": "ham", "name": "Deli ham, sliced, 1 1/2 lb (Mon bentos, Wed lunches incl. Haley)", "qty": "Buy 1.5 lb", "line": 14.97, "aisle_text": "Aisle not confirmed (SL8b listed deli)"}]}</script>
+<script id="listdata" type="application/json">{"list_id": "SL-20261109-MON", "title": "Shopping, Mon 11/9: Walmart #4111 through Thu 11/12 lunch", "where": "Walmart Supercenter #4111, 26824 FM 1093 Rd, Richmond TX 77406", "when": "Mon 11/9, 11:30 AM CT", "notes_email": "carterfambot@gmail.com", "email_subject": "Shopping notes SL-20261109-MON", "firm_total": 0, "core_candidate_cents": 3302, "conditional_cents": 7465, "extra_cents": 1389, "items": [{"id": "straw", "name": "Fresh strawberries, 1 lb (Tue dinner fruit)", "qty": "Buy 1 if none remain", "line": 2.37, "in_total": false, "kind": "core", "aisle_text": "Aisle AP3 (confirmed 11/5 for this item, not rechecked 11/9)", "envelope": "meals"}, {"id": "grapes", "name": "Green seedless grapes", "qty": "Top up only if fruit for Wed and Thu is short", "line": 3.57, "in_total": false, "kind": "conditional", "aisle_text": "Aisle AP3 (confirmed 11/5 for this green-grape item, not rechecked 11/9)", "envelope": "meals"}, {"id": "pears", "name": "Fresh Bartlett pears, 3 lb bag", "qty": "Buy 1 only if the Nov 6 bag is used up", "line": 5.33, "in_total": false, "kind": "extra", "aisle_text": "Aisle AP5 (confirmed 11/5 for this 3 lb bag, not rechecked 11/9)", "envelope": "meals"}, {"id": "w44390948", "name": "Bananas", "qty": "Fill the shortfall only. Do not auto-buy 10.", "line": 2.2, "in_total": false, "kind": "conditional", "aisle_text": "Aisle AP8 (confirmed 11/5, not rechecked 11/9)", "envelope": "meals"}, {"id": "w44390949", "name": "Hass avocados, 3 (Wednesday, Haley already included)", "qty": "Buy 3 only if fewer than 3 usable remain", "line": 2.19, "in_total": false, "kind": "core", "aisle_text": "Produce aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "limes", "name": "Limes, 2 (Wednesday)", "qty": "Buy 2 only if fewer than 2 usable limes remain", "line": 0.4, "in_total": false, "kind": "conditional", "aisle_text": "Produce aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "carrots", "name": "Carrots for Tue sandwiches and Thu packed lunches", "qty": "Top up only if the Nov 2 bags are gone", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Produce aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "w34017490", "name": "Lettuce or salad bags (Mon bowls, Thu wraps)", "qty": "Up to 2 bags only if no usable lettuce or kits remain", "line": 4.96, "in_total": false, "kind": "conditional", "aisle_text": "Produce aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "cumin", "name": "Great Value ground cumin, 2.5 oz", "qty": "Buy 1 only if the jar will not cover 1 tsp Wednesday", "line": 1.37, "in_total": false, "kind": "extra", "aisle_text": "Aisle A16 (confirmed 11/6, not rechecked 11/9)", "envelope": "staples"}, {"id": "granola", "name": "Great Value Oats & Honey granola, 11 oz", "qty": "Buy 1 only if the 6 oz baseline is not enough", "line": 2.67, "in_total": false, "kind": "extra", "aisle_text": "Aisle A18 (confirmed 11/5, not rechecked 11/9)", "envelope": "meals"}, {"id": "w10314925", "name": "Great Value old fashioned oats, 42 oz", "qty": "Buy the shortfall only, after reserving 3 cups", "line": 4.18, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A19 (older #4111 listing, not rechecked 11/9)", "envelope": "meals"}, {"id": "bread", "name": "Great Value honey wheat bread, 20 oz", "qty": "Buy 1 only if toast and sandwiches run short before Thu lunch", "line": 2.02, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A20 (confirmed 11/5 for this honey-wheat loaf, not rechecked 11/9)", "envelope": "meals"}, {"id": "salsaverde", "name": "Salsa verde, 16 oz jar (no green chiles)", "qty": "Up to 2 jars only if no usable jar remains", "line": 7.96, "in_total": false, "kind": "conditional", "aisle_text": "Grocery aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "taco", "name": "Gluten-free taco seasoning, 2 packets", "qty": "Buy only the packets you cannot already cover", "line": 1.0, "in_total": false, "kind": "conditional", "aisle_text": "Grocery aisle NOT CONFIRMED", "envelope": "staples"}, {"id": "bbeans", "name": "Black beans, 15 oz cans (Wed 3, Mon 1 black or pinto)", "qty": "Buy the shortfall only, ceiling 4 cans", "line": 3.8, "in_total": false, "kind": "core", "aisle_text": "Grocery aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "crackers", "name": "Ritz or Club crackers", "qty": "Buy 1 box only if the Nov 2 box will not last", "line": 3.57, "in_total": false, "kind": "conditional", "aisle_text": "Grocery aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "shredded", "name": "Great Value finely shredded mild cheddar, 32 oz", "qty": "Buy 1 only if blocks on hand will not cover the toppings", "line": 6.92, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A28 (older #4111 listing for shredded cheddar, not rechecked 11/9)", "envelope": "meals"}, {"id": "eggs", "name": "Great Value large white eggs, 18 count", "qty": "Buy only the shortfall, ceiling 2 cartons (36)", "line": 4.94, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A28 (confirmed 11/5 for the 18-count, not rechecked 11/9)", "envelope": "meals"}, {"id": "sourcream", "name": "Great Value original sour cream", "qty": "Buy 1 x 16 oz only if the tub on hand is not enough", "line": 1.75, "in_total": false, "kind": "conditional", "aisle_text": "Dairy aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "w26559565", "name": "Great Value plain Greek nonfat yogurt, 32 oz", "qty": "Up to 2 tubs only for a plain-Greek shortfall", "line": 5.56, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A29 (confirmed 11/5, not rechecked 11/9)", "envelope": "meals"}, {"id": "kids_yogurt", "name": "Great Value strawberry yogurt cups, 6 oz x 4", "qty": "Up to 2 packs only if tubs cannot be packed as cups", "line": 4.52, "in_total": false, "kind": "extra", "aisle_text": "Aisle A29 (confirmed 11/5, not rechecked 11/9)", "envelope": "meals"}, {"id": "milk", "name": "Great Value whole milk, 1 gallon", "qty": "Buy 1 gallon only if usable milk is short", "line": 2.68, "in_total": false, "kind": "conditional", "aisle_text": "Aisle A29 (confirmed 11/6 for this whole-milk gallon, not rechecked 11/9)", "envelope": "staples"}, {"id": "ham", "name": "Deli ham, sliced, about 1.5 lb", "qty": "Buy the shortfall only, counter ham, not a tub", "line": 14.97, "in_total": false, "kind": "conditional", "aisle_text": "Deli counter aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "turkey", "name": "Deli turkey, sliced, for Tue sandwiches and Wed roll-ups", "qty": "Counter top-up only. Do not auto-buy a Hillshire tub.", "line": 7.97, "in_total": false, "kind": "conditional", "aisle_text": "Deli counter aisle NOT CONFIRMED", "envelope": "meals"}, {"id": "gturkey", "name": "Jennie-O fresh ground turkey 93% lean / 7% fat, 3 lb tray", "qty": "Buy 1 tray (3 lb) for Monday's 2 lb", "line": 15.92, "in_total": false, "kind": "core", "aisle_text": "Aisle A31 (older #4111 listing, not rechecked 11/9)", "envelope": "meals"}, {"id": "w27935840", "name": "Great Value plain chicken breast tenderloins, 3 lb frozen", "qty": "Buy 1 bag if no plain tenderloins remain for Wednesday", "line": 8.74, "in_total": false, "kind": "core", "aisle_text": "Aisle AC3 (confirmed 11/5 for this frozen bag, not rechecked 11/9)", "envelope": "meals"}, {"id": "nuts", "name": "Mixed nuts for Tue G15 snack", "qty": "No new bag unless the 30 oz from Nov 2 is gone", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "meals"}, {"id": "cheese_cubes", "name": "Cheese cubes or slices (not string cheese)", "qty": "Use the Nov 2 blocks and sliced American first", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "meals"}, {"id": "rice", "name": "Long-grain rice", "qty": "No new bag unless the open bag is short of 3.5 dry cups plus a Friday reserve", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "meals"}, {"id": "onion_garlic", "name": "Onion and garlic", "qty": "Reserve Wednesday's onion and 3 cloves, and half an onion for Thursday", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "meals"}, {"id": "baking_powder", "name": "Baking powder, 2 tsp for Tuesday pancakes", "qty": "Confirm a usable can. Do not buy pancake mix.", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "staples"}, {"id": "honey", "name": "Honey", "qty": "Reserve 1 Tbsp for pancakes and the Thursday sandwiches", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "staples"}, {"id": "peanut_butter", "name": "Peanut butter for Thursday toast and sandwiches", "qty": "Use the 10 oz from Nov 2 unless it is actually short", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "meals"}, {"id": "syrup", "name": "Syrup for Tuesday pancakes", "qty": "Confirm some is on hand. Amount on the card is not specified.", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "staples"}, {"id": "imperial", "name": "Imperial spread (butter substitute already approved)", "qty": "Use what remains from Nov 2 before buying butter", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "meals"}, {"id": "salt_oil_pepper", "name": "Salt, pepper, olive oil", "qty": "No bulk oil. About 100 oz of oil was the baseline, with 1 oz logged out.", "line": null, "in_total": false, "kind": "unpriced", "aisle_text": "Pantry check, no aisle, no price", "envelope": "staples"}, {"id": "turkey_sausage", "name": "Turkey sausage for Tuesday dinner (optional on the card)", "qty": "Do not buy until a SKU, size, and price are chosen", "line": null, "in_total": false, "kind": "optional", "aisle_text": "Optional, no aisle, no price", "envelope": "meals"}]}</script>
 <script>
 (function(){
 'use strict';
@@ -271,22 +410,36 @@ function save(){
 function flash(t){ var el = document.getElementById('saved'); if(!el) return; el.textContent = t;
   clearTimeout(savedTimer); savedTimer = setTimeout(function(){ el.textContent=''; }, 1500); }
 function showWarn(){ var w = document.getElementById('warn'); if (w) w.style.display = 'block'; }
-function cents(x){ return Math.round(x*100); }
+function cents(x){ return Math.round(Number(x)*100); }
 function fmt(c){ return '$' + (c/100).toFixed(2); }
-var byId = {}; DATA.items.forEach(function(it){ byId[it.id] = it; });
-var totalC = DATA.items.reduce(function(a,it){ return a + cents(it.line); }, 0);
-
+function lineCents(it){
+  if (it.line == null || it.line === '') return 0;
+  return cents(it.line);
+}
+function splitChecked(){
+  var n = 0, core = 0, cond = 0, extra = 0;
+  DATA.items.forEach(function(it){
+    if (!mem.checks[it.id]) return;
+    n++;
+    if (it.kind === 'core') core += lineCents(it);
+    else if (it.kind === 'conditional') cond += lineCents(it);
+    else if (it.kind === 'extra') extra += lineCents(it);
+  });
+  return {n:n, core:core, cond:cond, extra:extra};
+}
 function refresh(){
-  var n = 0, c = 0;
-  DATA.items.forEach(function(it){ if (mem.checks[it.id]) { n++; c += cents(it.line); } });
-  document.getElementById('cnt').textContent = n + ' of ' + DATA.items.length + ' in cart';
-  document.getElementById('sum').textContent = fmt(c) + ' of ' + fmt(totalC) + ' checked';
+  var s = splitChecked();
+  document.getElementById('cnt').textContent = s.n + ' of ' + DATA.items.length + ' in cart';
+  var sum = 'Firm $0.00 · core ' + fmt(s.core) + ' of ' + fmt(DATA.core_candidate_cents) + ' est.';
+  sum += ' · checks ' + fmt(s.cond) + ' of ' + fmt(DATA.conditional_cents) + ' est.';
+  if (s.extra) sum += ' · extra ' + fmt(s.extra) + ' est.';
+  document.getElementById('sum').textContent = sum;
   document.querySelectorAll('section.grp').forEach(function(sec){
     var all = sec.querySelectorAll('.item'), d = sec.querySelectorAll('.item.done');
     sec.classList.toggle('alldone', all.length > 0 && all.length === d.length);
   });
   document.body.classList.toggle('hidedone', mem.hide);
-  var hb = document.getElementById('hide'); hb.textContent = mem.hide ? 'Show all' : 'Hide in cart';
+  document.getElementById('hide').textContent = mem.hide ? 'Show all' : 'Hide in cart';
 }
 function setNoteUi(li, txt){
   var det = li.querySelector('details.inote'), sum = det.querySelector('summary');
@@ -294,14 +447,18 @@ function setNoteUi(li, txt){
   det.classList.toggle('has', !!t);
   sum.textContent = t ? 'Note: ' + (t.length > 40 ? t.slice(0,40) + '...' : t) : 'Add note';
 }
-
+function moneyLabel(it){
+  if (it.line == null) return 'unpriced';
+  return fmt(lineCents(it)) + ' est. (' + it.kind + ')';
+}
 function buildBody(full){
   var nl = '\r\n', lines = [], items = DATA.items;
   var checked = items.filter(function(it){ return mem.checks[it.id]; });
   var open = items.filter(function(it){ return !mem.checks[it.id]; });
-  var cc = checked.reduce(function(a,it){ return a + cents(it.line); }, 0);
+  var s = splitChecked();
   lines.push(DATA.email_subject + ' (' + DATA.when + ')');
-  lines.push('In cart: ' + checked.length + ' of ' + items.length + ', ' + fmt(cc) + ' of ' + fmt(totalC) + ' (list prices)');
+  lines.push('In cart: ' + checked.length + ' of ' + items.length);
+  lines.push('Confirmed firm $0.00. Core in cart ' + fmt(s.core) + ' of ' + fmt(DATA.core_candidate_cents) + ' est. Stock-checks in cart ' + fmt(s.cond) + ' of ' + fmt(DATA.conditional_cents) + ' est. Extra in cart ' + fmt(s.extra) + ' of ' + fmt(DATA.extra_cents) + ' est.');
   lines.push('');
   var g = (mem.general || '').trim();
   lines.push('GENERAL NOTES'); lines.push(g ? g.replace(/\r?\n/g, nl) : '(none)'); lines.push('');
@@ -311,14 +468,13 @@ function buildBody(full){
   withNotes.forEach(function(it){ lines.push('- ' + (mem.checks[it.id] ? '[x] ' : '[ ] ') + it.name + ': ' + mem.notes[it.id].trim().replace(/\s*\r?\n\s*/g, '; ')); });
   lines.push('');
   lines.push('NOT IN CART (' + open.length + ')');
-  open.forEach(function(it){ lines.push('- ' + it.name + ', ' + it.qty); });
+  open.forEach(function(it){ lines.push('- ' + it.name + ', ' + it.qty + ', ' + moneyLabel(it)); });
   lines.push('');
   lines.push('IN CART (' + checked.length + ')');
-  checked.forEach(function(it){ lines.push('- ' + it.name); });
+  checked.forEach(function(it){ lines.push('- ' + it.name + ', ' + moneyLabel(it)); });
   lines.push('');
   lines.push('Sent from the ' + DATA.list_id + ' shopping page.');
   if (full) return lines.join(nl);
-  // Fit within mailto length: keep whole lines in priority order, cut gracefully.
   var head = 'mailto:' + DATA.notes_email + '?subject=' + encodeURIComponent(DATA.email_subject) + '&body=';
   var tail = nl + '...(cut to fit the email link; the rest is still saved on the page)';
   var budget = MAILTO_LIMIT - head.length - encodeURIComponent(tail).length;
@@ -327,7 +483,6 @@ function buildBody(full){
     var piece = (i ? nl : '') + lines[i];
     var len = encodeURIComponent(piece).length;
     if (used + len <= budget) { out += piece; used += len; continue; }
-    // partial line: shrink until it fits
     var lo = 0, hi = piece.length;
     while (lo < hi) { var mid = Math.ceil((lo+hi)/2);
       if (used + encodeURIComponent(piece.slice(0, mid)).length <= budget) lo = mid; else hi = mid - 1; }
@@ -340,18 +495,16 @@ function buildBody(full){
 function mailtoUrl(){
   return 'mailto:' + DATA.notes_email + '?subject=' + encodeURIComponent(DATA.email_subject) + '&body=' + encodeURIComponent(buildBody(false));
 }
-
 function initPics(){
   document.querySelectorAll('.pic img[data-srcs]').forEach(function(img){
     var srcs = img.getAttribute('data-srcs').split('|').filter(Boolean), i = 0, pic = img.parentNode;
     img.onload = function(){ pic.classList.add('has'); };
     img.onerror = function(){ pic.classList.remove('has'); i++; if (i < srcs.length) img.src = srcs[i]; else img.remove(); };
-    if (img.getAttribute('src')) {  // pre-rendered from the picture catalog
+    if (img.getAttribute('src')) {
       if (img.complete) { if (img.naturalWidth > 0) pic.classList.add('has'); else img.onerror(); }
     } else if (srcs.length) img.src = srcs[0];
   });
 }
-
 function init(){
   load();
   if (!canSave) showWarn();
