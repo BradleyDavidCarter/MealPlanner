@@ -1,6 +1,6 @@
 {
  "store": "walmart",
- "updated": "2026-11-09T12:40:00-06:00",
+ "updated": "2026-11-13T16:00:00-06:00",
  "items": {
   "10294707": {
    "id": "10294707",
@@ -661,6 +661,206 @@
    "width": 400,
    "height": 400,
    "bytes": 24376
+  },
+  "10291025": {
+   "id": "10291025",
+   "name": "ARM & HAMMER Pure Baking Soda, 1 lb box",
+   "source_url": "https://i5.walmartimages.com/seo/ARM-HAMMER-Pure-Baking-Soda-For-Baking-Cleaning-Deodorizing-1-lb-Box_4e9f8cad-88f8-41be-ba88-365152c4b002.00afdc095f7dc1bd9d2423aa19f0a605.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10291025.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 27390
+  },
+  "10291262": {
+   "id": "10291262",
+   "name": "HERB-OX Beef Bouillon Cubes, 25 ct (3.25 oz jar, Gluten Free)",
+   "source_url": "https://i5.walmartimages.com/seo/HERB-OX-Beef-Bouillon-Cubes-25-Count-Shelf-Stable-3-25-oz-Plastic-Jar_a106b060-3435-4f3c-aa8d-0c8b5e8fba3b.4eecb23dfc9afa025a5e9b4380fb1092.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10291262.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 32104
+  },
+  "10291263": {
+   "id": "10291263",
+   "name": "HERB-OX Chicken Bouillon Cubes, 25 ct (3.33 oz jar, Gluten Free)",
+   "source_url": "https://i5.walmartimages.com/seo/HERB-OX-Chicken-Bouillon-Cubes-Shelf-Stable-3-33-oz-Plastic-Jar-25-Cubes_ccdb5d9b-ba8b-4534-8bb8-4ed45d6586a6.baf82e6a2987809fc76bff898e771abc.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10291263.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 33573
+  },
+  "10306750": {
+   "id": "10306750",
+   "name": "Libby's 100% Pure Pumpkin, 15 oz can (Unsweetened)",
+   "source_url": "https://i5.walmartimages.com/seo/Libby-s-Canned-Pumpkin-100-Pure-Pumpkin-Puree-All-Natural-Gluten-Pumpkin-for-Baking-Pumpkin-Pie-Dessert-15-oz-Can_981b7a67-b092-4769-ba16-73cfa4f4e681.24ba63aca2d9ae47bffa778e5045bcd5.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10306750.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 22978
+  },
+  "10315479": {
+   "id": "10315479",
+   "name": "Great Value Creamy Peanut Butter, 40 oz jar",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Creamy-Peanut-Butter-40-oz-Jar_ada642af-5157-4f2b-862e-7204edd8169d.108512f39570bea0b1eb0c978366f274.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10315479.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23321
+  },
+  "10447837": {
+   "id": "10447837",
+   "name": "Fresh Whole Russet Potatoes, 5 lb bag",
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Whole-Russet-Potatoes-5lb-bag_39e383c7-abe5-42fa-9078-5d6d0bb5c0d4.8fc19a526bf85bd640d369c4c85a2bf2.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10447837.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 24007
+  },
+  "10447842": {
+   "id": "10447842",
+   "name": "Fresh Yellow Onions, 3 lb bag",
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Yellow-Onions-3-lb-Bag_77a8ef80-e2cc-4062-a87a-4673cfaf10f2.768d6312632f7da7e1b5e8ce3d8c5391.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10447842.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 37635
+  },
+  "10452376": {
+   "id": "10452376",
+   "name": "Great Value Mild Cheddar Block Cheese, 16 oz chunk",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Mild-Cheddar-Cheese-16-oz-Block-Plastic-Packaging_816b62e1-9ee6-47a0-beda-359fb6c581d7.88ce1ff8e5716e1b9765935905688e5e.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10452376.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 19384
+  },
+  "10899013": {
+   "id": "10899013",
+   "name": "Great Value Gluten-Free Chicken Broth, 32 oz carton",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Chicken-Broth-32-oz-Carton-Shelf-Stable-Ambient-Gluten-Free_b1e08328-4f99-4130-9de1-ae3955e9b482.f8cae891a67d9b7edfd339ec97a03819.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10899013.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 24178
+  },
+  "10899014": {
+   "id": "10899014",
+   "name": "Great Value Gluten-Free Beef Broth, 32 oz carton",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Beef-Broth-32-oz-Carton-Shelf-Stable-Ambient-Gluten-Free_51451e4c-13b0-4a3d-8c45-6668fbf191cd.6e4768f8953b21ebaffc9b36dbf6afb1.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/10899014.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 21967
+  },
+  "11025598": {
+   "id": "11025598",
+   "name": "Fresh Mandarin Oranges, 3 lb bag",
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Mandarin-Oranges-3-lb-Bag-Naturally-Ripened-Citrus-Fruit_6f74508d-b685-4657-b5a0-2d29ab6a026f.a8d3beade57c94b66b31d9cf87e12e13.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/11025598.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 39704
+  },
+  "25876411": {
+   "id": "25876411",
+   "name": "KIND Healthy Grains Oats & Honey Gluten Free Granola, 11 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Kind-Healthy-Grains-Gluten-Free-Oats-Honey-with-Coconut-Granola-Clusters-11-oz_4cbebc73-d0a9-4918-b29d-389ae7df16d0.9d33312a07827173b930c7d847419556.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/25876411.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 32009
+  },
+  "131508635": {
+   "id": "131508635",
+   "name": "Seventh Generation Free & Clear Liquid Dish Soap, 19 fl oz",
+   "source_url": "https://i5.walmartimages.com/seo/Seventh-Generation-Free-Clear-Dish-Soap-Fragrance-Free-Liquid-Dish-Soap-19-fl-oz_00213edb-5b40-4f8a-b99e-84c52064ea83.8e66d33d23a6a2e204a732e485656aa2.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/131508635.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 32316
+  },
+  "169886822": {
+   "id": "169886822",
+   "name": "Canyon Bakehouse Mountain White Gluten Free Bread, 18 oz (Frozen)",
+   "source_url": "https://i5.walmartimages.com/seo/Canyon-Bakehouse-Mountain-White-Gluten-Free-White-Bread-Loaf-18-oz-Frozen_55fd2d39-29f3-4072-9efc-580893f5738c.f7d08c5d1237743eb12c9dae18b85799.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/169886822.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23117
+  },
+  "266956413": {
+   "id": "266956413",
+   "name": "GOOD THINS Garden Veggie Rice Snacks Gluten Free Crackers, 3.5 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Good-Thins-Garden-Veggie-Rice-Snacks-Gluten-Free-Crackers-Snack-Crackers-3-5-oz_743a8745-effa-4e0d-a9da-2d22642fb040.f36c75257ddbc5e0cf1e000be3a5a01a.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/266956413.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 36716
+  },
+  "361076448": {
+   "id": "361076448",
+   "name": "Great Value Medium White Corn Tortillas, 30 ct",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Medium-White-Corn-Tortillas-30-Count_ebae98c9-fa88-4d4d-b2ca-202980e0f89e.e0a2136032527f6b0538d2e49c2ae9b8.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/361076448.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20878
+  },
+  "617765768": {
+   "id": "617765768",
+   "name": "Freshness Guaranteed Chicken Breast Tenderloins, 2.25\u20133.2 lb tray",
+   "source_url": "https://i5.walmartimages.com/seo/Freshness-Guaranteed-Chicken-Breast-Tenderloins-2-25-3-2-lb-Tray_71631179-1a59-455d-8c15-becbc2dc9ee7.4e8693b1f8abc387ebe752031f49bf72.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/617765768.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 26620
+  },
+  "778091348": {
+   "id": "778091348",
+   "name": "Freshness Guaranteed Boneless Skinless Chicken Thighs, 2.75\u20134.0 lb tray",
+   "source_url": "https://i5.walmartimages.com/seo/Freshness-Guaranteed-Boneless-Skinless-Chicken-Thighs-2-75-4-0-lb-Tray_8d322aa9-8df3-4777-8ee4-7eab035867dc.8f0b38d12ee415368873227f44d30c6a.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/778091348.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23178
+  },
+  "17480756967": {
+   "id": "17480756967",
+   "name": "Coca-Cola Holiday Creamy Vanilla Soda, 12 fl oz, 12 Pack",
+   "source_url": "https://i5.walmartimages.com/seo/Coca-Cola-Holiday-Creamy-Vanilla-Fridge-Pack-Cans-12-fl-oz-12-Pack_719d045e-7810-43b7-ad72-fb5d6d32cbcd.e62fbb86e925b7f5944c01e26ed7a0c9.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/17480756967.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23188
+  },
+  "18696652972": {
+   "id": "18696652972",
+   "name": "90/10 Ground Beef Sirloin, 2.25 lb brick",
+   "source_url": "https://i5.walmartimages.com/seo/Ground-Beef-Sirloin-90-Lean-10-Fat-All-Natural-2-25-lb_d78ac973-afdd-415e-b717-477297a5fd47.8cc5c9ae0bf33a59c7ce32ec909ef527.jpeg",
+   "saved": "2026-11-13",
+   "file": "images/walmart/18696652972.jpg",
+   "width": 400,
+   "height": 227,
+   "bytes": 25862
   }
  }
 }
