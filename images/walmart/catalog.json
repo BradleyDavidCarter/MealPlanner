@@ -1,6 +1,6 @@
 {
  "store": "walmart",
- "updated": "2026-11-13T16:00:00-06:00",
+ "updated": "2026-11-16T22:20:00-06:00",
  "items": {
   "10294707": {
    "id": "10294707",
@@ -861,6 +861,76 @@
    "width": 400,
    "height": 227,
    "bytes": 25862
+  },
+  "10315395": {
+   "id": "10315395",
+   "name": "Great Value Long Grain Enriched Rice, 5 lb bag",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Long-Grain-Enriched-Rice-5-lbs_09965949-2682-4387-910f-000a191374eb.ce4065f73a1fd4dd22467bb8b016aad8.jpeg",
+   "saved": "2026-11-16",
+   "file": "images/walmart/10315395.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 23419
+  },
+  "946738666": {
+   "id": "946738666",
+   "name": "Great Value Gluten-Free Brown Rice Elbow Pasta, 16 oz bag",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Gluten-Free-Brown-Rice-Elbow-Pasta-16-oz-Bag-Shelf-Stable_dd39841e-4526-460c-9a4b-5cf1205a2c1c_2.24a4820c0ee44beac8844e8674846cbb.jpeg",
+   "saved": "2026-11-16",
+   "file": "images/walmart/946738666.jpg",
+   "width": 400,
+   "height": 387,
+   "bytes": 18997
+  },
+  "39944474": {
+   "id": "39944474",
+   "name": "Choice Angus beef chuck roast",
+   "source_url": "https://i5.walmartimages.com/seo/Chuck-Roast-Choice-Angus-Beef-Tray-Fresh-2-00-2-65-lb_c228e3a1-347e-4229-beb8-daa7d22ce8f1.bb7e51cd2465e586d41dee20e35843b2.jpeg",
+   "saved": "2026-11-16",
+   "file": "images/walmart/39944474.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 28227
+  },
+  "49511107": {
+   "id": "49511107",
+   "name": "Marketside Organic Gold Potatoes, 3 lb bag",
+   "source_url": "https://i5.walmartimages.com/seo/Marketside-Fresh-Organic-Gold-Potatoes-3-lb-Bag_59e5ed9c-009c-453d-b483-e3acd0858f3e.ddc79b736a99cc1bbfc3502efd4a00e8.jpeg",
+   "saved": "2026-11-16",
+   "file": "images/walmart/49511107.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20042
+  },
+  "106826867": {
+   "id": "106826867",
+   "name": "Great Value Everyday Design Paper Plates, 8.5 in, 300 ct",
+   "source_url": "https://i5.walmartimages.com/asr/9abc64e2-8269-45d0-ae38-0ecf00c9b19f.cc457e8c59db787109b41c38c4ded850.png",
+   "saved": "2026-11-16",
+   "file": "images/walmart/106826867.jpg",
+   "width": 399,
+   "height": 400,
+   "bytes": 17235
+  },
+  "10977767707": {
+   "id": "10977767707",
+   "name": "Great Value Everyday Strong Paper Towels, 6 Triple Rolls",
+   "source_url": "https://i5.walmartimages.com/seo/image_ac4003d8-036f-4c75-a72d-fcfc819e3cd8.9ed5914035701678abc78d29766fd6eb.jpeg",
+   "saved": "2026-11-16",
+   "file": "images/walmart/10977767707.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 31779
+  },
+  "853584002280": {
+   "id": "853584002280",
+   "name": "Canyon Bakehouse Country White gluten-free bread, 15 oz",
+   "source_url": "https://i5.walmartimages.com/asr/61e9ab01-2434-4eea-83bb-cbb7500e116c.4c012b3b53522d93039138d5624213b7.jpeg",
+   "saved": "2026-11-16",
+   "file": "images/walmart/853584002280.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20140
   }
  }
 }
