@@ -1,6 +1,6 @@
 {
  "store": "walmart",
- "updated": "2026-11-16T22:20:00-06:00",
+ "updated": "2026-11-16T16:53:53-06:00",
  "items": {
   "10294707": {
    "id": "10294707",
@@ -256,11 +256,11 @@
    "id": "51259378",
    "name": "Fresh Broccoli Crowns",
    "source_url": "https://i5.walmartimages.com/seo/Fresh-Broccoli-Crowns-Each_c721459d-3826-4461-9e79-c077d5cf191e_3.ca214f10bb3c042f473588af8b240eca.jpeg",
-   "saved": "2026-10-09",
+   "saved": "2026-11-16",
    "file": "images/walmart/51259378.jpg",
    "width": 400,
    "height": 400,
-   "bytes": 26049
+   "bytes": 28208
   },
   "132720824": {
    "id": "132720824",
@@ -931,6 +931,16 @@
    "width": 400,
    "height": 400,
    "bytes": 20140
+  },
+  "225768619": {
+   "id": "225768619",
+   "name": "Canyon Bakehouse Burger Buns, Gluten-Free, 4 ct",
+   "source_url": "https://i5.walmartimages.com/seo/Canyon-Bakehouse-Burger-Buns-Gluten-Free-Hamburger-Buns-100-Whole-Grain-Fresh-4-Count-12-oz_66be0ea7-fb8e-4a4a-be3a-4774ddaabf16.c1eb5d181805f253d3f181a549f388ba.jpeg",
+   "saved": "2026-11-16",
+   "file": "images/walmart/225768619.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20629
   }
  }
 }
