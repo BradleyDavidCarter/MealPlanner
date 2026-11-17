@@ -1,6 +1,6 @@
 {
  "store": "walmart",
- "updated": "2026-11-16T16:53:53-06:00",
+ "updated": "2026-11-17T09:51:35-06:00",
  "items": {
   "10294707": {
    "id": "10294707",
@@ -941,6 +941,46 @@
    "width": 400,
    "height": 400,
    "bytes": 20629
+  },
+  "10312599": {
+   "id": "10312599",
+   "name": "Quaker Lightly Salted Rice Cakes (gluten-free if the label says so), about 4.47 oz",
+   "source_url": "https://i5.walmartimages.com/seo/Quaker-Gluten-Free-Lightly-Salted-Rice-Cakes-4-47-oz_0d5218e5-2f02-4f6f-86b8-d61e4071c125.92c6621f64e67f34c113faefba445c8b.jpeg",
+   "saved": "2026-11-17",
+   "file": "images/walmart/10312599.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 21392
+  },
+  "20647992": {
+   "id": "20647992",
+   "name": "Great Value Honey, 12 oz plastic bear",
+   "source_url": "https://i5.walmartimages.com/seo/Great-Value-Honey-12-oz-Plastic-Bear_c07e5a16-fb71-4313-a8e2-5a5561a9b3d3.9f104c3a50f0a5278dd722c470f6b9a9.jpeg",
+   "saved": "2026-11-17",
+   "file": "images/walmart/20647992.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 20255
+  },
+  "25876539": {
+   "id": "25876539",
+   "name": "Thai Kitchen Gluten-Free Stir-Fry Rice Noodles, 14 oz box",
+   "source_url": "https://i5.walmartimages.com/seo/Thai-Kitchen-Gluten-Free-Gluten-Free-Stir-Fry-Rice-Noodles-14-oz-Box_9f27cc3f-7dfb-4f83-99f6-7288a8c65c78.f532ef565a11209c9c2f0eb20c34d056.jpeg",
+   "saved": "2026-11-17",
+   "file": "images/walmart/25876539.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 30954
+  },
+  "44391042": {
+   "id": "44391042",
+   "name": "Fresh Green Cabbage, each",
+   "source_url": "https://i5.walmartimages.com/seo/Fresh-Green-Cabbage-Each_164666b6-9c50-4505-bc1d-29f4d316f7dc.754a17269329372872578ecaef0c9d99.jpeg",
+   "saved": "2026-11-17",
+   "file": "images/walmart/44391042.jpg",
+   "width": 400,
+   "height": 400,
+   "bytes": 16021
   }
  }
 }
